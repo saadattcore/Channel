@@ -1,0 +1,15 @@
+{
+  "categoryId": "A0E4D2375B5144F8A175B533819B8469",
+  "parentCategory": {
+    "categoryId": "948CECE51468461B944EE09E7B609102",
+    "parentCategory": null,
+    "name": "EntryPermit",
+    "version": 1,
+    "description": "Entry Permit Category",
+    "resourceKey": "Entry Permit"
+  },
+  "name": "EntryPermitMOL",
+  "version": 1,
+  "description": "Entry Permit MoL Category",
+  "resourceKey": "EntryPermitMOL"
+}

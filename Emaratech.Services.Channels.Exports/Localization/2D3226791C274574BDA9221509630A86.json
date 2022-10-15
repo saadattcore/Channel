@@ -1,0 +1,996 @@
+{
+  "localSetId": "2D3226791C274574BDA9221509630A86",
+  "version": 107,
+  "title": "Fees",
+  "description": null,
+  "localItems": [
+    {
+      "title": "AbuDhabiCharges",
+      "values": [
+        {
+          "value": "رسوم أبو ظبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Abu Dhabi charges",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AddingQuotaCategoryApplicationFee",
+      "values": [
+        {
+          "value": "إضافة رسوم طلب حصة لفئة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Adding Quota Category Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AlainFee",
+      "values": [
+        {
+          "value": "رسوم العين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Alain Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ApplicationFee",
+      "values": [
+        {
+          "value": "رسوم الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AssistantCategoriesCardFee",
+      "values": [
+        {
+          "value": "رسوم بطاقة فئات مساعدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Assistant Categories Card Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AssistantCategoriesContractFee",
+      "values": [
+        {
+          "value": "رسوم بطاقة فئات مساعدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Assistant Categories Contract Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "BankFee",
+      "values": [
+        {
+          "value": "رسوم البنك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Bank Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CourtFee",
+      "values": [
+        {
+          "value": "رسوم المحكمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Court Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DATELServiceFee",
+      "values": [
+        {
+          "value": "رسوم خدمة داتل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "DATEL Service Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeliveryFee",
+      "values": [
+        {
+          "value": "رسوم توصيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Delivery Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DepositSurcharge",
+      "values": [
+        {
+          "value": "ودائع-ضريبة إضافية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Deposit-Surcharge",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DirhamAlMarfahFee",
+      "values": [
+        {
+          "value": "رسوم درهم المعرفة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Dirham al Marfah Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DNRDServiceFee",
+      "values": [
+        {
+          "value": "رسوم خدمة دائرة الإقامة وشئون الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "DNRD Service Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DomesticContractFee",
+      "values": [
+        {
+          "value": "رسوم عقد الفئات المساعدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Domestic Contract Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmaratechFee",
+      "values": [
+        {
+          "value": "رسوم إماراتك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Emaratech Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExpatPROCardApplicationFee",
+      "values": [
+        {
+          "value": "رسوم طلب بطاقة مندوب وافد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Expat PRO Card Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExpatPROCardIssuanceFee",
+      "values": [
+        {
+          "value": "رسوم إصدار بطاقة مندوب للمغتربين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Expat PRO Card Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExtraServices",
+      "values": [
+        {
+          "value": "خدمات إضافية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Extra Services",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FederalFee",
+      "values": [
+        {
+          "value": "رسوم اتحادية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Federal Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FineDNRDServiceFee",
+      "values": [
+        {
+          "value": "رسوم خدمة دائرة الإقامة وشئون الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fine DNRD Service Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FineKnowledgeFees",
+      "values": [
+        {
+          "value": "رسوم المعرفة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fine Knowledge Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FineServiceFees",
+      "values": [
+        {
+          "value": "رسوم خدمة الغرامات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fine Service Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FujairahFee",
+      "values": [
+        {
+          "value": "رسوم الفجيرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fujairah Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthInsurance",
+      "values": [
+        {
+          "value": "التأمين الصحي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health Insurance",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InnovationFee",
+      "values": [
+        {
+          "value": "رسوم الابتكار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Innovation Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IssuanceFee",
+      "values": [
+        {
+          "value": "رسوم الإصدار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IssueEmaratechFee",
+      "values": [
+        {
+          "value": "رسوم إصدار إماراتك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Issue Emaratech Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IssueFee",
+      "values": [
+        {
+          "value": "رسوم الإصدار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IssueFees",
+      "values": [
+        {
+          "value": "رسوم الإصدار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "KnowledgeFee",
+      "values": [
+        {
+          "value": "رسوم المعرفة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Knowledge Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LocalFee",
+      "values": [
+        {
+          "value": "رسوم محلية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Local Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LostResidenceFee",
+      "values": [
+        {
+          "value": "رسوم بدل فاقد للإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Lost Residence Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MigrationVisaFee",
+      "values": [
+        {
+          "value": "رسوم تأشيرة الهجرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Migration visa fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MinistryFee",
+      "values": [
+        {
+          "value": "رسوم الوزارة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Ministry Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MobileFee",
+      "values": [
+        {
+          "value": "رسوم الهاتف المتحرك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Mobile Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MobileServiceFees",
+      "values": [
+        {
+          "value": "رسوم خدمات ذكية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Mobile Service Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MOIFee",
+      "values": [
+        {
+          "value": "رسوم وزارة الداخلية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "MOI Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MVisaFee",
+      "values": [
+        {
+          "value": "رسوم تأشيرة الهاتف المتحرك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "MVisa Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MyFee",
+      "values": [
+        {
+          "value": "رسومي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "My Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OnlineRegRenewalApplicationFee",
+      "values": [
+        {
+          "value": "رسوم تجديد تسجيل أونلاين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Online Reg. Renewal Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OtherServicesIfAny",
+      "values": [
+        {
+          "value": "خدمات أخرى (إن وجد)",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Other Services, if any",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PersonInsideUAEFee",
+      "values": [
+        {
+          "value": "رسوم داخل الدولة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Person Inside UAE Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PROInformationUpdateApplicationFee",
+      "values": [
+        {
+          "value": "رسوم طلب تحديث معلومات المندوب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PRO Information Update Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PROInformationUpdateIssuanceFee",
+      "values": [
+        {
+          "value": "رسوم إصدار تعديل بيانات المندوب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PRO Information Update Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "QuotaFee",
+      "values": [
+        {
+          "value": "رسوم الحصة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Quota Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundProcessingFee",
+      "values": [
+        {
+          "value": "رسوم الاسترداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refund Processing Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RegistrationFee",
+      "values": [
+        {
+          "value": "رسوم التسجيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Registration Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RenewLostDamagedPROApplicationFees",
+      "values": [
+        {
+          "value": "رسوم طلب تجديد فاقد/تالف لمندوب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Renew Lost/Damaged PRO Application Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RenewLostDamagedPROIssuanceFees",
+      "values": [
+        {
+          "value": "رسوم إصدار تجديد فاقد/تالف لمندوب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Renew Lost/Damaged PRO Issuance Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RequestFee",
+      "values": [
+        {
+          "value": "رسوم الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Request Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSAEmpostFee",
+      "values": [
+        {
+          "value": "رسوم إمبوست للـ RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Empost Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSAEnvelopeFee",
+      "values": [
+        {
+          "value": "رسوم مغلف ال RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Envelope Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSALostTokenFee",
+      "values": [
+        {
+          "value": "رسوم فقد RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Lost Token Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSANewnalFee",
+      "values": [
+        {
+          "value": "رسوم تجديد RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Newnal Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSARegistrationFee",
+      "values": [
+        {
+          "value": "رسوم تسجيل RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Registration Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RSASupportFee",
+      "values": [
+        {
+          "value": "رسم دعم RSA",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "RSA Support Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ServantCardFee",
+      "values": [
+        {
+          "value": "رسوم بطاقة فئات مساعدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Servant Card Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ServiceFee",
+      "values": [
+        {
+          "value": "رسوم الخدمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ServiceFeeUrgent",
+      "values": [
+        {
+          "value": "رسوم الخدمة (عاجل)",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service Fee (Urgent)",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SpecialFeeSearchReport",
+      "values": [
+        {
+          "value": "رسوم خاصة / تقرير البحث",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Special Fee/Search Report",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorshipFileApplicationFee",
+      "values": [
+        {
+          "value": "رسوم طلب فتح ملف كفالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsorship File Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorshipFileIssuanceFee",
+      "values": [
+        {
+          "value": "رسوم إصدار فتح ملف كفالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsorship File Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SptransferFee",
+      "values": [
+        {
+          "value": "رسوم نقل كفالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsorship Transfer Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "String",
+      "values": [
+        {
+          "value": "نص",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "string",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Surcharge",
+      "values": [
+        {
+          "value": "ضريبة إضافية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Surcharge",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TecomFee",
+      "values": [
+        {
+          "value": "رسوم تيكوم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Tecom Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TestFee",
+      "values": [
+        {
+          "value": "رسوم اختبار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Test fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UpdatingEstabInfoApplicationFee",
+      "values": [
+        {
+          "value": "رسوم طلب تحديث معلومات المنشأة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Updating Estab. Info. Application Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UpdatingEstabInfoIssuanceFee",
+      "values": [
+        {
+          "value": "رسوم إصدار تحديث معلومات المنشأة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Updating Estab. Info. Issuance Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UrgentFee",
+      "values": [
+        {
+          "value": "رسوم خدمة عاجل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Urgent Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ViolationExemptionRequestFee",
+      "values": [
+        {
+          "value": "رسوم طلب الإعفاء من المخالفة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Violation Exemption Request Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WarrantyCollectionFee",
+      "values": [
+        {
+          "value": "رسوم تحصيل الضمان",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Warranty Collection Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WarrantyFee",
+      "values": [
+        {
+          "value": "رسوم الضمان",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Warranty Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WarrantyServiceFee",
+      "values": [
+        {
+          "value": "رسوم خدمة الضمان",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Warranty Service Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WarranyRefundFee",
+      "values": [
+        {
+          "value": "رسوم استرداد الضمان",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Warrany Refund Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WorkContractAttestationFee",
+      "values": [
+        {
+          "value": "رسوم تصديق عقد العمل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Work Contract Attestation Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

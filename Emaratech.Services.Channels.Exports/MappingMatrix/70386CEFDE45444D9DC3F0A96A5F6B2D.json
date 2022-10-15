@@ -1,0 +1,339 @@
+{
+  "mappingMatrixId": "70386CEFDE45444D9DC3F0A96A5F6B2D",
+  "name": "ServiceMetaData",
+  "version": 5,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 2,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "ServiceId",
+      "sequence": 1,
+      "variableName": "ServiceId",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "TargetRoute",
+      "sequence": 2,
+      "variableName": "TargetRoute",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "MQTopicName",
+      "sequence": 3,
+      "variableName": "MQTopicName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": true
+    },
+    {
+      "colNumber": 4,
+      "colName": "IsInsideUAE",
+      "sequence": 4,
+      "variableName": "IsInsideUAE",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "StatusId",
+      "sequence": 5,
+      "variableName": "StatusId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        null,
+        "2",
+        "EAP.IQCS.DOCUMENTRECEIVED",
+        null,
+        "160"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2FAED0ECF3E647C59D4B6EF7F9CD6EFB",
+        "2",
+        "EAP.IQCS.LOST",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "50C58BE394364950A590A8DD78730B70",
+        "2",
+        "EAP.IQCS.EXTENSION",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "53FBC9920F954AB4822043E18E6E8E61",
+        "2",
+        "EAP.IQCS.CANCELAFTERENTRY",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "2",
+        "EAP.IQCS.RENEWRESIDENCE",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "862FC0387B1D4055801B2E2594FE3530",
+        "2",
+        "EAP.IQCS.NEWRESIDENCE",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8C7139EFB9A84002B155C4E7651613ED",
+        "2",
+        "EAP.IQCS.NEWPASSPORT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "94AE97BD791A43729D7F10D9710DAD8A",
+        "2",
+        "EAP.IQCS.NEWPERMIT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AC2994B7A6A141BF9DBF7A4B2C01ACAB",
+        "2",
+        "EAP.IQCS.NEWPERMIT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B1BF267DA3854734B6EA8DCA7BD9EA06",
+        "2",
+        "EAP.IQCS.NEWPERMIT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B4D5063747EB42029035E533BBEB426E",
+        "2",
+        "EAP.IQCS.NEWPERMIT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C3106AFBFBAD4099B1B4DA6EA3025329",
+        "2",
+        "EAP.IQCS.NEWPERMIT",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "F5DD2E421EF648869A01160053124F5D",
+        "2",
+        "EAP.IQCS.CANCELAFTERENTRY",
+        null,
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "2",
+        "EAP.IQCS.CANCELRESIDENCEINSIDEUAE",
+        "1",
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "2",
+        "EAP.IQCS.CANCELRESIDENCEOUTSIDEUAE",
+        "0",
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

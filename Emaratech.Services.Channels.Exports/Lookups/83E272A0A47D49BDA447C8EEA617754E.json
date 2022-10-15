@@ -1,0 +1,20 @@
+{
+  "lookupId": "83E272A0A47D49BDA447C8EEA617754E",
+  "name": "eEstablishmentType",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from establishment_type_lk where is_archived=0)",
+    "idName": "estab_type_id",
+    "valueEnName": "estab_type_en",
+    "valueArName": "estab_type_ar",
+    "col1Name": "estab_bus_type_id",
+    "col2Name": "is_archived",
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

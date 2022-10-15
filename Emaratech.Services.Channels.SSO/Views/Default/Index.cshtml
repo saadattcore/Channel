@@ -1,0 +1,12 @@
+﻿@using System.Configuration
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<br/>
+@Html.ActionLink("Set cookies", "SetCookies", "Default")<br/>
+@Html.ActionLink("Clear cookies", "ClearCookies", "Default")<br/>
+<a href="@ConfigurationManager.AppSettings["TestWcfResource"]">Consume WCF resource</a>
+

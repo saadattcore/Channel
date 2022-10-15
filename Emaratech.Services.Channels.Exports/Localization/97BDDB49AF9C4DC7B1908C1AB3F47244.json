@@ -1,0 +1,3167 @@
+{
+  "localSetId": "97BDDB49AF9C4DC7B1908C1AB3F47244",
+  "version": 354,
+  "title": "Documents",
+  "description": null,
+  "localItems": [
+    {
+      "title": "ApplicantSignature",
+      "values": [
+        {
+          "value": "توقيع مقدم الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Applicant Signature",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AssistingCategoryLabourContractPage1",
+      "values": [
+        {
+          "value": "عقد عمل فئات مساعدة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Assisting Category Labor Contract - Page - 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "AssistingCategoryLabourContractPage2",
+      "values": [
+        {
+          "value": "عقد عمل فئة مساعدة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Assisting Category Labor Contract - Page - 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "BankPaymentReceipt",
+      "values": [
+        {
+          "value": "إيصال الدفع البنكي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Bank Payment Receipt",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "BirthCertificate",
+      "values": [
+        {
+          "value": "شهادة الميلاد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Birth Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "BirthCertificatePage1",
+      "values": [
+        {
+          "value": "شهادة الميلاد - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Birth Certificate - Page - 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "BirthCertificatePage2",
+      "values": [
+        {
+          "value": "شهادة الميلاد - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Birth Certificate - Page - 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CancelPartnershipContractLetterFromCourt",
+      "values": [
+        {
+          "value": "رسالة إلغاء عقد الشراكة  من المحكمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Cancel Partnership Contract Letter from Court",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CancelPartnershipcontractletterfromcourtPage1",
+      "values": [
+        {
+          "value": "رسالة إلغاء عقد الشراكة  من المحكمة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Cancel Partnership Contract Letter from Court - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CancelPartnershipcontractletterfromcourtPage2",
+      "values": [
+        {
+          "value": "رسالة إلغاء عقد الشراكة  من المحكمة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Cancel Partnership Contract Letter from Court - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CarRegistrationPage1",
+      "values": [
+        {
+          "value": "ملكية السيارة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Car Registration - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CarregistrationPage2",
+      "values": [
+        {
+          "value": "ملكية السيارة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Car Registration - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CarregistrationPage3",
+      "values": [
+        {
+          "value": "ملكية السيارة - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Car Registration - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CarregistrationPage4",
+      "values": [
+        {
+          "value": "ملكية السيارة - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Car Registration - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ChangeProfessionLetter",
+      "values": [
+        {
+          "value": "رسالة تغيير المهنة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Change Profession Letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ConsanguinityProof",
+      "values": [
+        {
+          "value": "إثبات صلة القرابة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Consanguinity Proof",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ConsanguinityProofPage1",
+      "values": [
+        {
+          "value": "إثبات صلة القرابة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Consanguinity Proof - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ConsanguinityProofPage2",
+      "values": [
+        {
+          "value": "إثبات صلة القرابة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Consanguinity Proof - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "consanguinityProofPage3",
+      "values": [
+        {
+          "value": "إثبات صلة القرابة - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Consanguinity Proof - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CopyOfApplication",
+      "values": [
+        {
+          "value": "نسخة عن الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Copy of Application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CorrectionLetterFromMOLPage1",
+      "values": [
+        {
+          "value": "رسالة تعديل وضع من وزراة العمل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Correction Letter from MOL - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CorrectionLetterfromMOLPage2",
+      "values": [
+        {
+          "value": "رسالة تعديل وضع من وزراة العمل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Correction Letter from MOL - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CourtCertificate",
+      "values": [
+        {
+          "value": "شهادة المحكمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Court Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CourtCertificatePage2",
+      "values": [
+        {
+          "value": "شهادة المحكمة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Court Certificate - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CurrentSponsorPassport",
+      "values": [
+        {
+          "value": "جواز سفر الحالي للكفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Current Sponsor Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CurrentSponsorPassportPage2",
+      "values": [
+        {
+          "value": "جواز سفر الحالي للكفيل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Current Sponsor Passport - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CurrentSponsorPassportPage3",
+      "values": [
+        {
+          "value": "جواز سفر الحالي للكفيل - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Current Sponsor Passport - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CurrentSponsorPassportPage4",
+      "values": [
+        {
+          "value": "جواز سفر الحالي للكفيل - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Current Sponsor Passport - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CurrentSponsorPassportPage5",
+      "values": [
+        {
+          "value": "جواز سفر الحالي للكفيل - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Current Sponsor Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CustomLetterPage1",
+      "values": [
+        {
+          "value": "رسالة الجمارك - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Customs Letter - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "CustomletterPage2",
+      "values": [
+        {
+          "value": "رسالة الجمارك - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Customs Letter - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeathCertificatePage1",
+      "values": [
+        {
+          "value": "شهادة الوفاة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Death Certificate - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeathCertificatePage2",
+      "values": [
+        {
+          "value": "شهادة الوفاة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Death Certificate - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeathCertificatePage3",
+      "values": [
+        {
+          "value": "شهادة الوفاة - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Death Certificate - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeathCertificatePage4",
+      "values": [
+        {
+          "value": "شهادة الوفاة - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Death Certificate - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeathCertificatePage5",
+      "values": [
+        {
+          "value": "شهادة الوفاة - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Death Certificate - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DiplomaticCard",
+      "values": [
+        {
+          "value": "بطاقة دبلوماسية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Diplomatic Card",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DiplomaticCardPage2",
+      "values": [
+        {
+          "value": "بطاقة دبلوماسية - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Diplomatic Card - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DisabilityCertificate",
+      "values": [
+        {
+          "value": "شهادة الإعاقة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Disability Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "dummy",
+      "values": [
+        {
+          "value": "وهمي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "dummy",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EIDACard",
+      "values": [
+        {
+          "value": "بطاقة الهوية الإماراتية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Emirates ID Card",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EIDACardApplicationDocument",
+      "values": [
+        {
+          "value": "طلب بطاقة الهوية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Emirates ID Card Application Document",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmiratesId",
+      "values": [
+        {
+          "value": "بطاقة الهوية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Emirates ID",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentCard",
+      "values": [
+        {
+          "value": "بطاقة العمل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Card",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentCardPage2",
+      "values": [
+        {
+          "value": "بطاقة العمل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Card - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContract",
+      "values": [
+        {
+          "value": "عقد العمل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage10",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage2",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage3",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage4",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage5",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage6",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 6",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 6",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage7",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage8",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 8",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 8",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmploymentContractPage9",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 9",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Employment Contract - Page 9",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EntryPermitPageForGCCResident",
+      "values": [
+        {
+          "value": "صفحة إذن دخول لدول لمقيم مجلس التعاون الخليجي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Entry Permit - Page for GCC Resident",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EntryPermitPageForOnArrival",
+      "values": [
+        {
+          "value": "صفحة إذن دخول عند الوصول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Entry Permit - Page for On Arrival",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EntryPermitVisaLostLetterFromPolice",
+      "values": [
+        {
+          "value": "تأشيرة إذن دخول / رسالة فقدان من الشرطة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Entry Permit Visa / Lost Letter from Police",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EstablishmentCardPage1",
+      "values": [
+        {
+          "value": "بطاقة المنشأة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Establishment Card - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EstablishmentCardPage2",
+      "values": [
+        {
+          "value": "بطاقة المنشأة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Establishment Card - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EstablishmentTradeLicensePage1",
+      "values": [
+        {
+          "value": "الرخصة التجارية للمنشأة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Establishment Trade License - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EstablishmentTradelicensePage2",
+      "values": [
+        {
+          "value": "الرخصه التجاريه للمنشأه صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Establishment Trade License - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExtentionStatementFromMOL",
+      "values": [
+        {
+          "value": "بيان تمديد من وزارة العمل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Extention Statement from MOL",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExtentionstatementfromMOLPage1",
+      "values": [
+        {
+          "value": "بيان تمديد من وزارة العمل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Extention Statement from MOL - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExtentionstatementfromMOLPage2",
+      "values": [
+        {
+          "value": "بيان تمديد من وزارة العمل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Extention Statement from MOL - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FamilyBook",
+      "values": [
+        {
+          "value": "خلاصة القيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Family Book",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "GCCResidency",
+      "values": [
+        {
+          "value": "إقامة دول مجلس التعاون الخليجي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "GCC Residency",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthInsuranceCard",
+      "values": [
+        {
+          "value": "بطاقة التأمين الصحي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health Insurance Card",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthInsurancecardPage1",
+      "values": [
+        {
+          "value": "بطاقة التأمين الصحي - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health Insurance Card - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthInsurancecardPage2",
+      "values": [
+        {
+          "value": "بطاقة التأمين الصحي - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health Insurance Card - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthInsuranceIfNotPaid",
+      "values": [
+        {
+          "value": "التأمين الصحي - إذا لم تدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health Insurance - (if not paid)",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HouseRentalContractPage1",
+      "values": [
+        {
+          "value": "عقد إيجار المنزل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "House Rental Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HouseRentalcontractpage3",
+      "values": [
+        {
+          "value": "عقد إيجار المنزل - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "House Rental Contract - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HouseRentalcontractpage4",
+      "values": [
+        {
+          "value": "عقد إيجار المنزل - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "House Rental Contract - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LabourCardReciept",
+      "values": [
+        {
+          "value": "بطاقة عمل / إيصال",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Labor Card / Reciept",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LabourcardRecieptpage1",
+      "values": [
+        {
+          "value": "بطاقة عمل / إيصال - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Labor Card / Reciept - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LabourcardRecieptpage2",
+      "values": [
+        {
+          "value": "بطاقة عمل / إيصال - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Labor Card / Reciept - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LetterFromHolderOfConferenceExhibitionFairFestivalPage1",
+      "values": [
+        {
+          "value": "رسالة من صاحب مؤتمر / معرض / سوق  / مهرجان - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Letter from Holder of Conference/Exhibition/Fair/Festival - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LetterfromholderofConferenceExhibitionfairfestivalpage2",
+      "values": [
+        {
+          "value": "رسالة من صاحب مؤتمر / معرض / سوق  / مهرجان - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Letter from Holder of Conference/Exhibition/Fair/Festival - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ListOfPartnersFromEconomicDepartment",
+      "values": [
+        {
+          "value": "قائمة الشركاء من دائرة التنمية الاقتصادية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "List of Partners from Economic Department",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "listofpartnersfromeconomicdepartmentpage1",
+      "values": [
+        {
+          "value": "قائمة الشركاء من دائرة التنمية الاقتصادية - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "List of Partners from Economic Department - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "listofpartnersfromeconomicdepartmentpage2",
+      "values": [
+        {
+          "value": "قائمة الشركاء من دائرة التنمية الاقتصادية - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "List of Partners from Economic Department - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "listofpartnersfromeconomicdepartmentpage3",
+      "values": [
+        {
+          "value": "قائمة الشركاء من دائرة التنمية الاقتصادية - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "List of Partners from Economic Department - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "listofpartnersfromeconomicdepartmentpage4",
+      "values": [
+        {
+          "value": "قائمة الشركاء من دائرة التنمية الاقتصادية - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "List of Partners from Economic Department - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LostLetterFromPolicePage1",
+      "values": [
+        {
+          "value": "رسالة فقدان من الشرطة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Lost Letter from Police - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Lostletterfrompolicepage2",
+      "values": [
+        {
+          "value": "رسالة فقدان من الشرطة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Lost Letter from Police - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MarriageCertificate",
+      "values": [
+        {
+          "value": "شهادة زواج",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Marriage Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MarriageCertificatePage1",
+      "values": [
+        {
+          "value": "شهادة زواج - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Marriage Certificate- Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MarriageCertificatePage2",
+      "values": [
+        {
+          "value": "شهادة زواج - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Marriage Certificate- Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalCertificateFromOriginCountry",
+      "values": [
+        {
+          "value": "شهادة طبية من بلد الأصل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Certificate from Origin Country",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage1",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage10",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage2",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage3",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage4",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage5",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage6",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 6",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 6",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage7",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage8",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 8",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 8",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalReportsPage9",
+      "values": [
+        {
+          "value": "تقارير طبية - صفحة 9",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Reports - Page 9",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalTest",
+      "values": [
+        {
+          "value": "الفحص الطبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Test",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalTestpage1",
+      "values": [
+        {
+          "value": "الفحص الطبي - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Test - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalTestpage2",
+      "values": [
+        {
+          "value": "الفحص الطبي - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Test - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MedicalUnfitCertificate",
+      "values": [
+        {
+          "value": "شهادة عدم اللياقة الطبية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Medical Unfit Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MOLApprovalForRenewalBecauseOfAgeIncludingApprovedPeriod",
+      "values": [
+        {
+          "value": "موافقة وزارة العمل لتجديد الإقامة (بسبب السن) شاملة المدة الممنوحة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "MOL Approval for Renewal (because of Age) including approved period",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MOLcourtletter",
+      "values": [
+        {
+          "value": "رسالة وزارة العمل - من المحكمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "MOL Court Letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEntryPermitVisa",
+      "values": [
+        {
+          "value": "تأشيرة إذن دخول جديدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Entry Permit Visa",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEstablishmentCard",
+      "values": [
+        {
+          "value": "بطاقة منشأة جديدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Establishment Card",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEstablishmentCardPage1",
+      "values": [
+        {
+          "value": "بطاقة منشأة جديدة صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Establishment Card - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEstablishmentCardPage2",
+      "values": [
+        {
+          "value": "بطاقة منشأة جديدة صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Establishment Card - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEstablishmentTradeLicensePage1",
+      "values": [
+        {
+          "value": "الرخصة التجارية لمنشأة جديدة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Establishment Trade License - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewEstablishmentTradeLicensePage2",
+      "values": [
+        {
+          "value": "الرخصة التجارية لمنشأة جديدة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Establishment Trade License - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsoredPassportPage1",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsored Passport - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsoredPassportPage2",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsored Passport - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsoredPassportPage3",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsored Passport - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsoredPassportPage4",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsored Passport - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsoredPassportPage5",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsored Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassport",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل الجديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportPage1",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل الجديد - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportPage2",
+      "values": [
+        {
+          "value": "جواز السفر الكفيل الجديد - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportPage3",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للكفيل صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportPage4",
+      "values": [
+        {
+          "value": "جواز السفر الكفيل الجديد - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportPage5",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل الجديد - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NewSponsorPassportResidencyPage",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل  الجديد - صفحة الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "New Sponsor Passport - Residency Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoConsanguinityProof",
+      "values": [
+        {
+          "value": "إثبات عدم صلة القرابة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Consanguinity Proof",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoconsanguinityProofPage1",
+      "values": [
+        {
+          "value": "إثبات عدم صلة القرابة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Consanguinity Proof - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoconsanguinityProofPage2",
+      "values": [
+        {
+          "value": "إثبات عدم صلة القرابة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Consanguinity Proof - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificateForMilitaryStaffPage1",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة لهيئة اركان الجيش - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate for Military Staff - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificateformilitaryStaffPage2",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة لهيئة اركان الجيش - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate for Military Staff - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificateFromCurrentSponsorPage1",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة من الكفيل الحالي - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate from Current Sponsor - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificatefromcurrentsponsorPage2",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة من الكفيل الحالي - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate from Current Sponsor - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificatePage1",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة  - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoObjectionCertificatePage2",
+      "values": [
+        {
+          "value": "شهادة عدم ممانعة  - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No Objection Certificate - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Officialmemocircularpage1",
+      "values": [
+        {
+          "value": "مذكرة رسمية / تعمبم - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Official Memo / Circular - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OldEntryPermitVisaCancelledResidency",
+      "values": [
+        {
+          "value": "تأشيرة تصريح دخول قديمة /  إقامة ملغاة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Old Entry Permit Visa / Cancelled residency",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OriginalEntryPermit",
+      "values": [
+        {
+          "value": "إذن الدخول الأصلي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Original Entry permit",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OriginalOldCancelledEntryPermitVisa",
+      "values": [
+        {
+          "value": "إذن الدخول الأصلي / القديم / الملغى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Original / Old / Cancelled Entry Permit Visa",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage1",
+      "values": [
+        {
+          "value": "أخرى - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage10",
+      "values": [
+        {
+          "value": "أخرى - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage2",
+      "values": [
+        {
+          "value": "أخرى - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage3",
+      "values": [
+        {
+          "value": "أخرى - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage4",
+      "values": [
+        {
+          "value": "أخرى - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OthersPage7",
+      "values": [
+        {
+          "value": "أخرى - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Others - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OwnershipOfTheVehicle",
+      "values": [
+        {
+          "value": "ملكية مركبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Ownership of the Vehicle",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PaidDepositReceiptPage1",
+      "values": [
+        {
+          "value": "إيصال الإيداع المدفوع - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Paid Deposit Receipt - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PaidDepositReceiptPage2",
+      "values": [
+        {
+          "value": "إيصال الإيداع المدفوع - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Paid Deposit Receipt - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContract",
+      "values": [
+        {
+          "value": "عقد الشراكة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage1",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage10",
+      "values": [
+        {
+          "value": "عقد الشراكه صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage2",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage3",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage4",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage5",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage6",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 6",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 6",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage7",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage8",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 8",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 8",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PartnershipContractPage9",
+      "values": [
+        {
+          "value": "عقد الشراكة - صفحة 9",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Partnership Contract - Page 9",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PaymentreceiptInsidethecountryfee",
+      "values": [
+        {
+          "value": "ايصال الدفع لرسوم داخل الدوله",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Payment Receipt Inside the Country Fee",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PersonalPhoto",
+      "values": [
+        {
+          "value": "صورة شخصية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Personal Photo",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PledgeLetterFromSponsor",
+      "values": [
+        {
+          "value": "رسالة تعهد من الكفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pledge Letter from Sponsor",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PledgeLetterfromsponsorPage1",
+      "values": [
+        {
+          "value": "رسالة تعهد من الكفيل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pledge Letter from Sponsor - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PledgeLetterfromsponsorPage2",
+      "values": [
+        {
+          "value": "رسالة تعهد من الكفيل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pledge Letter from Sponsor - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PopulationRegistrationForm",
+      "values": [
+        {
+          "value": "طلب السجل السكاني",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Population Registration Form",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PROCardDelegateLetterPage1",
+      "values": [
+        {
+          "value": "بطاقة مندوب / رسالة تفويض - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PRO Card / Delegate Letter - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PROcardDelegateletterPage2",
+      "values": [
+        {
+          "value": "بطاقة مندوب / رسالة تفويض - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PRO Card / Delegate Letter - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ProofOfBankDepositPage1",
+      "values": [
+        {
+          "value": "مستند إثبات لوديعة بنكية - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Proof of Bank Deposit - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ProofofBankDepositPage2",
+      "values": [
+        {
+          "value": "مستند إثبات لوديعة بنكية - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Proof of Bank Deposit - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ProofofValiditydate",
+      "values": [
+        {
+          "value": "اثبات صلاحية التاريخ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Proof of Validity Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipContract",
+      "values": [
+        {
+          "value": "عقد ملكية العقار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage1",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage10",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage2",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage3",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage4",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage5",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage6",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 6",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 6",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage7",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage8",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 8",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 8",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyOwnershipcontractPage9",
+      "values": [
+        {
+          "value": "عقد ملكية العقار - صفحة 9",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Ownership Contract - Page 9",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyValueProofPage1",
+      "values": [
+        {
+          "value": "مستند إثبات قيمة العقار - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Value Proof - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyValueProofPage2",
+      "values": [
+        {
+          "value": "مستند إثبات قيمة العقار - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Value Proof - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyValueProofPage3",
+      "values": [
+        {
+          "value": "مستند إثبات قيمة العقار - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Value Proof - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PropertyValueProofPage4",
+      "values": [
+        {
+          "value": "مستند إثبات قيمة العقار - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Property Value Proof - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SalaryCertificateLabourContractPartnershipContractPage1",
+      "values": [
+        {
+          "value": "شهادة راتب / عقود العمل / عقد الشراكة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Salary Certificate / Labor contract / Partnership Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SalaryCertificateLabourContractPartnershipContractPage2",
+      "values": [
+        {
+          "value": "شهادة راتب / عقود العمل / عقد الشراكة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Salary Certificate / Labor contract / Partnership Contract - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SaleOfSharesDocument",
+      "values": [
+        {
+          "value": "مستند إثبات بيع الحصص",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sale of Shares Document",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ScanoftheAccompanyDetailsinthepassportbeingaddedto",
+      "values": [
+        {
+          "value": "جواز السفر - صفحة المرافقين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport - Accompanies Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredGCCResidency",
+      "values": [
+        {
+          "value": "إقامة مكفول دول مجلس التعاون الخليجي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored GCC Residency",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredLabourCardReceipt",
+      "values": [
+        {
+          "value": "بطاقة عمل المكفول / إيصال",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Labor Card / Receipt",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredNewPassport",
+      "values": [
+        {
+          "value": "جواز السفر الجديد للمكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored New Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassport",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassportPage1",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassportPage2",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassportPage3",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassportPage4",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredOldPassportPage5",
+      "values": [
+        {
+          "value": "جواز السفر القديم للمكفول - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Old Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPassport",
+      "values": [
+        {
+          "value": "جواز سفر المكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPassportpage2",
+      "values": [
+        {
+          "value": "جواز سفر المكفول - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Passport - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPassportpage4",
+      "values": [
+        {
+          "value": "جواز سفر المكفول - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Passport - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPassportpage5",
+      "values": [
+        {
+          "value": "جواز سفر المكفول - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPassportResidencyPage",
+      "values": [
+        {
+          "value": "جواز سفر المكفول - صفحة الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Passport - Residency Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsoredPhoto",
+      "values": [
+        {
+          "value": "صورة المكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsored Photo",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorMarriageCertificate",
+      "values": [
+        {
+          "value": "شهادة زواج الكفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Marriage Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorMarriageCertificatePage1",
+      "values": [
+        {
+          "value": "وثيقة زواج الكفيل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Marriage Certificate - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorMarriageCertificatePage2",
+      "values": [
+        {
+          "value": "وثيقة زواج الكفيل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Marriage Certificate - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorPassport",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorPassportPage1",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Passport - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorPassportPage3",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Passport - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorPassportPage5",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Passport - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorPassportResidencyPage",
+      "values": [
+        {
+          "value": "جواز سفر الكفيل - صفحة الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor Passport - Residency Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyEnrolmentLetter",
+      "values": [
+        {
+          "value": "رسالة الإلتحاق بالدراسة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Enrolment Letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyEnrolmentletterPage1",
+      "values": [
+        {
+          "value": "رسالة الإلتحاق بالدراسة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Enrolment Letter - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyEnrolmentletterPage2",
+      "values": [
+        {
+          "value": "رسالة الإلتحاق بالدراسة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Enrolment Letter - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyLetterORStudyEnrollmentLetter",
+      "values": [
+        {
+          "value": "رسالة دراسة أو رسالة الإلتحاق بالدراسة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Letter OR Study Enrollment Letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyLetterPage1Or2",
+      "values": [
+        {
+          "value": "رسالة دراسة - صفحة 1 أو 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Letter - Page 1 or 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "StudyletterPage2",
+      "values": [
+        {
+          "value": "رسالة دراسة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Study Letter - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContract",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage1",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage10",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage2",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage3",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 3",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 3",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage4",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 4",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 4",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage5",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 5",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 5",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage6",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 6",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 6",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage7",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 7",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 7",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage8",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 8",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 8",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TemporaryEmploymentContractPage9",
+      "values": [
+        {
+          "value": "عقد العمل المؤقت - صفحة 9",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Temporary Employment Contract - Page 9",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ThreeMonthsBankStatement",
+      "values": [
+        {
+          "value": "كشف حساب بنكي لثلاثة أشهر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Three Months Bank Statement",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ThreeMonthsBankStatementPage1",
+      "values": [
+        {
+          "value": "كشف حساب بنكي لثلاثة أشهر - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Three Months Bank Statement - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ThreeMonthsBankStatementPage10",
+      "values": [
+        {
+          "value": "كشف حساب بنكي لثلاثة أشهر - صفحة 10",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Three Months Bank Statement - Page 10",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TransferSponsorshipLetter",
+      "values": [
+        {
+          "value": "رسالة نقل الكفالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Transfer Sponsorship letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TransferSponsorshipletterPage2",
+      "values": [
+        {
+          "value": "رسالة نقل الكفالة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Transfer Sponsorship letter- Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TravellingTicketsToProveTransit",
+      "values": [
+        {
+          "value": "تذاكر السفر لإثبات العبور",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Travelling Tickets to Prove Transit",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TreatmentContinuityLetterWithPhotoPage1",
+      "values": [
+        {
+          "value": "رسالة استمرارية العلاج - مع صورة - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Treatment Continuity Letter - With Photo - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "TreatmentContinuityLetterWithPhotoPage2",
+      "values": [
+        {
+          "value": "رسالة استمرارية العلاج - مع صورة - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Treatment Continuity Letter - With Photo - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UnmarriedLetterPage1",
+      "values": [
+        {
+          "value": "رسالة غير متزوجين - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Unmarried Letter - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UnmarriedletterPage2",
+      "values": [
+        {
+          "value": "رسالة غير متزوجين - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Unmarried Letter - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ValidDrivingLicense",
+      "values": [
+        {
+          "value": "رخصة قيادة سارية المفعول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Valid Driving License",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ValiddrivinglicensePage2",
+      "values": [
+        {
+          "value": "رخصة قيادة سارية المفعول - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Valid Driving License - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ViolationExemptionLetter",
+      "values": [
+        {
+          "value": "رسالة الإعفاء",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Violation Exemption Letter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WorkContractPage1",
+      "values": [
+        {
+          "value": "عقد العمل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Work Contract - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WorkPermitPage1",
+      "values": [
+        {
+          "value": "تصريح العمل - صفحة 1",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Work Permit - Page 1",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WorkPermitPage2",
+      "values": [
+        {
+          "value": "تصريح العمل - صفحة 2",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Work Permit - Page 2",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

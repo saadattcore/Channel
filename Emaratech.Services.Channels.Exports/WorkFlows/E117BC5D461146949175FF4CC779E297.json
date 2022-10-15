@@ -1,0 +1,542 @@
+{
+  "workflowId": "E117BC5D461146949175FF4CC779E297",
+  "name": "Passport New Workflow",
+  "version": 61,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "B985A5494F3A4E02A700257A9A0C9837",
+      "name": "Reuse passport new form data",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ReusePassportNewFormData, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Data",
+          "value": "data",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Documents",
+          "value": "documents",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PassportApplication",
+          "value": "passportApplication",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "SearchInfo",
+          "value": "searchInfo",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "47CAA19A983E447D9F326BEA22F328FE",
+      "name": "Set form view",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 3,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetFormView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E4B0A0C750E34DAF941127D325EF336F",
+      "name": "Wait for application",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 4,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "EDE9D7D22E574621BADAF503E04F2853",
+      "name": "Resolve documents passport new",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 5,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveDocumentsPassportNew, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Documents",
+          "value": "documents",
+          "typeId": 3,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "8C8584FA9791462D9EF00E44F1C7C462",
+      "name": "Get Passport Services Form Buttons",
+      "description": null,
+      "version": 4,
+      "typeId": 0,
+      "sequence": 6,
+      "node": null,
+      "parameters": [
+        {
+          "key": "AdditionalButtons",
+          "value": "additionalButtons",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.GetPassportServicesFormButtons, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "PassportApplication",
+          "value": "passportApplication",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "6378BDC4476944FA88EF9861A3D7D790",
+      "name": "Set document view",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 7,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetDocumentView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D2235BEFB4AA456693CF859DC7BD3AE2",
+      "name": "Wait for documents",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 8,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForDocuments, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "DocumentIds",
+          "value": "documentIds",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "172C6E0A6B5A4E248D289104E603E0CF",
+      "name": "Get Passport New Data",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 9,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.GetPassportNewData, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "DocumentIds",
+          "value": "documentIds",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "PassportApplication",
+          "value": "passportApplication",
+          "typeId": 3,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "719EEF84EAF549D9B32FCCCABE92B4A8",
+      "name": "Save passport new request",
+      "description": null,
+      "version": 4,
+      "typeId": 0,
+      "sequence": 10,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Action",
+          "value": "action",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SavePassportNewRequest, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FeeDetails",
+          "value": "feeDetails",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PassportApplication",
+          "value": "passportApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D9DE39E70E0D43E6A590D8A3F9FFAABF",
+      "name": "Resolve fees passport services",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 11,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveFeesPassportServices, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FeeDetails",
+          "value": "feeDetails",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PassportApplication",
+          "value": "passportApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PaymentUrl",
+          "value": "paymentUrl",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "882BDC29F54D496DA2AE06E3C9651D8D",
+      "name": "Set fee view",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 12,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetFeeView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "39D8460AC0A2413DAFC15A91597FD6B8",
+      "name": "Make payment",
+      "description": null,
+      "version": 13,
+      "typeId": 0,
+      "sequence": 13,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "AuthenticatedSystemId",
+          "value": "authenticatedSystemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.Pay, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PaymentUrl",
+          "value": "paymentUrl",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "1D170C4C18DD4B9FA5931F2EEE483181",
+      "name": "Wait for payment status",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 14,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForPaymentStatus, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Request",
+          "value": "request",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    }
+  ]
+}

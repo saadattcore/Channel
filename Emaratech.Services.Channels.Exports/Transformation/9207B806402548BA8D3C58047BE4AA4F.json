@@ -1,0 +1,11 @@
+{
+  "transformationId": "9207B806402548BA8D3C58047BE4AA4F",
+  "sourceContractId": "43017BDA511849F88A082AC4833DC483",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "DocumentScanRequired",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"documentScanRequired/applicationNo\"/></BusinessKey><StatusId>230</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

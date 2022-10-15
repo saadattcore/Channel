@@ -1,0 +1,224 @@
+{
+  "workflowId": "F88E0B3280BD4DD7B8F914217EEDF904",
+  "name": "eDNRD MOL Workflow",
+  "version": 22,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "F17D46BF05384728A8399CE34A9B6A9A",
+      "name": "Resolve pre form",
+      "description": null,
+      "version": 5,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolvePreForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Type",
+          "value": "type",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "032846035FDE420895EC185145C617B6",
+      "name": "Resolve documents",
+      "description": null,
+      "version": 9,
+      "typeId": 0,
+      "sequence": 3,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveDocuments, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Documents",
+          "value": "documents",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "EstablishmentCode",
+          "value": "establishmentCode",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "JobId",
+          "value": "jobId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorSponsorType",
+          "value": "sponsorSponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    }
+  ]
+}

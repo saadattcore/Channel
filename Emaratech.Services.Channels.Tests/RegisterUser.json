@@ -1,0 +1,9 @@
+﻿{
+  "emiratesId": "{emiratesId}",
+  "username": "string",
+  "password": "string",
+  "dateOfBirth": "2017-02-25T08:33:32.093Z",
+  "email": "string",
+  "otpToken": "string",
+  "registerNewMobileNumberToken": "string"
+}

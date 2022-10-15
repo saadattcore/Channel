@@ -1,0 +1,502 @@
+{  
+   "localSetId":"3EA30117F1404F30A52C613BCBFD371B",
+   "version":75,
+   "title":"Services",
+   "description":null,
+   "localItems":[  
+      {  
+         "title":"ApplicationAlreadyExists",
+         "values":[  
+            {  
+               "value":"الطلب موجود بالفعل",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Application Already Exists",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Assistant Categories - National Sponsor",
+         "values":[  
+            {  
+               "value":"تجديد إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Cancel",
+         "values":[  
+            {  
+               "value":"إلغاء",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Cancel-Service",
+         "values":[  
+            {  
+               "value":"إلغاء",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ChangePassportDuetoLostPassport",
+         "values":[  
+            {  
+               "value":"نقل الإقامة إلى جواز سفر بدل فاقد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Transfer Residence Due to Lost Passport",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ChangePassportDuetoNewPassport",
+         "values":[  
+            {  
+               "value":"نقل إقامة إلى جواز سفر جديد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Transfer Residence to New Passport",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"EntryPermit",
+         "values":[  
+            {  
+               "value":"إذن دخول",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Entry Permit",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"EntryPermitCancel",
+         "values":[  
+            {  
+               "value":"إلغاء إذن دخول",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel Entry Permit",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"EntryPermitCancelPrivate",
+         "values":[  
+            {  
+               "value":"إلغاء إذن دخول",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel Entry Permit",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Establishment-Sas-Report",
+         "values":[  
+            {  
+               "value":"كشف كفيل ومكفولين",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Sponsor And Sponsored Report",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Family",
+         "values":[  
+            {  
+               "value":"الاسرة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Family",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Legal",
+         "values":[  
+            {  
+               "value":"استشارة قانونية",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Legal Services",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"LegalAdvice",
+         "values":[  
+            {  
+               "value":"استشارة قانونية",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Legal Advice",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"LocalServices",
+         "values":[  
+            {  
+               "value":"خدمات المواطنين",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Citizen Services",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Login Using",
+         "values":[  
+            {  
+               "value":"دخول باستخدام",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Login Using",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Long Term - Multiple Entry - Tourist",
+         "values":[  
+            {  
+               "value":"زيارة طويلة - عدة سفرات - سياحة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Long Term Visit - Multiple Entry - Tourist",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Long Term - Single Entry - Tourist",
+         "values":[  
+            {  
+               "value":"زيارة طويلة - سفرة واحدة - سياحة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Long Term Visit - Single Entry - Tourist",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"NewRequest",
+         "values":[  
+            {  
+               "value":"طلب جديد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"New request",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"On Arrival Visa Extension",
+         "values":[  
+            {  
+               "value":"تمديد تأشيرة عند الوصول",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"On Arrival Visa Extension",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"PassportNew",
+         "values":[  
+            {  
+               "value":"جواز سفر جديد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"New Passport",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"PassportRenew",
+         "values":[  
+            {  
+               "value":"تجديد جواز السفر",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Passport",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Renew",
+         "values":[  
+            {  
+               "value":"تجديد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Reports",
+         "values":[  
+            {  
+               "value":"التقارير",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Reports",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Residence",
+         "values":[  
+            {  
+               "value":"الإقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceCancel",
+         "values":[  
+            {  
+               "value":"إلغاء",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceCancelInsideUAE",
+         "values":[  
+            {  
+               "value":"إلغاء إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Cancel Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceNew",
+         "values":[  
+            {  
+               "value":"إقامة جديدة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"New Residnece",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceRenew",
+         "values":[  
+            {  
+               "value":"تجديد",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceRenewFamily",
+         "values":[  
+            {  
+               "value":"تجديد إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"ResidenceTransferToNewPassport",
+         "values":[  
+            {  
+               "value":"نقل إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Transfer Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"SAS-Report",
+         "values":[  
+            {  
+               "value":"كشف كفيل ومكفولين",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Sponsor And Sponsored Report",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Short Term - Multiple Entry - Tourist",
+         "values":[  
+            {  
+               "value":"زيارة قصيرة - عدة سفرات - سياحة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Short Term Visit - Multiple Entry - Tourist",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Short Term - Single Entry - Tourist",
+         "values":[  
+            {  
+               "value":"زيارة قصيرة - سفرة واحدة - سياحة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Short Term Visit - Single Entry - Tourist",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Travel-Status-Report",
+         "values":[  
+            {  
+               "value":"كشف دخول وخروج",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Certificate of Entry Exit",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Wife And Children - National Sponsor",
+         "values":[  
+            {  
+               "value":"تجديد إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Wife And Children - Resident Sponsor Working in Government",
+         "values":[  
+            {  
+               "value":"تجديد إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Wife And Children - Resident Sponsor Working In Private Sector or Free Zone-New",
+         "values":[  
+            {  
+               "value":"إقامة جديدة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"New Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      },
+      {  
+         "title":"Wife And Children - Resident Sponsor Working In Private Sector or Free Zone-Renew",
+         "values":[  
+            {  
+               "value":"تجديد إقامة",
+               "languageId":"0DB3A588ACD547CCBFC38AA7E0E19E36"
+            },
+            {  
+               "value":"Renew Residence",
+               "languageId":"4D9E89CF710448E9A0E81B4FBFC112B3"
+            }
+         ]
+      }
+   ]
+}

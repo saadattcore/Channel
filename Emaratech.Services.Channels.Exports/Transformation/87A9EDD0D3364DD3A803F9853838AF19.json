@@ -1,0 +1,11 @@
+{
+  "transformationId": "87A9EDD0D3364DD3A803F9853838AF19",
+  "sourceContractId": "2DEFBD6635DC444487DF711D35722BD4",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "SponsorFileInactive",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"sponsorFileInactive/applicationNo\"/></BusinessKey><StatusId>200</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

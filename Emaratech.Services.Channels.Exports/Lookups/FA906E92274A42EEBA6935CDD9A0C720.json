@@ -1,0 +1,37 @@
+{
+  "lookupId": "FA906E92274A42EEBA6935CDD9A0C720",
+  "name": "PaymentMethod",
+  "version": 6,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "1",
+      "valueEn": "Noqodi Normal",
+      "valueAr": "Noqodi Normal",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2",
+      "valueEn": "Noqodi Express",
+      "valueAr": "Noqodi Express",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "3",
+      "valueEn": "Virtual Bank",
+      "valueAr": "Virtual Bank",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

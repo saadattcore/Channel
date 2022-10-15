@@ -1,0 +1,288 @@
+{
+  "mappingMatrixId": "7EC692758BD04D0DAEB2CFEAD4DD87ED",
+  "name": "ApplicationFields",
+  "version": 14,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "LogicalId",
+      "sequence": 1,
+      "variableName": "LogicalId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "ObjectPath",
+      "sequence": 2,
+      "variableName": "ObjectPath",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "BirthDate",
+        "ApplicantDetails/BirthDate"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "CurrentNationality",
+        "ApplicantDetails/CurrentNationalityId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "InsideOutside",
+        "ApplicantDetails/InsideOutside"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "IsSponsorFileOpen",
+        "SponsorDetails/IsSponsorFileOpen"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Language1",
+        "ApplicantDetails/Language_1_Id"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Language2",
+        "ApplicantDetails/Language_2_Id"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Language3",
+        "ApplicantDetails/Language_3_Id"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "MaritalStatus",
+        "ApplicantDetails/MaritalStatusId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PassportExpiryDate",
+        "ApplicantDetails/PassportExpiryDate"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PassportNo",
+        "ApplicantDetails/PassportNo"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PassportType",
+        "ApplicantDetails/PassportTypeId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PermitType",
+        "ApplicationDetails/VisaTypeId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PreviousNationality",
+        "ApplicantDetails/PreviousNationalityId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ProfessionId",
+        "ApplicantDetails/ProfessionId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Relationship",
+        "SponsorDetails/SponsorRelationId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ResidencyPickup",
+        "ApplicationDetails/ResidencyPickup"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "SponsorType",
+        "SponsorDetails/SponsorTypeId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Urgent",
+        "ApplicationDetails/IsUrgent"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "VehicleCountry",
+        "ApplicantDetails/VehicleCountryId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "VisaType",
+        "ApplicationDetails/VisaTypeId"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "YearsOfResidence",
+        "ApplicantDetails/ResidenceRequestYear"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

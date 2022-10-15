@@ -1,0 +1,20 @@
+{
+  "lookupId": "AE669765766946789BF91F473E804890",
+  "name": "eSponsorType",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from SPONSOR_TYPE_LK) ",
+    "idName": "SPONSOR_TYPE_ID",
+    "valueEnName": "SPONSOR_TYPE_EN",
+    "valueArName": "SPONSOR_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

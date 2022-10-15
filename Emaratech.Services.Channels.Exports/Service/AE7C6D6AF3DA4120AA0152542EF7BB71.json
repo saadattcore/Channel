@@ -1,0 +1,22 @@
+{
+  "serviceId": "AE7C6D6AF3DA4120AA0152542EF7BB71",
+  "category": {
+    "categoryId": "58F5CB451952496E809C997C5C574270",
+    "parentCategory": {
+      "categoryId": "948CECE51468461B944EE09E7B609102",
+      "parentCategory": null,
+      "name": "EntryPermit",
+      "version": 1,
+      "description": "Entry Permit Category",
+      "resourceKey": "Entry Permit"
+    },
+    "name": "EntryPermitNew",
+    "version": 1,
+    "description": "Entry Permit New Category",
+    "resourceKey": "EntryPermitNew"
+  },
+  "name": "Employment/I",
+  "version": 1,
+  "description": null,
+  "resourceKey": "Employment/I"
+}

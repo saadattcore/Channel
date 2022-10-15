@@ -1,0 +1,10 @@
+{
+  "dataContractId": "B08DF04140B84E16B0B7FDF2098F9F65",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "CancelResidenceOutsideUae",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Contracts\\CancelResidenceOutsideUae.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

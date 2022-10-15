@@ -1,0 +1,20 @@
+{
+  "lookupId": "4D59B75C362B455CA2581B86ED698B0C",
+  "name": "eSubmitterTypeLookup",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from submitter_type_lk where is_archived=0) \n",
+    "idName": "submitter_type_id",
+    "valueEnName": "type_name_en",
+    "valueArName": "type_name_ar",
+    "col1Name": "is_archived",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

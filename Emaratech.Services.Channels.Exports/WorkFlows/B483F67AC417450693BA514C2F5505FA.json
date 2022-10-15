@@ -1,0 +1,86 @@
+{
+  "workflowId": "B483F67AC417450693BA514C2F5505FA",
+  "name": "eDNRD 96Hrs Workflow",
+  "version": 28,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "80C069E2C52D4498908CCCEB59664790",
+      "name": "Contact embassy",
+      "description": null,
+      "version": 11,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "11",
+          "value": "22",
+          "typeId": 0,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    }
+  ]
+}

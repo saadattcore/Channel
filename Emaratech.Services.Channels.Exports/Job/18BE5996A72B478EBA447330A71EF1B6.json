@@ -1,0 +1,24 @@
+{
+  "jobId": "18BE5996A72B478EBA447330A71EF1B6",
+  "name": "ZajelAwbJob",
+  "JobType": null,
+  "Version": 33,
+  "MaxLockSeconds": 200.0,
+  "IsEnabled": true,
+  "JobSchedules": [
+    {
+      "ScheduleTypeId": "00000000000000000000000000000002",
+      "StartDate": "2017-08-19T00:00:00",
+      "ScheduleFrequency": 5.0
+    }
+  ],
+  "JobParameters": [],
+  "JobSource": {
+    "JobId": "18BE5996A72B478EBA447330A71EF1B6",
+    "Class": null,
+    "Process": "ZajelServiceClient.bat",
+    "API": null,
+    "Content": "UEsDBBQAAAAIAFdgAkt1j+Fk8gAAAFEBAAALAAAAQXBpQ2FsbC5wczFdj0FLw0AQhe+C/2EIhSol2XgteGhTEEGlmIhQctnuDs3WNLPuTGMr/ng3laLIwBzmPb43bxSQPXWMcAv3XU9vmL7i+hnf98gC6Utw0Ij4qVItGd02xKJWeovtzy4x9M5gxr1RW6ZOfZ60tRbTKDx4ChHyiNKQhSUNxDnZI9zkeR7hjHPNzix1YNdtIC2oE+ykOnqERHvfOqPFReqATi4vRlYLVm6HT/QR/71DSRfxEoVzi6wULXsuyGJWUSkhcq+uYQJJnAn89y2QTXB+yPj1/A35gpm1579gXEzrWna+rk/lZ96VpkG7b3V4oA1ncpDxN1BLAwQUAAAACACtU8hKru3540QAAABFAAAAFgAAAFphamVsU2VydmljZUNsaWVudC5iYXQLyC9PLSrOSM3J0UutSFXQBRLJpSWZ+XkF+TmZyZUKRam5+SWpxZnpeakpCrpumTmpCkqqySmqMY4Fmc6JQF0FxYZKAFBLAQIUABQAAAAIAFdgAkt1j+Fk8gAAAFEBAAALAAAAAAAAAAAAAAAAAAAAAABBcGlDYWxsLnBzMVBLAQIUABQAAAAIAK1TyEqu7fnjRAAAAEUAAAAWAAAAAAAAAAAAAAAAABsBAABaYWplbFNlcnZpY2VDbGllbnQuYmF0UEsFBgAAAAACAAIAfQAAAJMBAAAAAA=="
+  },
+  "Systems": []
+}

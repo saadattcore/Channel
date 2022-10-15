@@ -1,0 +1,20 @@
+{
+  "lookupId": "EF0363B8EEA94980B335741217E2BB73",
+  "name": "eEducationLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from education_lk where is_archived=0)",
+    "idName": "EDUCATION_ID",
+    "valueEnName": "EDUCATION_NAME_EN",
+    "valueArName": "EDUCATION_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

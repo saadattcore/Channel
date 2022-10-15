@@ -1,0 +1,46 @@
+{
+  "lookupId": "8D64160BD0A44CF7A5BF46F01C29AC67",
+  "name": "VisaStatusLookup01",
+  "version": 11,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "65501C5F94B34811ADDE660DE1938F38",
+      "valueEn": "In Progress/Rejected",
+      "valueAr": "قيد الإنجاز/مرفوضة",
+      "col1": "InProgress",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "7618B760E68D43BB877AD92A38BFEA19",
+      "valueEn": "Expired",
+      "valueAr": "منتهية الصلاحية",
+      "col1": "Expired",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B48E8F2BAC5D4585AD022E293360A43D",
+      "valueEn": "Expiring Soon",
+      "valueAr": "قاربت على الانتهاء",
+      "col1": "ExpiringSoon",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "CAA2887F39B140E1A8FD3B11902DE146",
+      "valueEn": "Active",
+      "valueAr": "فعالة",
+      "col1": "Active",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

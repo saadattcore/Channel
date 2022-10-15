@@ -1,0 +1,11 @@
+{
+  "transformationId": "665284BC5BB1463EBB926210A1A3B625",
+  "sourceContractId": "A279CF8C25154146B74E594EE03E5F4B",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "RecallApplication",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"recallApplication/applicationNo\"/></BusinessKey><StatusId>190</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

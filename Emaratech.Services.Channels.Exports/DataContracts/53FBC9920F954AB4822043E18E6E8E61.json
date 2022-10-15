@@ -1,0 +1,10 @@
+{
+  "dataContractId": "53FBC9920F954AB4822043E18E6E8E61",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "CancelAfterEntry",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Contracts\\CancelAfterEntry.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

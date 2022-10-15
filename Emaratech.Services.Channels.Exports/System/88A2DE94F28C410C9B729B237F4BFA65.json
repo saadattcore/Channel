@@ -1,0 +1,10 @@
+{
+  "id": "88A2DE94F28C410C9B729B237F4BFA65",
+  "nameEn": "Translation Service",
+  "nameAr": "Translation Service",
+  "description": null,
+  "version": 1,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "TranslationApi"
+}

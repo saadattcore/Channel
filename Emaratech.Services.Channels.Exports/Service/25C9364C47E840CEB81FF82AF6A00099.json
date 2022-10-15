@@ -1,0 +1,22 @@
+{
+  "serviceId": "25C9364C47E840CEB81FF82AF6A00099",
+  "category": {
+    "categoryId": "58F5CB451952496E809C997C5C574270",
+    "parentCategory": {
+      "categoryId": "948CECE51468461B944EE09E7B609102",
+      "parentCategory": null,
+      "name": "EntryPermit",
+      "version": 1,
+      "description": "Entry Permit Category",
+      "resourceKey": "Entry Permit"
+    },
+    "name": "EntryPermitNew",
+    "version": 1,
+    "description": "Entry Permit New Category",
+    "resourceKey": "EntryPermitNew"
+  },
+  "name": "96 Hrs",
+  "version": 1,
+  "description": null,
+  "resourceKey": "96 Hrs"
+}

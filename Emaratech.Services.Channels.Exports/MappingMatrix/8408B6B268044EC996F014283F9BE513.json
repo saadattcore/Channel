@@ -1,0 +1,35 @@
+{
+  "mappingMatrixId": "8408B6B268044EC996F014283F9BE513",
+  "name": "TEST_ServicesStrategy",
+  "version": 7,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "1",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "ServiceName",
+      "sequence": 1,
+      "variableName": "ServiceName",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "Strategy",
+      "sequence": 2,
+      "variableName": "Strategy",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": []
+}

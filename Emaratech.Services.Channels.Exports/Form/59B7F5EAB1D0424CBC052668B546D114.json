@@ -1,0 +1,177 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Sponsor email",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "Email",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000016",
+                "validationName": "email",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "64D9819187BA4B5091C025BD59CCF95A",
+          "name": "SponsorEmail",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": null,
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "E4326F30A87D44EFB79BFE8B55DAF0A1",
+            "entity": "SponsorDetails",
+            "resourceKey": "SelectEstablishment",
+            "required": true,
+            "placeholder": "PreSelectEstablishment",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": null,
+            "lookupAPIUrl": "UChannel/services/lookups/estabList",
+            "lookupIdProperty": "code",
+            "lookupValueEnProperty": "valueEn",
+            "lookupValueArProperty": "valueAr",
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "84B621CC5C234CC9AF27565D38C4C1BC",
+          "name": "EstablishmentId",
+          "description": null,
+          "version": 6
+        }
+      ],
+      "key": "D983F0D2F77148A3AFCD30A4AA2F7849",
+      "name": "Establishment Sas Report Form Info",
+      "description": null,
+      "version": 4
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Mobile Establishment Sas Report",
+      "version": 1,
+      "platformIds": [
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        },
+        {
+          "field": "84B621CC5C234CC9AF27565D38C4C1BC",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    },
+    {
+      "name": "Web Establishment Sas Report",
+      "version": 1,
+      "platformIds": [
+        "00000000000000000000000000000001"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        },
+        {
+          "field": "84B621CC5C234CC9AF27565D38C4C1BC",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "59B7F5EAB1D0424CBC052668B546D114",
+  "name": "Establishment Sas Report Form",
+  "description": null,
+  "version": 7
+}

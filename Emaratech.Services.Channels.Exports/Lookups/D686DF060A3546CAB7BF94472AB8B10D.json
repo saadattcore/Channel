@@ -1,0 +1,20 @@
+{
+  "lookupId": "D686DF060A3546CAB7BF94472AB8B10D",
+  "name": "eLanguageLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * FROM LANGUAGE_LK WHERE IS_ARCHIVED=0)",
+    "idName": "LANGUAGE_ID",
+    "valueEnName": "LANGUAGE_NAME_EN",
+    "valueArName": "LANGUAGE_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

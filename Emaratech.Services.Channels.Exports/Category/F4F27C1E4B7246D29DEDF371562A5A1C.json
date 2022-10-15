@@ -1,0 +1,15 @@
+{
+  "categoryId": "F4F27C1E4B7246D29DEDF371562A5A1C",
+  "parentCategory": {
+    "categoryId": "948CECE51468461B944EE09E7B609102",
+    "parentCategory": null,
+    "name": "EntryPermit",
+    "version": 1,
+    "description": "Entry Permit Category",
+    "resourceKey": "Entry Permit"
+  },
+  "name": "EntryPermitExtend",
+  "version": 1,
+  "description": "Entry Permit Extend Category",
+  "resourceKey": "EntryPermitExtend"
+}

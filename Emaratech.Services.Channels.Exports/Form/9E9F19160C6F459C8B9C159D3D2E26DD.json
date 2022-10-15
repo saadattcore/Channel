@@ -1,0 +1,271 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Non editable Residence file no",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "ResidenceFileNumber",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": true,
+            "conditionalEdit": true,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "AD61C969DEBB4515B9477E8E33F2B701",
+          "name": "VisaNumber",
+          "description": null,
+          "version": 1
+        },
+        {
+          "displayName": "Non Editable Nationality",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Nationality",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": true,
+            "conditionalEdit": true,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "E5C92EC175F944D3B055BA3F8701CD7D",
+          "name": "CurrentNationalityId",
+          "description": null,
+          "version": 1
+        },
+        {
+          "displayName": "Editable Sponsor email",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "Email",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000016",
+                "validationName": "email",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "64D9819187BA4B5091C025BD59CCF95A",
+          "name": "SponsorEmail",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": null,
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000035",
+            "lookupId": "A389F1073E534A24AF6E4534581A3B5B",
+            "entity": "ApplicationDetails",
+            "resourceKey": "ResidencyPickup",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "DEFE4AB86CB946A0B716391930D870DF",
+          "name": "ResidencyPickup",
+          "description": null,
+          "version": 1
+        }
+      ],
+      "key": "DD2628A173A84D94A9E16FDDA577EE4B",
+      "name": "ResidenceCancel",
+      "description": null,
+      "version": 1
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Mobile-Residence Cancel",
+      "version": 2,
+      "platformIds": [
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": true,
+      "heading": "Cancel residence",
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "AD61C969DEBB4515B9477E8E33F2B701",
+          "layout": null
+        },
+        {
+          "field": "E5C92EC175F944D3B055BA3F8701CD7D",
+          "layout": null
+        },
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        },
+        {
+          "field": "DEFE4AB86CB946A0B716391930D870DF",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    },
+    {
+      "name": "Web-Residence Cancel",
+      "version": 2,
+      "platformIds": [
+        "00000000000000000000000000000001"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": true,
+      "heading": "Cancel residence",
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "AD61C969DEBB4515B9477E8E33F2B701",
+          "layout": null
+        },
+        {
+          "field": "E5C92EC175F944D3B055BA3F8701CD7D",
+          "layout": null
+        },
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "9E9F19160C6F459C8B9C159D3D2E26DD",
+  "name": "Mobile Residence Cancel",
+  "description": null,
+  "version": 5
+}

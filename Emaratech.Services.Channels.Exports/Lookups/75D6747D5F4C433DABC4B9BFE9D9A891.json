@@ -1,0 +1,20 @@
+{
+  "lookupId": "75D6747D5F4C433DABC4B9BFE9D9A891",
+  "name": "eAppRejecionReasonCategory",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from application_reason_cat_type_lk where is_archived=0)",
+    "idName": "APP_REASON_CAT_TYPE_ID",
+    "valueEnName": "CAT_TYPE_EN",
+    "valueArName": "CAT_TYPE_AR",
+    "col1Name": "IS_DOC_TYPE",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

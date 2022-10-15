@@ -1,0 +1,16 @@
+{
+  "id": "724CE44E55C24924858FB4F46114E4D5",
+  "nameEn": "Application Service",
+  "nameAr": "1",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [
+    {
+      "propName": "MappingMatrixUnifiedItemsID",
+      "propValue": "63322F2DB9134EAAB26C69F9FC05CE9F",
+      "propType": "00000000000000000000000000000004"
+    }
+  ],
+  "HealthEndpoint": "ApplicationApi"
+}

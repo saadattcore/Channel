@@ -1,0 +1,11 @@
+{
+  "transformationId": "A67C826FACC2412CB25BB7B7E29B2A16",
+  "sourceContractId": "2182239BF6A34603B8522C8E2CDC26D2",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "PassportVerificationPending",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"passportVerificationPending/applicationNo\"/></BusinessKey><StatusId>220</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

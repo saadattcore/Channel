@@ -1,0 +1,186 @@
+{
+  "id": "D52589D60BF846D2BCE1BFFE5026B89F",
+  "nameEn": "Unified Web",
+  "nameAr": "UnifiedWeb",
+  "description": null,
+  "version": 18,
+  "groupId": "42732CAD473D43BAAF67AFE462E4D33A",
+  "properties": [
+    {
+      "propName": "Identity.AccessTokenLifetime",
+      "propValue": "2592000",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.AccessTokenType",
+      "propValue": "Jwt",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.AllowRememberConsent",
+      "propValue": "false",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.Claims.email",
+      "propValue": "Email",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.ClientSecret",
+      "propValue": "secret",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.ClientType",
+      "propValue": "ResourceOwner",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.IdentityScopes",
+      "propValue": "openid,email,offline_access,profile",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.LogoutSessionRequired",
+      "propValue": "false",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.LogoutUri",
+      "propValue": "http://eap-dev/logout",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.PermissionsClaimType",
+      "propValue": "http://eap.emaratech.ae/claims/permissions",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.PostLogoutRedirectUris",
+      "propValue": "http://eap-dev",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.ProfileClaims",
+      "propValue": "DateOfBirth,UserType,EstablishmentType|IndividualUserInfo.IndividualResidenceInfo.EstablishmentTypeId|EstablishmentType,SponsorType|IndividualUserInfo.IndividualResidenceInfo.SponsorTypeId|SponsorType,SponsorNo|IndividualUserInfo.IndividualSponsorshipInformation.SponsorshipNo|SponsorNo,Mobile,VisaNumber|IndividualUserInfo.IndividualResidenceInfo.ResidenceNo|VisaNumber,EmiratesId,FileTypeId|IndividualUserInfo.IndividualSponsorshipInformation.SponsorshipFileTypeId|FileTypeId,estab_code,estab_statusEn,estab_statusAr,PPSID,JobId|IndividualUserInfo.IndividualProfileInformation.ProfessionId|JobId,EstablishmentCode|IndividualUserInfo.IndividualResidenceInfo.EstCode|EstablishmentCode,GenderId|IndividualUserInfo.IndividualProfileInformation.GenderId|GenderId",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.ProfileClaimType",
+      "propValue": "http://eap.emaratech.ae/claims/profile",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.RedirectUris",
+      "propValue": "http://eap-dev",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.RequireConsent",
+      "propValue": "false",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.Secret",
+      "propValue": "secret",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Identity.SystemProfileClaimType",
+      "propValue": "http://eap.emaratech.ae/claims/profile/system",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MyId.ClaimsIndex",
+      "propValue": "MyId.ClaimsIndex",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MyId.Password",
+      "propValue": "MyId.Password",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MyId.Username",
+      "propValue": "MyId.Username",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.AllowCC",
+      "propValue": "Y",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EncryptionFilePath",
+      "propValue": "C:\\EAP-PAYMENT\\EPG\\MR100095_key.xml",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EncryptionKey",
+      "propValue": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><RSAKeyValue><Modulus>AMiDQIsb/bmZ/eP8xuLMJpbfXUlKLyXMbH5L/st+WWsqUK3gga2t0hsn3K0XYBrv++jhwtbf79D2crPpXwJcKwRAr0O6Vg9xre/9G9dE9/gro6ibECha5ey4l8JvclP8IKRJK0RzqOtt3w3qIkIiUTKdRBk39J5on3J7OsLPBXkl</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EPG_INSTANCE",
+      "propValue": "EPG_INSTANCE",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EPG_VERSION",
+      "propValue": "1.0",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.IsVirtualBankEnabled",
+      "propValue": "false",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MerchantId",
+      "propValue": "MR100523",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileFailureUrl",
+      "propValue": "Payments.FailureUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileSuccessUrl",
+      "propValue": "Payments.SuccessUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileUrl",
+      "propValue": "Payments.MobileUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.OriginId",
+      "propValue": "FAWRI",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.RedirectUrl",
+      "propValue": "Payments.RedirectUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.VirtualBankUrl",
+      "propValue": "Payments.VirtualBankUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "PlatformId",
+      "propValue": "00000000000000000000000000000001",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.CellPhonePattern",
+      "propValue": "^(97[\\s]{0,1}[\\-]{0,1}[\\s]{0,1}1|0)55|55|51|52|50|56[\\s]{0,1}[\\-]{0,1}[\\s]{0,1}[1-9]{1}[0-9]{6}$",
+      "propType": "00000000000000000000000000000001"
+    }
+  ],
+  "HealthEndpoint": null
+}

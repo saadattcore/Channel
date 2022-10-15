@@ -1,0 +1,22 @@
+{
+  "serviceId": "C3106AFBFBAD4099B1B4DA6EA3025329",
+  "category": {
+    "categoryId": "58F5CB451952496E809C997C5C574270",
+    "parentCategory": {
+      "categoryId": "948CECE51468461B944EE09E7B609102",
+      "parentCategory": null,
+      "name": "EntryPermit",
+      "version": 1,
+      "description": "Entry Permit Category",
+      "resourceKey": "Entry Permit"
+    },
+    "name": "EntryPermitNew",
+    "version": 1,
+    "description": "Entry Permit New Category",
+    "resourceKey": "EntryPermitNew"
+  },
+  "name": "Long Term Visit - Multiple Entry - Leisure",
+  "version": 1,
+  "description": null,
+  "resourceKey": "Long Term Visit - Multiple Entry - Leisure"
+}

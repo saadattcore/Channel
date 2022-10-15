@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37B24AAB-F099-473C-988F-083B272DADC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Emaratech.Services.Channels</RootNamespace>
+    <AssemblyName>Emaratech.Services.Channels</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.2.16.3.0\lib\net45\CsvHelper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Api.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Api.Client.1.0.14\lib\net461\Emaratech.Services.Api.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Application, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Application.1.0.352\lib\net461\Emaratech.Services.Application.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Channels.Reports.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Channels.Reports.Models.1.0.648\lib\net461\Emaratech.Services.Channels.Reports.Models.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Common.1.0.19\lib\net461\Emaratech.Services.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Common.Caching, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Common.Caching.1.0.2\lib\net461\Emaratech.Services.Common.Caching.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Common.Imaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Common.Imaging.1.0.1\lib\net461\Emaratech.Services.Common.Imaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.DataContracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.DataContracts.1.0.54\lib\net461\Emaratech.Services.DataContracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Document, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Document.1.0.65\lib\net461\Emaratech.Services.Document.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Email, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Email.1.0.41\lib\net461\Emaratech.Services.Email.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Fee, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Fee.1.0.42\lib\net461\Emaratech.Services.Fee.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Forms.1.0.89\lib\net461\Emaratech.Services.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Identity.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Identity.Utils.1.0.35\lib\net461\Emaratech.Services.Identity.Utils.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Identity.Wcf.RPP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Identity.Wcf.RPP.1.0.12\lib\net461\Emaratech.Services.Identity.Wcf.RPP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Localization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Localization.1.0.29\lib\net461\Emaratech.Services.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Logging.1.0.56\lib\net461\Emaratech.Services.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Emaratech.Services.Logging.Log4Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Logging.Log4Net.1.0.35\lib\net461\Emaratech.Services.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Emaratech.Services.Lookups, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Lookups.1.0.80\lib\net461\Emaratech.Services.Lookups.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.MappingMatrix, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.MappingMatrix.1.0.125\lib\net461\Emaratech.Services.MappingMatrix.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Payment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Payment.1.0.86\lib\net461\Emaratech.Services.Payment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Security.KeyVault, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Security.KeyVault.1.0.31\lib\net461\Emaratech.Services.Security.KeyVault.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Services, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Services.1.0.47\lib\net461\Emaratech.Services.Services.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.SMS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.SMS.1.0.104\lib\net461\Emaratech.Services.SMS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Systems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Systems.1.0.115\lib\net461\Emaratech.Services.Systems.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Systems.Properties, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Systems.Properties.1.0.89\lib\net461\Emaratech.Services.Systems.Properties.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Template, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Template.1.0.28\lib\net461\Emaratech.Services.Template.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.UserManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.UserManagement.1.0.139\lib\net461\Emaratech.Services.UserManagement.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Vision.1.0.305\lib\net461\Emaratech.Services.Vision.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.VisionIntegration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.VisionIntegration.1.0.172\lib\net461\Emaratech.Services.VisionIntegration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Client.1.0.11\lib\net461\Emaratech.Services.WcfCommons.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Cors, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Cors.1.0.10\lib\net461\Emaratech.Services.WcfCommons.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Dynamic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Dynamic.1.0.14\lib\net461\Emaratech.Services.WcfCommons.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Faults, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Faults.1.0.23\lib\net461\Emaratech.Services.WcfCommons.Faults.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.HealthCheck, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.HealthCheck.1.0.10\lib\net461\Emaratech.Services.WcfCommons.HealthCheck.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Rest, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Rest.1.0.31\lib\net461\Emaratech.Services.WcfCommons.Rest.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Serialization.1.0.15\lib\net461\Emaratech.Services.WcfCommons.Serialization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Workflows, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Workflows.1.0.206\lib\net461\Emaratech.Services.Workflows.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Zajel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Zajel.1.0.26\lib\net461\Emaratech.Services.Zajel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Utilities.1.0.8\lib\net461\Emaratech.Utilities.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HappinessLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=323aeae74d78a5ce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\HappinessLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IdentityModel, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IdentityModel.2.0.1\lib\net45\IdentityModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImpromptuInterface, Version=6.2.2.0, Culture=neutral, PublicKeyToken=0b1781c923b2975b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImpromptuInterface.6.2.2\lib\net40\ImpromptuInterface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.40306.1554, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.4.403061554\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel-gdi, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc-gdi.1.50.4000-beta3b\lib\net20\MigraDoc.DocumentObjectModel-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering-gdi, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc-gdi.1.50.4000-beta3b\lib\net20\MigraDoc.Rendering-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering-gdi, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc-gdi.1.50.4000-beta3b\lib\net20\MigraDoc.RtfRendering-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Wcf, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Extensions.Wcf.3.2.2.0\lib\net45-full\Ninject.Extensions.Wcf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.3.2.0.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.3.11\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp-gdi, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc-gdi.1.50.4000-beta3b\lib\net20\PdfSharp-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp.Charting-gdi, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc-gdi.1.50.4000-beta3b\lib\net20\PdfSharp.Charting-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net46\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SwaggerWcf">
+      <HintPath>..\packages\SwaggerWcf.1.0.9\lib\net45\SwaggerWcf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Services" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.40306.1554, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.4.403061554\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChannelService.svc" />
+    <Content Include="ChannelServiceV2.svc" />
+    <Content Include="Global.asax" />
+    <Content Include="HappinessLib.dll" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiFactory.cs" />
+    <Compile Include="App_Start\AppConfigSettings.cs" />
+    <Compile Include="App_Start\MapperConfigurator.cs" />
+    <Compile Include="Authorization\AuthorizationManager.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Cancellation\CancellationReportBaseHanlder.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Cancellation\EntryPermitCancellationReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\eVisa\ApplicationVisaReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\eVisa\EntryPermitVisaReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\eVisa\VisaReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Models\Enum.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\IReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Models\NewEntryPermitReportData.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Models\ReportRecordInfo.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\ReportHandler.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\ReportHandlerFactory.cs" />
+    <Compile Include="BusinessLogic\ApplicationReports\Cancellation\ResidenceCancellationReportHandler.cs" />
+    <Compile Include="BusinessLogic\Dashboard\EstablishmentDashboard.cs" />
+    <Compile Include="BusinessLogic\Refund\ApplicationRefund.cs" />
+    <Compile Include="BusinessLogic\Refund\IRefund.cs" />
+    <Compile Include="BusinessLogic\Refund\RefundBase.cs" />
+    <Compile Include="BusinessLogic\Refund\RefundFactory.cs" />
+    <Compile Include="BusinessLogic\Refund\WarrantyRefund.cs" />
+    <Compile Include="ChannelServiceV2.svc.cs">
+      <DependentUpon>ChannelServiceV2.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ClaimUtil.cs" />
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="DefaultServiceFactory.cs" />
+    <Compile Include="FormField.cs" />
+    <Compile Include="Handler.ashx.cs">
+      <DependentUpon>Handler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\Dashboard\IndividualDashboard.cs" />
+    <Compile Include="HandlerFactory.cs" />
+    <Compile Include="Helpers\ApplicationHelper.cs" />
+    <Compile Include="Helpers\ConfigurationRepository.cs" />
+    <Compile Include="Helpers\ConstantsUtil.cs" />
+    <Compile Include="Helpers\EdnrdHelper.cs" />
+    <Compile Include="Helpers\HttpHelper.cs" />
+    <Compile Include="Helpers\LookupHelper.cs" />
+    <Compile Include="Extensions\Mapper.cs" />
+    <Compile Include="Helpers\Lookups\GenericLookup.cs" />
+    <Compile Include="Helpers\Lookups\ILookup.cs" />
+    <Compile Include="Helpers\Lookups\LookupArea.cs" />
+    <Compile Include="Helpers\Lookups\LookupBase.cs" />
+    <Compile Include="Helpers\Lookups\LookupCity.cs" />
+    <Compile Include="Helpers\Lookups\LookupCloseType.cs" />
+    <Compile Include="Helpers\Lookups\LookupEducation.cs" />
+    <Compile Include="Helpers\Lookups\LookupEmirate.cs" />
+    <Compile Include="Helpers\Lookups\LookupGender.cs" />
+    <Compile Include="Helpers\Lookups\LookupMaritalStatus.cs" />
+    <Compile Include="Helpers\Lookups\LookupNationality.cs" />
+    <Compile Include="Helpers\Lookups\LookupPassportType.cs" />
+    <Compile Include="Helpers\Lookups\LookupPermitStatus.cs" />
+    <Compile Include="Helpers\Lookups\LookupProfession.cs" />
+    <Compile Include="Helpers\Lookups\LookupReligion.cs" />
+    <Compile Include="Helpers\Lookups\LookupResidenceStatus.cs" />
+    <Compile Include="Helpers\Lookups\LookupResidenceType.cs" />
+    <Compile Include="Helpers\Lookups\LookupSponsorType.cs" />
+    <Compile Include="Helpers\Lookups\LookupTravelType.cs" />
+    <Compile Include="Helpers\Lookups\LookupVisaType.cs" />
+    <Compile Include="Helpers\MappingMatrixHelper.cs" />
+    <Compile Include="Helpers\PaymentHelper.cs" />
+    <Compile Include="Helpers\VisionHelper.cs" />
+    <Compile Include="IChannelServiceV2.cs" />
+    <Compile Include="IServiceFactory.cs" />
+    <Compile Include="Models\Enums\UserProfileEnum.cs" />
+    <Compile Include="ServicesHelper.cs" />
+    <Compile Include="Services\ApplicationService.cs" />
+    <Compile Include="ChannelService.svc.cs">
+      <DependentUpon>ChannelService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Enums\Constants.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ISystemSettings.cs" />
+    <Compile Include="IUserStore.cs" />
+    <Compile Include="Models\ApplicationWorkflowContext.cs" />
+    <Compile Include="Extensions\PayloadBuilder.cs" />
+    <Compile Include="Services\EstablishmentService.cs" />
+    <Compile Include="Services\PassportServicesApi.cs" />
+    <Compile Include="Services\LegalAdviceApi.cs" />
+    <Compile Include="Services\ProfileService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Extensions\RestExtensions.cs" />
+    <Compile Include="App_Start\ServiceNinjectModule.cs" />
+    <Compile Include="Services\PasswordService.cs" />
+    <Compile Include="Services\ReportService.cs" />
+    <Compile Include="Services\Reports\Constants.cs" />
+    <Compile Include="Services\Reports\Excel\EstablishmentSasReportExcelInterface.cs" />
+    <Compile Include="Services\Reports\Excel\ExcelReportInteface.cs" />
+    <Compile Include="Services\Reports\Excel\GeneratorExcel.cs" />
+    <Compile Include="Services\Reports\GetReportImpl.cs" />
+    <Compile Include="Services\Reports\IProduceReport.cs" />
+    <Compile Include="Services\Reports\Pdf\DocumentComposerNs\TableDefinition.cs" />
+    <Compile Include="Services\Reports\Pdf\DocumentComposerNs\Tables.cs" />
+    <Compile Include="Services\Reports\Pdf\EstablishmentSasReportCsvInterface.cs" />
+    <Compile Include="Services\Reports\Pdf\EstablishmentSasReportPdfInterface.cs" />
+    <Compile Include="Services\Reports\Pdf\GeneratorPdf.cs" />
+    <Compile Include="Services\Reports\Pdf\SasDocumentComposer.cs" />
+    <Compile Include="Services\Reports\Pdf\SasReport.cs" />
+    <Compile Include="Services\Reports\Pdf\SasReportPdfInteface.cs" />
+    <Compile Include="Services\Reports\Pdf\TravelReportEntity.cs" />
+    <Compile Include="Services\Reports\Pdf\TravelReportPdfInteface.cs" />
+    <Compile Include="Services\Reports\ReportGenerator.cs" />
+    <Compile Include="Services\Reports\ReportServiceImplBase.cs" />
+    <Compile Include="Services\Reports\RootUtils.cs" />
+    <Compile Include="Services\Reports\SendReportImpl.cs" />
+    <Compile Include="Services\VisaInquiryService.cs" />
+    <Compile Include="SystemSettings.cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="TokenUtils.cs" />
+    <Compile Include="UserStore.cs" />
+    <Compile Include="Services\WorkflowService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Handler.ashx" />
+    <None Include="Properties\PublishProfiles\EmaratechDev.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.EmaratechDev.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Emaratech.Services.Channels.Contracts\Emaratech.Services.Channels.Contracts.csproj">
+      <Project>{39570a2f-a279-4685-9a45-768f57c520a4}</Project>
+      <Name>Emaratech.Services.Channels.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EmaratechDev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52974</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Emaratech.Services.Channel</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+{
+  "id": "DF0EFDA785F34F85A0C8420A8752A222",
+  "nameEn": "Payment Service",
+  "nameAr": "Integration",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "PaymentApi"
+}

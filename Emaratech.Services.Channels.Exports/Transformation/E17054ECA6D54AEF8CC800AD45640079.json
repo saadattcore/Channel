@@ -1,0 +1,11 @@
+{
+  "transformationId": "E17054ECA6D54AEF8CC800AD45640079",
+  "sourceContractId": "86AF3CE0C0644C659D1C26C027CC0D87",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "IQCS -> UC - VisaApproved ",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"RejectApplication/ApplicationNumber\"/></BusinessKey><Comments><xsl:value-of select=\"RejectApplication/Remarks\"/></Comments><RequiredDocuments>\n<xsl:for-each select=\"RejectApplication/ApplicationReasons/ApplicationReason\">\n<RestRequiredDocuments><DocumentTypeId><xsl:value-of select=\"DocumentTypeId\"/></DocumentTypeId><RejectionStatus><xsl:value-of select=\"ReasonTypeId\"/></RejectionStatus></RestRequiredDocuments>\n</xsl:for-each>\n</RequiredDocuments><StatusId>110</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

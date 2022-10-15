@@ -1,0 +1,11 @@
+{
+  "transformationId": "C7EE993582924976861E6CFC8A989DEE",
+  "sourceContractId": "FB12CC71E6CA416DA56C3FAA04D9707A",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "SponsorVisitRequired",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"sponsorVisitRequired/applicationNo\"/></BusinessKey><StatusId>170</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

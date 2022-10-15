@@ -1,0 +1,22 @@
+{
+  "serviceId": "724F037B3E254C4DBF8CE5695ED3867E",
+  "category": {
+    "categoryId": "EB24F09385DF41CAB4F797926058FF43",
+    "parentCategory": {
+      "categoryId": "D2FCCA0D10B34596AD3C51A23CA32448",
+      "parentCategory": null,
+      "name": "Residence",
+      "version": 1,
+      "description": "Residence Category",
+      "resourceKey": "Residence"
+    },
+    "name": "ResidenceRenew",
+    "version": 1,
+    "description": "Residence Renew Category",
+    "resourceKey": "ResidenceRenew"
+  },
+  "name": "Wife And Children - Resident Sponsor Working In Private Sector or Free Zone",
+  "version": 2,
+  "description": null,
+  "resourceKey": "Wife And Children - Resident Sponsor Working In Private Sector or Free Zone-Renew"
+}

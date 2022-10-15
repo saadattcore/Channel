@@ -1,0 +1,2955 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Visa type",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": null,
+            "entity": "ApplicationDetails",
+            "resourceKey": "VisaType",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": "/UChannel/services/lookups/visatype",
+            "lookupIdProperty": "code",
+            "lookupValueEnProperty": "valueEn",
+            "lookupValueArProperty": "valueAr",
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "BD2B38DC0B3047FE88B3ED4FADC052B6",
+          "name": "ServiceId",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": null,
+          "isFieldSet": true,
+          "fieldConfiguration": null,
+          "fields": [
+            {
+              "displayName": "Editable First name arabic",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "FirstNameAr",
+                "required": true,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000001",
+                    "validationName": "required",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "RequiredField",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  },
+                  {
+                    "validationTypeId": "00000000000000000000000000000007",
+                    "validationName": "arabic",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertFirstNameArabic",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": false,
+                "translationName": null,
+                "translationEntity": null,
+                "type": null
+              },
+              "fields": null,
+              "key": "CB3641B14940459DA39037886B74432A",
+              "name": "FirstNameA",
+              "description": null,
+              "version": 2
+            },
+            {
+              "displayName": "Editable Middle name arabic",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "MiddleNameAr",
+                "required": false,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000007",
+                    "validationName": "arabic",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertMiddleNameArabic",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": false,
+                "translationName": null,
+                "translationEntity": null,
+                "type": null
+              },
+              "fields": null,
+              "key": "5F32B0AC9D1D4323B79F55FA327D0397",
+              "name": "MiddleNameA",
+              "description": null,
+              "version": 2
+            },
+            {
+              "displayName": "Editable Last name arabic",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "LastNameAr",
+                "required": true,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000001",
+                    "validationName": "required",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "RequiredField",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  },
+                  {
+                    "validationTypeId": "00000000000000000000000000000007",
+                    "validationName": "arabic",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertLastNameArabic",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": false,
+                "translationName": null,
+                "translationEntity": null,
+                "type": null
+              },
+              "fields": null,
+              "key": "D2BAE8EDCA5E4B89877D3EFE1A61461E",
+              "name": "LastNameA",
+              "description": null,
+              "version": 2
+            }
+          ],
+          "key": "6BBFF6BF1FA44BE083537CB8FD5A6F7C",
+          "name": "NameAr",
+          "description": null,
+          "version": 1
+        },
+        {
+          "displayName": "Editable Name english (first, middle, last)",
+          "isFieldSet": true,
+          "fieldConfiguration": null,
+          "fields": [
+            {
+              "displayName": "Editable First name english",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "FirstNameEn",
+                "required": true,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000001",
+                    "validationName": "required",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "RequiredField",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  },
+                  {
+                    "validationTypeId": "00000000000000000000000000000009",
+                    "validationName": "english",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertFirstNameEnglish",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": true,
+                "translationName": "FirstNameA",
+                "translationEntity": "ApplicantDetails",
+                "type": null
+              },
+              "fields": null,
+              "key": "1D7A8500B76D4A12B650E8CF76C9D7EE",
+              "name": "FirstNameE",
+              "description": null,
+              "version": 2
+            },
+            {
+              "displayName": "Editable Middle name english",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "MiddleNameEn",
+                "required": false,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000009",
+                    "validationName": "english",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertMiddleName",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": true,
+                "translationName": "MiddleNameA",
+                "translationEntity": "ApplicantDetails",
+                "type": null
+              },
+              "fields": null,
+              "key": "C1E462E7D612488688A9329787959647",
+              "name": "MiddleNameE",
+              "description": null,
+              "version": 2
+            },
+            {
+              "displayName": "Editable Last name english",
+              "isFieldSet": false,
+              "fieldConfiguration": {
+                "fieldTypeId": "00000000000000000000000000000031",
+                "lookupId": null,
+                "entity": "ApplicantDetails",
+                "resourceKey": "LastNameEn",
+                "required": true,
+                "placeholder": null,
+                "extensions": [],
+                "events": [],
+                "transformations": [],
+                "validations": [
+                  {
+                    "validationTypeId": "00000000000000000000000000000001",
+                    "validationName": "required",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "RequiredField",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  },
+                  {
+                    "validationTypeId": "00000000000000000000000000000009",
+                    "validationName": "english",
+                    "data1": null,
+                    "data2": null,
+                    "resourceKey": "AlertLastName",
+                    "errorMessage": null,
+                    "async": false,
+                    "stop": true
+                  }
+                ],
+                "parentName": null,
+                "parentEntity": null,
+                "parentProperty": null,
+                "multiSelect": false,
+                "withPopup": false,
+                "withCode": false,
+                "mobile": false,
+                "css": "col-sm-6",
+                "lookupAPIUrl": null,
+                "lookupIdProperty": null,
+                "lookupValueEnProperty": null,
+                "lookupValueArProperty": null,
+                "isComposite": false,
+                "readOnly": false,
+                "conditionalEdit": false,
+                "filter": null,
+                "translation": true,
+                "translationName": "LastNameA",
+                "translationEntity": "ApplicantDetails",
+                "type": null
+              },
+              "fields": null,
+              "key": "1C6E7FD7D854465196789DEC5C56C629",
+              "name": "LastNameE",
+              "description": null,
+              "version": 2
+            }
+          ],
+          "key": "F96596EEE71F460795DDDC63D1F128BA",
+          "name": "Editable Name english (first, middle, last)",
+          "description": null,
+          "version": 1
+        },
+        {
+          "displayName": "Editable Mother name english",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "MotherEn",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000009",
+                "validationName": "english",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertMotherName",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "6A68CDD9266C4E58AC6EC0D6F9E77A3E",
+          "name": "MotherNameE",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Nationality",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Nationality",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var fetchEntryPermitData = getFormControlValueSafe(['ApplicationDetails', 'FetchEntryPermitDataAction']); return !fetchEntryPermitData || fetchEntryPermitData === '0' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "ECBFDB8566B24E1D80AC81F721CA314E",
+          "name": "CurrentNationalityId",
+          "description": null,
+          "version": 4
+        },
+        {
+          "displayName": "Editable Birth date",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000014",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "BirthDate",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000014",
+                "validationName": "date",
+                "data1": null,
+                "data2": "YYYY-MM-DD",
+                "resourceKey": "AlertPassportIssueDateCheck2",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){\n    var value = getValue();\n    if (value) {\n        var birthDate = new Date(value);\n        var today = new Date();\n        var age = today.getFullYear() - birthDate.getFullYear();\n        var m = today.getMonth() - birthDate.getMonth();\n        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {\n            age--;\n        }\n        var maritalStatus = getFormControlValueSafe(['ApplicantDetails', 'MaritalStatusId']);\n        if (age < 12 && (maritalStatus === '2' || maritalStatus === '3' || maritalStatus === '4' || maritalStatus === '5')) { \n            return true;\n        }\n    }\n    return false;\n}",
+                "data2": null,
+                "resourceKey": "AlertMaritalStatusCheck3",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function anonymous(getFormControlSafe) {\n    var comp = getFormControlSafe(['SponsorDetails', 'SponsorRelationId']);\n    if (comp) {\n      comp.updateValueAndValidity();\n    }\n    return false;\n}",
+                "data2": null,
+                "resourceKey": "Invalid",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue) { if(getValue()) return new Date(getValue()) >= new Date(); }",
+                "data2": null,
+                "resourceKey": "AlertBirthDateInvalid",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": true,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D1718DC383F144AE85AC5CC0478576C6",
+          "name": "BirthDate",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Birth place english",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "BirthPlace",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000009",
+                "validationName": "english",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertBirthPlace",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "233CBB9AF6644B03AA192DCEBC943929",
+          "name": "BirthPlaceE",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Birth country",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "BirthCountry",
+            "required": true,
+            "placeholder": "PreSelectCountry",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "9C53B9195CDC40459CB85BBE33E19375",
+          "name": "BirthCountryId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Marital status",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9B21AE0790694F188061D264EABC5FA9",
+            "entity": "ApplicantDetails",
+            "resourceKey": "MaritalStatus",
+            "required": true,
+            "placeholder": "PreSelectMaritalStatus",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue, getFormControlValueSafe)\\n{ \\n    var gender = getFormControlValue(['ApplicantDetails', 'SexId']);\\n    var husband = getFormControlValueSafe(['ApplicantDetails', 'HusbandNameE']);\\n    \\n    // Single female with husband name\\n    if (getValue() === '1' && gender === '2' && husband)\\n    {    \\n        return true;\\n    }\\n}",
+                "data2": null,
+                "resourceKey": "AlertHusbandNameCheck2",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue, getFormControlValueSafe)\\n{ \\n    var gender = getFormControlValue(['ApplicantDetails', 'SexId']);\\n    var husband = getFormControlValueSafe(['ApplicantDetails', 'HusbandNameE']);\\n    // Married or widow female without husband name\\n    if ((getValue() === '2' || getValue() === '4') && gender === '2' && typeof(husband) !== 'undefined' && (husband === null || husband === ''))\\n    {    \\n        return true;\\n    }\\n}",
+                "data2": null,
+                "resourceKey": "AlertMaritalStatusCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue, getFormControlValueSafe)\\n{ \\n    var gender = getFormControlValue(['ApplicantDetails', 'SexId']);\\n    var husband = getFormControlValueSafe(['ApplicantDetails', 'HusbandNameE']);\\n    \\n    // Child or divorced female with husband name\\n    if ((getValue() === '3' || getValue() === '7') && gender === '2' && husband)\\n    {    \\n        return true;\\n    }\\n}",
+                "data2": null,
+                "resourceKey": "AlertHusbandNameCheck3",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D3479B73330D4465A424ABC669567015",
+          "name": "MaritalStatusId",
+          "description": null,
+          "version": 5
+        },
+        {
+          "displayName": "Editable Sponsor email",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "Email",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000016",
+                "validationName": "email",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "64D9819187BA4B5091C025BD59CCF95A",
+          "name": "SponsorEmail",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Sponsor salary",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "SponsorSalary",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000005",
+                "validationName": "numeric",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "NumericField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue) { return parseInt(getValue()) < 4000; }",
+                "data2": null,
+                "resourceKey": "InvalidSalary",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": true,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": "tel"
+          },
+          "fields": null,
+          "key": "433A15B4FD7B468D9C87E28EEA22260B",
+          "name": "Salary",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Gender",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "2790F67B274D485ABF27F1A85E618E1D",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Gender",
+            "required": true,
+            "placeholder": "PreSelectGender",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe)\\n{\\n   var husbandEn = getFormControlValueSafe(['ApplicantDetails', 'HusbandNameE']);\\n   if(typeof (getValue()) != 'undefined' && getValue() == \"1\" && typeof(husbandEn) != 'undefined' && husbandEn !== null && husbandEn !== '')\\n  {\\n      return true;\\n  }\\n}",
+                "data2": null,
+                "resourceKey": "AlertHusbandNameCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "B8DE3D39673F4D8CAC238FFA3F9BD47C",
+          "name": "SexId",
+          "description": null,
+          "version": 4
+        },
+        {
+          "displayName": "Address outside UAE label",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000036",
+            "lookupId": null,
+            "entity": null,
+            "resourceKey": "AddressOutsideUAE",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "52DF627838AF478B82E91A5BBBD8CF14",
+          "name": "AddressOutsideUAELabel",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Abroad address country",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Country",
+            "required": true,
+            "placeholder": "PreSelectCountry",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "9CBF4AF2E17F4CD2978B7AA50C58A151",
+          "name": "AddressOutsideCountryId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Abroad address city",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "City",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideCity",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D84D56B65F8E4944903DDD9E50BB6159",
+          "name": "AddressOutsideCity",
+          "description": null,
+          "version": 5
+        },
+        {
+          "displayName": "Editable Abroad address line 1",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "AddressLine1",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideUAE",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "B467C6944ABA44BE9272275705B4ECA6",
+          "name": "AddressOutside1",
+          "description": null,
+          "version": 8
+        },
+        {
+          "displayName": "Editable Abroad addres line 2",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "AddressLine2",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideUAE",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "F4E49E04C9A741C0AB27001A7AF4856B",
+          "name": "AddressOutside2",
+          "description": null,
+          "version": 6
+        }
+      ],
+      "key": "29C2513916144D8FA5CC36B9FFF3415B",
+      "name": "Mobile Entry Permit New-Sponsored Info",
+      "description": null,
+      "version": 3
+    },
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": null,
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000035",
+            "lookupId": "6255F58715BF46A8B9BD76052A46B4C6",
+            "entity": "ApplicantDetails",
+            "resourceKey": "IsInsideCountry",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": true,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "0777653584EE4E4A98FE579FDDE2D5CA",
+          "name": "IsInsideUAE",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Editable Sponsor relation",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "DCAE521FB9D7474F97522821C09812F5",
+            "entity": "SponsorDetails",
+            "resourceKey": "SponsorRelation",
+            "required": true,
+            "placeholder": null,
+            "extensions": [
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "{\"fn\":\"function (getValue, getConfig, getContext) {    var relationships = getContext('relationships', {      applyFilter: function (origin, add, remove) {        return (add.length ? add : origin).filter(val => remove.indexOf(val) === -1);      }    });    if (!relationships.hasOwnProperty('originalFilter')) {      relationships.originalFilter = getConfig().filter || [];    }    var genderFilter = relationships.genderFilter || []; var maritalStatusFilter = relationships.maritalStatusFilter || [];    if (getValue() == 'B4D5063747EB42029035E533BBEB426E') {      var allowedRelations = ['1', '2', '3', '4'];      if (getConfig().filter & getConfig().filter.length > 10) {        allowedRelations = ['1', '2', '3', '4', '6', '9', '13', '14'];      }      relationships.allowedRelations = allowedRelations;      getConfig().filter = relationships.applyFilter(relationships.originalFilter, allowedRelations, genderFilter.concat(maritalStatusFilter));    } else {      relationships.allowedRelations = [];      getConfig().filter = relationships.applyFilter(relationships.originalFilter, [], genderFilter.concat(maritalStatusFilter));    }  }  \",\"entity\":\"ApplicationDetails\",\"name\":\"ServiceId\"}"
+              },
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "{\"fn\":\"function (getValue, getConfig, getContext) {    var relationships = getContext('relationships', {      applyFilter: function (origin, add, remove) {        return (add.length ? add : origin).filter(val => remove.indexOf(val) === -1);      }    });    if (!relationships.hasOwnProperty('originalFilter')) {      relationships.originalFilter = getConfig().filter || [];    }    var maleRelations = ['1', '3', '7', '9', '11', '13', '15', '17', '19', '21', '22', '25', '27', '29', '37', '38', '39', '43', '45', '51', '62', '65', '67', '69', '74', '76'];    var femaleRelations = ['2', '4', '6', '8', '12', '14', '16', '18', '24', '26', '28', '30', '32', '40', '41', '42', '46', '66', '68', '72', '73', '75', '77'];    var allowedRelations = relationships.allowedRelations || []; var maritalStatusFilter = relationships.maritalStatusFilter || [];    if (getValue()) {      relationships.genderFilter = getValue() == '1' ? femaleRelations : maleRelations;    } else {      relationships.genderFilter = [];    }    getConfig().filter = relationships.applyFilter(relationships.originalFilter, allowedRelations, relationships.genderFilter.concat(maritalStatusFilter));  }\",\"entity\":\"ApplicantDetails\",\"name\":\"SexId\"}"
+              },
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "{\"fn\":\"function (getValue, getConfig, getContext) { var relationships = getContext('relationships', {applyFilter: function (origin, add, remove) {return (add.length ? add : origin).filter(val => remove.indexOf(val) === -1);}});if (!relationships.hasOwnProperty('originalFilter')) {relationships.originalFilter = getConfig().filter || [];} var allowedRelations = relationships.allowedRelations || [];  var genderFilter = relationships.genderFilter || []; if (getValue() && getValue() == '1') { relationships.maritalStatusFilter = ['1','2']; } else { relationships.maritalStatusFilter = []; } getConfig().filter = relationships.applyFilter(relationships.originalFilter, allowedRelations, genderFilter.concat(relationships.maritalStatusFilter)); }\",\"entity\":\"ApplicantDetails\",\"name\":\"MaritalStatusId\"}"
+              }
+            ],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue, getFormControlValueSafe, getFormConfig) {\n\n    var retValue = false;\n    var birthDateAsString = getFormControlValue(['ApplicantDetails', 'BirthDate']);\n    var serviceId = getFormControlValueSafe(['ApplicationDetails', 'ServiceId'])|| getFormConfig().serviceId ;\n    if (getValue() === '3' && serviceId !== 'AC2994B7A6A141BF9DBF7A4B2C01ACAB' && serviceId !== '94AE97BD791A43729D7F10D9710DAD8A' && serviceId !== 'C3106AFBFBAD4099B1B4DA6EA3025329' && serviceId !== 'B1BF267DA3854734B6EA8DCA7BD9EA06'){\n        if(birthDateAsString){\n            var currentDate = new Date();\n            var upperLimit = new Date(birthDateAsString);\n            upperLimit.setFullYear(upperLimit.getFullYear() + 17);\n            retValue = (upperLimit.getTime() < currentDate.getTime()) ? true : false;\n        }\n        else {\n             return true;\n        }\n    }\n    return retValue;\n}",
+                "data2": null,
+                "resourceKey": "AlertSonShouldBeYoungerThan17",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "6744CEAF55104C1D927A50226D6F1992",
+          "name": "SponsorRelationId",
+          "description": null,
+          "version": 9
+        },
+        {
+          "displayName": "Editable Religion",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "96AE1D09DB114D879F8C1F3BADA954E8",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Religion",
+            "required": true,
+            "placeholder": "PreSelectReligion",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "4696F45FB97341C6AC5FF62799EAF4C8",
+          "name": "ReligionId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Profession",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "E82C489A44214C35B9B8B32300ECB6F6",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Profession",
+            "required": true,
+            "placeholder": "PreSelectProfession",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "8920787A547A4CC1A6E101882E5E1289",
+          "name": "ProfessionId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Education",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "EF0363B8EEA94980B335741217E2BB73",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Education",
+            "required": true,
+            "placeholder": "PreSelectEducation",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D5F8C7DE934945CC827C4A3B1F479A6F",
+          "name": "EducationId",
+          "description": null,
+          "version": 2
+        }
+      ],
+      "key": "49F4C72827B04EAEBA5EC3D1FFFBA407",
+      "name": "Mobile Entry Permit New-More info",
+      "description": null,
+      "version": 4
+    },
+    {
+      "displayName": "Editable Mobile Passport information",
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Passport number",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "PassportNo",
+            "required": true,
+            "placeholder": null,
+            "extensions": [
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "function (getValue, getControl) {\n         var val = getValue();\n         var valUpper = val.toUpperCase();\n         if (val === valUpper) return;\n         getControl().setValue(valUpper,{emitEvent: false});\n}"
+              }
+            ],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var fetchEntryPermitData = getFormControlValueSafe(['ApplicationDetails', 'FetchEntryPermitDataAction']); return !fetchEntryPermitData || fetchEntryPermitData === '0' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[a-zA-Z0-9]+$/",
+                "resourceKey": "AlertPassportNoCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "EC86A4CB26D44A739DDDE7DF3523E307",
+          "name": "PassportNo",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Passport type",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "6ED3A3EF939A474EA213F66ECAD40A65",
+            "entity": "ApplicantDetails",
+            "resourceKey": "PassportType",
+            "required": true,
+            "placeholder": "PreSelectPassportType",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "4BE561737EEE4E46A86328087DC78DEE",
+          "name": "PassportTypeId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Passport issue date",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000014",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "DateOfIssue",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000014",
+                "validationName": "date",
+                "data1": null,
+                "data2": "YYYY-MM-DD",
+                "resourceKey": "AlertPassportIssueDateCheck2",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue)\\n{\\n    return new Date(getValue()) >= new Date();\\n}",
+                "data2": null,
+                "resourceKey": "AlertPassportIssueDateCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue)\\n{\\n    var birthDateString = getFormControlValue(['ApplicantDetails', 'BirthDate']);\\n    if (birthDateString) {\\n        return new Date(birthDateString) >= new Date(getValue());\\n    }\\n}",
+                "data2": null,
+                "resourceKey": "AlertPassportIssueDateCheck3",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": true,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "61BE7331D5044A99955C15CDCDE6644C",
+          "name": "PassportIssueDate",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Editable Passport expiry date",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000014",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "ExpirationDate",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000014",
+                "validationName": "date",
+                "data1": null,
+                "data2": "YYYY-MM-DD",
+                "resourceKey": "AlertPassportIssueDateCheck2",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValue)\\r\\n{ \\r\\n    var passportExpiryDate = new Date(getValue());\\r\\n    var dateIn180Days =  new Date();\\r\\n    dateIn180Days.setDate(dateIn180Days.getDate() + 180);\\r\\n    if (passportExpiryDate < dateIn180Days) {\\r\\n        return true;\\r\\n    }\\r\\n\\r\\n    var dateOfIssueString = getFormControlValue(['ApplicantDetails', 'PassportIssueDate']);\\r\\n    if (dateOfIssueString && passportExpiryDate <= new Date(dateOfIssueString)) {\\r\\n        return true;\\r\\n    }\\r\\n}",
+                "data2": null,
+                "resourceKey": "AlertInvalidExpirationDateCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": true,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "698FAC90376C4E0F91954E5229070249",
+          "name": "PassportExpiryDate",
+          "description": null,
+          "version": 4
+        },
+        {
+          "displayName": "Editable Passport issuing place english",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "PlaceOfIssue",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000009",
+                "validationName": "english",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertPassportPlaceOfIssue",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "049E2D34ABFF4C518AF310294F227ACF",
+          "name": "PassportPlaceE",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Editable Passport issuing country",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "PassportIssuingCountry",
+            "required": true,
+            "placeholder": "PreSelectIssuingCountry",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "61A526A06B2A4AAA8B327941790569F9",
+          "name": "PassportIssueCountryId",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Passport read info button",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000013",
+            "lookupId": null,
+            "entity": null,
+            "resourceKey": "PassportReadInfoButton",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [
+              {
+                "typeId": "00000000000000000000000000000003",
+                "action": "function(location) {location.href='inapp://someAction'}"
+              }
+            ],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D21EA6E9507F47A09D2A6EE8DAFD313E",
+          "name": "PassportReadInfoButton",
+          "description": null,
+          "version": 3
+        }
+      ],
+      "key": "A5EA800E85F64930B19898949AE1A3E1",
+      "name": "Editable Mobile Passport information",
+      "description": null,
+      "version": 2
+    },
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": null,
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000022",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "CourierPickupAddress",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "4369B4B206564F649F1BA96FEEF48CFB",
+          "name": "Heading-CourierPickupAddress",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Address Emirate",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "641BFE0930FA4C6A817D18ED50718395",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Emirate",
+            "required": true,
+            "placeholder": "SelectEmirate",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "11608EE5E8944B9C92BD39BEB54ED02C",
+          "name": "EmirateId",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Editable Address City",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "E794DFAF28F44618BC71B1CF9D00E8C5",
+            "entity": "ApplicantDetails",
+            "resourceKey": "City",
+            "required": true,
+            "placeholder": "PreSelectCity",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": "EmirateId",
+            "parentEntity": "ApplicantDetails",
+            "parentProperty": "col1",
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "A79CA527D9A345D5B803D8ECFAF0F6F8",
+          "name": "CityId",
+          "description": null,
+          "version": 5
+        },
+        {
+          "displayName": "Editable Address Area",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "C9A09D5329DA4FA68B3F4CD21932EC19",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Area",
+            "required": true,
+            "placeholder": "PreSelectArea",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": "CityId",
+            "parentEntity": "ApplicantDetails",
+            "parentProperty": "col1",
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "C1F5DE7041DC48219A3525BB415426CC",
+          "name": "AreaId",
+          "description": null,
+          "version": 4
+        },
+        {
+          "displayName": "Editable Address Street",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "AddressLine1",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideUAE",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "5229F99317B94859A9C4EDAB6DA9F81F",
+          "name": "Street",
+          "description": null,
+          "version": 9
+        },
+        {
+          "displayName": "Editable PoBox Emirate",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "641BFE0930FA4C6A817D18ED50718395",
+            "entity": "ApplicantDetails",
+            "resourceKey": "POBoxEmirate",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000003",
+                "validationName": "max-length",
+                "data1": null,
+                "data2": "5",
+                "resourceKey": "MaxLength",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000005",
+                "validationName": "numeric",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertPOBox",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "C0A6B8C85CAC4C84983846243E89E4DA",
+          "name": "POBoxEmirate",
+          "description": null,
+          "version": 8
+        },
+        {
+          "displayName": "Editable Address POBox",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "P.O.BoxNo",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000003",
+                "validationName": "max-length",
+                "data1": "<CLOB>",
+                "data2": "8",
+                "resourceKey": "MaxLength",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000005",
+                "validationName": "numeric",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertPOBox",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "BDDAFABB41644F1FA09FDA13EAD5A6D8",
+          "name": "POBox",
+          "description": null,
+          "version": 5
+        },
+        {
+          "displayName": "Editable Building",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "Building",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideUAE",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D9BC185BED8A4B9DB42DC36E360866C1",
+          "name": "Building",
+          "description": null,
+          "version": 9
+        }
+      ],
+      "key": "B3BBD1848A0B461E8AEA76E8855AD331",
+      "name": "Mobile-CourierPickupAddress",
+      "description": null,
+      "version": 4
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Entry Permit New",
+      "version": 4,
+      "platformIds": [
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "ApplicantDetails",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "BD2B38DC0B3047FE88B3ED4FADC052B6",
+                "layout": null
+              },
+              {
+                "field": "1D7A8500B76D4A12B650E8CF76C9D7EE",
+                "layout": null
+              },
+              {
+                "field": "CB3641B14940459DA39037886B74432A",
+                "layout": null
+              },
+              {
+                "field": "C1E462E7D612488688A9329787959647",
+                "layout": null
+              },
+              {
+                "field": "5F32B0AC9D1D4323B79F55FA327D0397",
+                "layout": null
+              },
+              {
+                "field": "1C6E7FD7D854465196789DEC5C56C629",
+                "layout": null
+              },
+              {
+                "field": "D2BAE8EDCA5E4B89877D3EFE1A61461E",
+                "layout": null
+              },
+              {
+                "field": "6A68CDD9266C4E58AC6EC0D6F9E77A3E",
+                "layout": null
+              },
+              {
+                "field": "ECBFDB8566B24E1D80AC81F721CA314E",
+                "layout": null
+              },
+              {
+                "field": "D1718DC383F144AE85AC5CC0478576C6",
+                "layout": null
+              },
+              {
+                "field": "233CBB9AF6644B03AA192DCEBC943929",
+                "layout": null
+              },
+              {
+                "field": "9C53B9195CDC40459CB85BBE33E19375",
+                "layout": null
+              },
+              {
+                "field": "D3479B73330D4465A424ABC669567015",
+                "layout": null
+              },
+              {
+                "field": "64D9819187BA4B5091C025BD59CCF95A",
+                "layout": null
+              },
+              {
+                "field": "433A15B4FD7B468D9C87E28EEA22260B",
+                "layout": null
+              },
+              {
+                "field": "B8DE3D39673F4D8CAC238FFA3F9BD47C",
+                "layout": null
+              },
+              {
+                "field": "52DF627838AF478B82E91A5BBBD8CF14",
+                "layout": null
+              },
+              {
+                "field": "9CBF4AF2E17F4CD2978B7AA50C58A151",
+                "layout": null
+              },
+              {
+                "field": "D84D56B65F8E4944903DDD9E50BB6159",
+                "layout": null
+              },
+              {
+                "field": "B467C6944ABA44BE9272275705B4ECA6",
+                "layout": null
+              },
+              {
+                "field": "F4E49E04C9A741C0AB27001A7AF4856B",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "PassportDetailsAddressOutsideUAE",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "D21EA6E9507F47A09D2A6EE8DAFD313E",
+                "layout": null
+              },
+              {
+                "field": "EC86A4CB26D44A739DDDE7DF3523E307",
+                "layout": null
+              },
+              {
+                "field": "4BE561737EEE4E46A86328087DC78DEE",
+                "layout": null
+              },
+              {
+                "field": "61BE7331D5044A99955C15CDCDE6644C",
+                "layout": null
+              },
+              {
+                "field": "698FAC90376C4E0F91954E5229070249",
+                "layout": null
+              },
+              {
+                "field": "049E2D34ABFF4C518AF310294F227ACF",
+                "layout": null
+              },
+              {
+                "field": "61A526A06B2A4AAA8B327941790569F9",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "AdditionalInformation",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "0777653584EE4E4A98FE579FDDE2D5CA",
+                "layout": null
+              },
+              {
+                "field": "6744CEAF55104C1D927A50226D6F1992",
+                "layout": null
+              },
+              {
+                "field": "4696F45FB97341C6AC5FF62799EAF4C8",
+                "layout": null
+              },
+              {
+                "field": "8920787A547A4CC1A6E101882E5E1289",
+                "layout": null
+              },
+              {
+                "field": "D5F8C7DE934945CC827C4A3B1F479A6F",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    },
+    {
+      "name": "Web-Entry Permit New",
+      "version": 4,
+      "platformIds": [
+        "00000000000000000000000000000001"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "ApplicantDetails",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "1D7A8500B76D4A12B650E8CF76C9D7EE",
+                "layout": null
+              },
+              {
+                "field": "CB3641B14940459DA39037886B74432A",
+                "layout": null
+              },
+              {
+                "field": "C1E462E7D612488688A9329787959647",
+                "layout": null
+              },
+              {
+                "field": "5F32B0AC9D1D4323B79F55FA327D0397",
+                "layout": null
+              },
+              {
+                "field": "1C6E7FD7D854465196789DEC5C56C629",
+                "layout": null
+              },
+              {
+                "field": "D2BAE8EDCA5E4B89877D3EFE1A61461E",
+                "layout": null
+              },
+              {
+                "field": "6A68CDD9266C4E58AC6EC0D6F9E77A3E",
+                "layout": null
+              },
+              {
+                "field": "ECBFDB8566B24E1D80AC81F721CA314E",
+                "layout": null
+              },
+              {
+                "field": "D1718DC383F144AE85AC5CC0478576C6",
+                "layout": null
+              },
+              {
+                "field": "233CBB9AF6644B03AA192DCEBC943929",
+                "layout": null
+              },
+              {
+                "field": "9C53B9195CDC40459CB85BBE33E19375",
+                "layout": null
+              },
+              {
+                "field": "D3479B73330D4465A424ABC669567015",
+                "layout": null
+              },
+              {
+                "field": "64D9819187BA4B5091C025BD59CCF95A",
+                "layout": null
+              },
+              {
+                "field": "433A15B4FD7B468D9C87E28EEA22260B",
+                "layout": null
+              },
+              {
+                "field": "B8DE3D39673F4D8CAC238FFA3F9BD47C",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "AddressOutsideUAE",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "9CBF4AF2E17F4CD2978B7AA50C58A151",
+                "layout": null
+              },
+              {
+                "field": "D84D56B65F8E4944903DDD9E50BB6159",
+                "layout": null
+              },
+              {
+                "field": "B467C6944ABA44BE9272275705B4ECA6",
+                "layout": null
+              },
+              {
+                "field": "F4E49E04C9A741C0AB27001A7AF4856B",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "PassportDetailsAddressOutsideUAE",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "EC86A4CB26D44A739DDDE7DF3523E307",
+                "layout": null
+              },
+              {
+                "field": "4BE561737EEE4E46A86328087DC78DEE",
+                "layout": null
+              },
+              {
+                "field": "61BE7331D5044A99955C15CDCDE6644C",
+                "layout": null
+              },
+              {
+                "field": "698FAC90376C4E0F91954E5229070249",
+                "layout": null
+              },
+              {
+                "field": "049E2D34ABFF4C518AF310294F227ACF",
+                "layout": null
+              },
+              {
+                "field": "61A526A06B2A4AAA8B327941790569F9",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "AdditionalInformation",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "0777653584EE4E4A98FE579FDDE2D5CA",
+                "layout": null
+              },
+              {
+                "field": "6744CEAF55104C1D927A50226D6F1992",
+                "layout": null
+              },
+              {
+                "field": "4696F45FB97341C6AC5FF62799EAF4C8",
+                "layout": null
+              },
+              {
+                "field": "8920787A547A4CC1A6E101882E5E1289",
+                "layout": null
+              },
+              {
+                "field": "D5F8C7DE934945CC827C4A3B1F479A6F",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "A394620FD452480082B7C10D068EC5C9",
+  "name": "Entry Permit New",
+  "description": null,
+  "version": 57
+}

@@ -1,0 +1,28 @@
+{
+  "lookupId": "646B237F451C4BACA8010D2A5F5E93FA",
+  "name": "FetchEntryPermitDataAction",
+  "version": 7,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "0",
+      "valueEn": "Reuse previous data",
+      "valueAr": "استخدام بيانات سابقة",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "1",
+      "valueEn": "Create new data",
+      "valueAr": "إنشاء بيانات جديدة",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

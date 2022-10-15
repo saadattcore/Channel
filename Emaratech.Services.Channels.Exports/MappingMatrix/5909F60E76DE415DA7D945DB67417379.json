@@ -1,0 +1,173 @@
+{
+  "mappingMatrixId": "5909F60E76DE415DA7D945DB67417379",
+  "name": "ResidenceAccompany",
+  "version": 8,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "PropertyName",
+      "sequence": 1,
+      "variableName": "PropertyName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "ColumnName",
+      "sequence": 2,
+      "variableName": "ColumnName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "ColumnType",
+      "sequence": 3,
+      "variableName": "ColumnType",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "birthDate",
+        "BIRTH_DATE",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "gender",
+        "GENDER",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "id",
+        "ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "logDate",
+        "LOG_DATE",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "logTime",
+        "LOG_TIME",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "nameArabic",
+        "NAME_A",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "nameEnglish",
+        "NAME_E",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "relation",
+        "RELATION",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "resAccDetId",
+        "RES_ACC_DET_ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

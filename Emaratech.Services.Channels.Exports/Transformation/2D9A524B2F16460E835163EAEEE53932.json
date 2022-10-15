@@ -1,0 +1,11 @@
+{
+  "transformationId": "2D9A524B2F16460E835163EAEEE53932",
+  "sourceContractId": "840C456A8A174089B71821BEFDF2EA21",
+  "sourceContractVersion": 1,
+  "destinationContractId": "1C1998860C864A0FA5B938D574BF85DE",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "DocumentsRequired",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">           \n<xsl:template match=\"/\">  \n<UnifiedApplicationStatus CorrelationId=\"CorrelationId1\">\n  <ApplicationId><xsl:value-of select=\"ResendVisionCoreApplicationStatus/ApplicationNumber\"/></ApplicationId>  \n  <StatusId><xsl:value-of select=\"ResendVisionCoreApplicationStatus/ApplicationStatusId\"/></StatusId>    \n  <Comments><xsl:value-of select=\"ResendVisionCoreApplicationStatus/Remarks\"/></Comments>\n  <FileType><xsl:value-of select=\"ResendVisionCoreApplicationStatus/FileType\"/></FileType>\n  <VisaNumber><xsl:value-of select=\"ResendVisionCoreApplicationStatus/FileNumber\"/></VisaNumber>  \n  <RequiredDocuments>\n  <xsl:for-each select=\"ResendVisionCoreApplicationStatus/ApplicationReasons/ApplicationReason\">\n    <RequiredDocument>\n    <DocumentTypeId><xsl:value-of select=\"DocumentTypeId\"/></DocumentTypeId>\n    <RejectionStatus><xsl:value-of select=\"ReasonTypeId\"/></RejectionStatus>\n    </RequiredDocument>\n  </xsl:for-each>\n  </RequiredDocuments>\n</UnifiedApplicationStatus>\n</xsl:template>\n</xsl:stylesheet>"
+}

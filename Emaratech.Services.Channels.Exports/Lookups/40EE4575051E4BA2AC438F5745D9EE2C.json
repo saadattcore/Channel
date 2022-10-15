@@ -1,0 +1,20 @@
+{
+  "lookupId": "40EE4575051E4BA2AC438F5745D9EE2C",
+  "name": "ePermitStatusType",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from permit_status_type_lk)",
+    "idName": "PERMIT_STATUS_TYPE_ID",
+    "valueEnName": "STATUS_TYPE_EN",
+    "valueArName": "STATUS_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

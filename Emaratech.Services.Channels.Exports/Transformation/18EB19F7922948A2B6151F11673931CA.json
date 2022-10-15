@@ -1,0 +1,11 @@
+{
+  "transformationId": "18EB19F7922948A2B6151F11673931CA",
+  "sourceContractId": "C83FCE5BEB33420393957728E535CB80",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "VisionStatus",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n    <xsl:template match=\"/\">\n        <RestStatus>\n            <BusinessKey>\n                <xsl:value-of select=\"VisionCoreApplicationStatus/ApplicationNumber\" />\n            </BusinessKey>\n            <Comments>\n                <xsl:value-of select=\"VisionCoreApplicationStatus/Remarks\" />\n            </Comments>\n            <StatusId>\n                <xsl:value-of select=\"VisionCoreApplicationStatus/ApplicationStatusId\" />\n            </StatusId>\n            <RequiredDocuments>\n                <xsl:for-each select=\"VisionCoreApplicationStatus/ApplicationReasons/ApplicationReason\">\n                    <RestRequiredDocuments>\n                        <DocumentTypeId>\n                            <xsl:value-of select=\"DocumentTypeId\" />\n                        </DocumentTypeId>\n                        <RejectionStatus>\n                            <xsl:value-of select=\"ReasonTypeId\" />\n                        </RejectionStatus>\n                    </RestRequiredDocuments>\n                </xsl:for-each>\n            </RequiredDocuments>\n        </RestStatus>\n    </xsl:template>\n</xsl:stylesheet>"
+}

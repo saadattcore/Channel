@@ -1,0 +1,906 @@
+{
+  "mappingMatrixId": "F4E726F07B734D9BA4D9410380D546D2",
+  "name": "StatusMapping",
+  "version": 38,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "UnifiedChannelStatus",
+      "sequence": 1,
+      "variableName": "unifiedChannelStatus",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "IqcsStatus",
+      "sequence": 2,
+      "variableName": "iqcsStatus",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "VisionStatus",
+      "sequence": 3,
+      "variableName": "visionStatus",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "UnifiedMappedStatus",
+      "sequence": 4,
+      "variableName": "unifiedMappedStatus",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "100",
+        "-1",
+        "-1",
+        "100"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "10",
+        "-1",
+        "-1",
+        "10"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "110",
+        "-1",
+        "-1",
+        "110"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "120",
+        "-1",
+        "-1",
+        "120"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "130",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "140",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "150",
+        "-1",
+        "-1",
+        "150"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "160",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "170",
+        "-1",
+        "-1",
+        "170"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "180",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "190",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "200",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "20",
+        "-1",
+        "-1",
+        "10"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "210",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "220",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "230",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "240",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "250",
+        "8",
+        "-1",
+        "120"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "260",
+        "42",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "270",
+        "39",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "280",
+        "41",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "290",
+        "9",
+        "-1",
+        "110"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "300",
+        "25",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "30",
+        "-1",
+        "-1",
+        "30"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "310",
+        "26",
+        "-1",
+        "170"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "320",
+        "37",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "330",
+        "38",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "340",
+        "-1",
+        "1",
+        "120"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "350",
+        "-1",
+        "2",
+        "100"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "360",
+        "-1",
+        "3",
+        "110"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "370",
+        "-1",
+        "4",
+        "540"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "380",
+        "-1",
+        "7",
+        "100"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "390",
+        "-1",
+        "8",
+        "100"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "400",
+        "-1",
+        "48",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "40",
+        "-1",
+        "-1",
+        "40"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "410",
+        "-1",
+        "6",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "420",
+        "-1",
+        "45",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "430",
+        "-1",
+        "46",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "440",
+        "-1",
+        "47",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "450",
+        "-1",
+        "49",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "460",
+        "-1",
+        "50",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "470",
+        "-1",
+        "51",
+        "470"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "480",
+        "-1",
+        "77",
+        "170"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "490",
+        "-1",
+        "79",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "500",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "50",
+        "-1",
+        "-1",
+        "50"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "510",
+        "-1",
+        "-1",
+        "510"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "520",
+        "4",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "530",
+        "-1",
+        "-1",
+        "530"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "60",
+        "-1",
+        "-1",
+        "60"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "70",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "80",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "90",
+        "-1",
+        "-1",
+        "240"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

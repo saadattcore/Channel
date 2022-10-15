@@ -1,0 +1,20 @@
+{
+  "lookupId": "618A92C0363D4790BEE27FD1CEC0778B",
+  "name": "vision_service",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select distinct visionservice_id as id from IQCS.BO_DOCS_SERVICE)",
+    "idName": "id",
+    "valueEnName": "id",
+    "valueArName": "id",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "iqcs"
+  }
+}

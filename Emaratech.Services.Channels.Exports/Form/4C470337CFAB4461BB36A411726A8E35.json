@@ -1,0 +1,305 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Passport number",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "PassportNo",
+            "required": true,
+            "placeholder": null,
+            "extensions": [
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "function (getValue, getControl) {\n         var val = getValue();\n         var valUpper = val.toUpperCase();\n         if (val === valUpper) return;\n         getControl().setValue(valUpper,{emitEvent: false});\n}"
+              }
+            ],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var fetchEntryPermitData = getFormControlValueSafe(['ApplicationDetails', 'FetchEntryPermitDataAction']); return !fetchEntryPermitData || fetchEntryPermitData === '0' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[a-zA-Z0-9]+$/",
+                "resourceKey": "AlertPassportNoCheck",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "EC86A4CB26D44A739DDDE7DF3523E307",
+          "name": "PassportNo",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Year of Birth",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "YearOfBirth",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var fetchEntryPermitData = getFormControlValueSafe(['ApplicationDetails', 'FetchEntryPermitDataAction']); return !fetchEntryPermitData || fetchEntryPermitData === '0' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000005",
+                "validationName": "numeric",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "NumericField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": "tel"
+          },
+          "fields": null,
+          "key": "AE6D4906B79A439280C7BCD3E918A52D",
+          "name": "YearOfBirth",
+          "description": null,
+          "version": 3
+        },
+        {
+          "displayName": "Required Editable Nationality",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+            "entity": "ApplicantDetails",
+            "resourceKey": "Nationality",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": true,
+            "conditionalEdit": true,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "090DA554D2E1428F9259B51A742A48D7",
+          "name": "CurrentNationalityId",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Passport read info button",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000013",
+            "lookupId": null,
+            "entity": null,
+            "resourceKey": "PassportReadInfoButton",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [
+              {
+                "typeId": "00000000000000000000000000000003",
+                "action": "function(location) {location.href='inapp://someAction'}"
+              }
+            ],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "D21EA6E9507F47A09D2A6EE8DAFD313E",
+          "name": "PassportReadInfoButton",
+          "description": null,
+          "version": 3
+        }
+      ],
+      "key": "BAD1FE7BD2E347DCBB3F0044A87E0E50",
+      "name": "Visa on Arrival Extension",
+      "description": null,
+      "version": 8
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Visa on Arrival Extension layout",
+      "version": 10,
+      "platformIds": [
+        "00000000000000000000000000000001",
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": false,
+            "Heading": "On Arrival Visa Extension",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "EC86A4CB26D44A739DDDE7DF3523E307",
+                "layout": null
+              },
+              {
+                "field": "AE6D4906B79A439280C7BCD3E918A52D",
+                "layout": null
+              },
+              {
+                "field": "090DA554D2E1428F9259B51A742A48D7",
+                "layout": null
+              },
+              {
+                "field": "D21EA6E9507F47A09D2A6EE8DAFD313E",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "4C470337CFAB4461BB36A411726A8E35",
+  "name": "Visa on Arrival Extension",
+  "description": null,
+  "version": 16
+}

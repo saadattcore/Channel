@@ -1,0 +1,11 @@
+{
+  "transformationId": "0D3B8E2123D1480AB0C245737B41C69A",
+  "sourceContractId": "B3F98F497C13422BB1FC75A970BAAF31",
+  "sourceContractVersion": 2,
+  "destinationContractId": "55376AA81F494B85A681F7094F1B13D1",
+  "destinationContractVersion": 3,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "UpdateApplicationStatus",
+  "version": 3,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n  <xsl:template match=\"/\">\n    <UpdateApplicationStatus xmlns=\"http://vision.emaratech.ae/\">\n      <applicationNo xmlns=\"\"><xsl:value-of select=\"UnifiedApplication/ApplicationDetails/ApplicationId\"/></applicationNo>\n      <statusUpdateDate xmlns=\"\"><xsl:value-of select=\"UnifiedApplication/ApplicationDetails/StatusDate\"/></statusUpdateDate>\n      <applicationStatus xmlns=\"\">\n      <id> \n        <xsl:choose>         \n          <xsl:when test=\"UnifiedApplication/ApplicationDetails/StatusId[.=140]\">\n            <xsl:text>33</xsl:text>\n          </xsl:when>\n          <xsl:when test=\"UnifiedApplication/ApplicationDetails/StatusId[.=510]\">\n            <xsl:text>24</xsl:text>\n          </xsl:when>\n          <xsl:when test=\"UnifiedApplication/ApplicationDetails/StatusId[.=530]\">\n            <xsl:text>35</xsl:text>\n          </xsl:when>\n        </xsl:choose>\n      </id>\n      </applicationStatus>\n    </UpdateApplicationStatus>\n  </xsl:template>\n</xsl:stylesheet>"
+}

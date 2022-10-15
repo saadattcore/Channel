@@ -1,0 +1,24 @@
+{
+  "jobId": "DC9BE05A063E43B1962DBF34AC8885D0",
+  "name": "Delete workflows instances",
+  "JobType": null,
+  "Version": 7,
+  "MaxLockSeconds": 300.0,
+  "IsEnabled": true,
+  "JobSchedules": [
+    {
+      "ScheduleTypeId": "00000000000000000000000000000003",
+      "StartDate": "2017-08-19T00:00:00",
+      "ScheduleFrequency": 1.0
+    }
+  ],
+  "JobParameters": [],
+  "JobSource": {
+    "JobId": "DC9BE05A063E43B1962DBF34AC8885D0",
+    "Class": null,
+    "Process": "DeleteOldWorkflows.bat",
+    "API": null,
+    "Content": "UEsDBBQAAAAIAExrCksFoHdrTwAAAFAAAAAWAAAARGVsZXRlT2xkV29ya2Zsb3dzLmJhdA3EMQ6AIAwF0KsQEkdIvINx1c3FDb7aWCmhGPT2+oY3S0PRA8weD4z7C3clSVmYwmsKLqlQ2hOicSMxjO1C7NYBjIqJ4yLl3Fia+qy9/QBQSwMEFAAAAAgAOXkPS3sDtHiqAQAA1QMAABYAAABEZWxldGVPbGRXb3JrZmxvd3MucHMxlVPBTttAED0TKf8wiiI5CByXC4dIlQqkat2qFYIAB8RhWU+wy2bH2p0ksmj+ndngBJtUqNxGM/PevJl92586mo0VI3yGb8hxCLudfiO7jYcnWTZWlR/ER/vSwrQL2+bqKEC+09wJ5lgw0nFPWSX13hNEl2hQ8xmZ+cz6aAS3kjt3VKLj6reaoaSiG3KPU0PLCT2ijQ4h+mq54CqUTsrSFFpxQXaMrArjI1jdSYt2KKOzyVpB6KzFSLknCjwqp3PRkNqFsMYX6PkXck4ZxFeugJy5HCWJIa1MTp6TxqBmfIluUWgc+oVO/nipqdeaT+opcc18LkQQn4blX04Qn5FltDypSoReA7rmCjqXzdW96P0yWJ9wSrKfzgf9BggKC/Viw7BPS2bIXtByH566nb02bXipBs2/sT+xulZmjv72091wHQlPOoVBm+uFf++t7gMZ0UpJ06rbWTU2TK1nZTX6VB4tfbCyILxFefgLcrKFmGNC8Q+5UdtMG5PKe9u5MWID3nl/Sb4zUjrfUxS887+O2bjWv0Y7bllue3aGJuiUx613xvJP5FN9wD3PUEsBAhQAFAAAAAgATGsKSwWgd2tPAAAAUAAAABYAAAAAAAAAAQAgAAAAAAAAAERlbGV0ZU9sZFdvcmtmbG93cy5iYXRQSwECFAAUAAAACAA5eQ9LewO0eKoBAADVAwAAFgAAAAAAAAABACAAAACDAAAARGVsZXRlT2xkV29ya2Zsb3dzLnBzMVBLBQYAAAAAAgACAIgAAABhAgAAAAA="
+  },
+  "Systems": []
+}

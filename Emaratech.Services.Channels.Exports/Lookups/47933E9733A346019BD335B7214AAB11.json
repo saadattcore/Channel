@@ -1,0 +1,20 @@
+{
+  "lookupId": "47933E9733A346019BD335B7214AAB11",
+  "name": "eAppTypeLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(SELECT APP_TYPE_ID AT_CD,\n          CASE WHEN APP_TYPE_ID > 20 THEN 'RES' ELSE 'VISA' END AT_GROUP,\n          APP_TYPE_EN AT_DESC_E,\n          APP_TYPE_AR AT_DESC_A\n     FROM APPLICATION_TYPE_LK\n     where is_archived=0\n     )",
+    "idName": "at_cd",
+    "valueEnName": "at_desc_e",
+    "valueArName": "at_desc_a",
+    "col1Name": "at_group",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

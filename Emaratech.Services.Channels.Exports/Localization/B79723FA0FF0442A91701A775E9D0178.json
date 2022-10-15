@@ -1,0 +1,138 @@
+{
+  "localSetId": "B79723FA0FF0442A91701A775E9D0178",
+  "version": 16,
+  "title": "SecurityQuestions",
+  "description": null,
+  "localItems": [
+    {
+      "title": "LastCountryEntryDate",
+      "values": [
+        {
+          "value": "تاريخ أخر حركة دخول للدولة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Last Country Entry Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MotherName",
+      "values": [
+        {
+          "value": "اسم الأم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Mother Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Nationality",
+      "values": [
+        {
+          "value": "الجنسية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Nationality",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NumberOfSponsoredResidents",
+      "values": [
+        {
+          "value": "عدد إقامات المكفولين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Number Of Sponsored Residents",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NumberOfSponsoredVisas",
+      "values": [
+        {
+          "value": "عدد تأشيرات المكفولين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Number Of Sponsored Visas",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportExpiryDate",
+      "values": [
+        {
+          "value": "تاريخ انتهاء صلاحيه جواز السفر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport Expiry Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportIssueCountry",
+      "values": [
+        {
+          "value": "بلد إصدار جواز السفر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport Issue Country",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportIssueDate",
+      "values": [
+        {
+          "value": "تاريخ إصدار جواز السفر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport Issue Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportNumber",
+      "values": [
+        {
+          "value": "رقم جواز السفر ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UnifiedNumber",
+      "values": [
+        {
+          "value": "الرقم الموحد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Unified Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

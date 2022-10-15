@@ -1,0 +1,20 @@
+{
+  "lookupId": "80714A73AA414530ABCAFD59FAB58A9E",
+  "name": "eAppSubType",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "app_sub_type",
+    "idName": "cd",
+    "valueEnName": "desc_e",
+    "valueArName": "desc_a",
+    "col1Name": "ap_cd",
+    "col2Name": "tp_cd",
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

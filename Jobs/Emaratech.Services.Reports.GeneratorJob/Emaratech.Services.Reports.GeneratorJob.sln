@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.Reports.GeneratorJob", "Emaratech.Services.Reports.GeneratorJob.csproj", "{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.Channels.Workflows", "..\..\Emaratech.Services.Channels.Workflows\Emaratech.Services.Channels.Workflows.csproj", "{8DEF8E3E-6A3F-45D6-B941-330490904D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.Channels.Contracts", "..\..\Emaratech.Services.Channels.Contracts\Emaratech.Services.Channels.Contracts.csproj", "{39570A2F-A279-4685-9A45-768F57C520A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.Channels.Reports.Models", "..\..\Emaratech.Services.Channels.Reports.Models\Emaratech.Services.Channels.Reports.Models.csproj", "{AC79216E-7D18-49B4-9396-E3B3E60C7356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.Channels", "..\..\Emaratech.Services.Channels\Emaratech.Services.Channels.csproj", "{37B24AAB-F099-473C-988F-083B272DADC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EmaratechDev|Any CPU = EmaratechDev|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.EmaratechDev|Any CPU.ActiveCfg = EmaratechDev|Any CPU
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.EmaratechDev|Any CPU.Build.0 = EmaratechDev|Any CPU
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.EmaratechDev|Any CPU.ActiveCfg = EmaratechDev|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.EmaratechDev|Any CPU.Build.0 = EmaratechDev|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEF8E3E-6A3F-45D6-B941-330490904D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.EmaratechDev|Any CPU.ActiveCfg = EmaratechDev|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.EmaratechDev|Any CPU.Build.0 = EmaratechDev|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39570A2F-A279-4685-9A45-768F57C520A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.EmaratechDev|Any CPU.ActiveCfg = EmaratechDev|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.EmaratechDev|Any CPU.Build.0 = EmaratechDev|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC79216E-7D18-49B4-9396-E3B3E60C7356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.EmaratechDev|Any CPU.ActiveCfg = EmaratechDev|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.EmaratechDev|Any CPU.Build.0 = EmaratechDev|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B24AAB-F099-473C-988F-083B272DADC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

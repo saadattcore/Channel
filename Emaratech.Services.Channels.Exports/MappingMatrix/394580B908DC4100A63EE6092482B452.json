@@ -1,0 +1,4387 @@
+{
+  "mappingMatrixId": "394580B908DC4100A63EE6092482B452",
+  "name": "FeeBeneficiaryConfig",
+  "version": 20,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "FeeType",
+      "sequence": 1,
+      "variableName": "FeeType",
+      "domainTypeId": "00000000000000000000000000000008",
+      "domainName": "FeeType",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "BeneficiaryCode",
+      "sequence": 2,
+      "variableName": "BeneficiaryCode",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "BeneficiaryAmount",
+      "sequence": 3,
+      "variableName": "BeneficiaryAmount",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "BeneficiaryAccount",
+      "sequence": 4,
+      "variableName": "BeneficiaryAccount",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "BeneficiaryDesc",
+      "sequence": 5,
+      "variableName": "BeneficiaryDesc",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 6,
+      "colName": "BeneficiaryCurrency",
+      "sequence": 6,
+      "variableName": "BeneficiaryCurrency",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 7,
+      "colName": "UserType",
+      "sequence": 7,
+      "variableName": "UserType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "7A2EAED0BF88408B80A85001F468CC19",
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [
+    {
+      "parameterName": "FeeAmount",
+      "sequence": 10,
+      "variableName": "FeeAmount"
+    }
+  ],
+  "items": [
+    {
+      "values": [
+        "05278984DA0F43FDB60E9185F99E3512",
+        "9910057700505",
+        "=FeeAmount",
+        "9910057700505",
+        "GCC MOI",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0C69B7C33DFB4496AC7064F5ABAA7B52",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "0D1CC47373D242CDA759D986519627D9",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "11AD56EC9A1648D48EDA04A2FDCB7337",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "1EC291CA95D54E0A9C03DF6FC02561BC",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "1EC291CA95D54E0A9C03DF6FC02561BC",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300502",
+        "2",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300502",
+        "2",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910052300503",
+        "NOOR",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052300503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910052300503",
+        "NOOR",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052400501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052400502",
+        "2",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910052400503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910052400503",
+        "NOOR",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057500501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057500502",
+        "2",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057500503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910057500503",
+        "NOOR",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057600501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057600502",
+        "2",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057600503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910057600503",
+        "NOOR",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057700501",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '26'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '59.4'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '129.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.7)\nBeneficiaryShare",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057700502",
+        "2",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2ACF86FF542F4A57A85D5ED17AF8CA30",
+        "9910057700503",
+        "=\nBeneficiaryShare = ''\nif FeeAmount:\n\tAmount = int(FeeAmount)\n\tif Amount == 40:\n\t\tBeneficiaryShare = '12'\n\telif Amount == 90:\n\t\tBeneficiaryShare = '28.6'\n\telif Amount == 185:\n\t\tBeneficiaryShare = '53.5'\n\telse:\n\t\tBeneficiaryShare = str((Amount - 2) * 0.3)\nBeneficiaryShare",
+        "9910057700503",
+        "NOOR",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "3388C7175ACA45CBBE7E599E47B40BD0",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "350C38DF8F554CCBB9DF0CBFE3CEAEE1",
+        "9910057700505",
+        "=FeeAmount",
+        "9910057700505",
+        "GCC MOI",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "4295818E3F7D4CD59504C30148CCD681",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "4295818E3F7D4CD59504C30148CCD681",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "47B85EB3345A42DDAB08ED1D6035C93E",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5479A8C899D6439CA821D05AC73F563E",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "68EA1E945E2341D3A64E1F5A60205A39",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910052400502",
+        "=FeeAmount",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910057500502",
+        "=FeeAmount",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910057600502",
+        "=FeeAmount",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "6B852685EC89494DA770ABFD8F3FD195",
+        "9910057700502",
+        "=FeeAmount",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7272C0C9AF954AB782EE0AE3ECC9A07A",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910052400502",
+        "=FeeAmount",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910057500502",
+        "=FeeAmount",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910057600502",
+        "=FeeAmount",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "7A40A458D5794E61B50A48B66E210AE4",
+        "9910057700502",
+        "=FeeAmount",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8BE0C6F2C8DD4470B81DE33DF3F86546",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910052400502",
+        "=FeeAmount",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910057500502",
+        "=FeeAmount",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910057600502",
+        "=FeeAmount",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "952D9F7764534DC1AC86BE1E6038790A",
+        "9910057700502",
+        "=FeeAmount",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9771D313C76B4E4CBB86EAB4847019B3",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9771D313C76B4E4CBB86EAB4847019B3",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9A85CD1D8ED046F9A0A64D37D7129680",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910052400502",
+        "=FeeAmount",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910057500502",
+        "=FeeAmount",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910057600502",
+        "=FeeAmount",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A79E48171B304173BABBF1D372FE0141",
+        "9910057700502",
+        "=FeeAmount",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AACF995E57E2413B9AEC2092AC602737",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AC01E65682D4418C8CE93D64CAC26BD5",
+        "9910057700505",
+        "=FeeAmount",
+        "9910057700505",
+        "GCC MOI",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910052300502",
+        "=FeeAmount",
+        "9910052300502",
+        "Emaratech",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910052400502",
+        "=FeeAmount",
+        "9910052400502",
+        "Emaratech",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910057500502",
+        "=FeeAmount",
+        "9910057500502",
+        "Emaratech",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910057600502",
+        "=FeeAmount",
+        "9910057600502",
+        "Emaratech",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "9910057700502",
+        "=FeeAmount",
+        "9910057700502",
+        "Emaratech",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D268D3F6AC324479A6AE404260B6A60D",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D2B1A14B5FC345B6B28D7F9657D48D70",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "D52DAF7DA04046F7BA8A4643A2AF0454",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910052300504",
+        "=FeeAmount",
+        "9910052300504",
+        "ZAJEL",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910052300504",
+        "=FeeAmount",
+        "9910052300504",
+        "ZAJEL",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910052400504",
+        "=FeeAmount",
+        "9910052400504",
+        "ZAJEL",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910057500504",
+        "=FeeAmount",
+        "9910057500504",
+        "ZAJEL",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910057600504",
+        "=FeeAmount",
+        "9910057600504",
+        "ZAJEL",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DA51494F7FA940A4AE6271888DD9A526",
+        "9910057700504",
+        "=FeeAmount",
+        "9910057700504",
+        "ZAJEL",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "DEC09EDD17B9427E842BC3A3E3CE2339",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E184046C0A5C406AA7F35306F43BA247",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC796B30EFBD413C9AAE9AEADBD8ADD1",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "20252777362A43918F1C9108342342AB"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910052300501",
+        "=FeeAmount",
+        "9910052300501",
+        "GDRFA",
+        "AED",
+        "230AAC5F9259481F95A92AAC60F5D705"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910052400501",
+        "=FeeAmount",
+        "9910052400501",
+        "GDRFA",
+        "AED",
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910057500501",
+        "=FeeAmount",
+        "9910057500501",
+        "GDRFA",
+        "AED",
+        "0E4898C5737542DE8045F3386480F147"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910057600501",
+        "=FeeAmount",
+        "9910057600501",
+        "GDRFA",
+        "AED",
+        "EC92A0F279A04EAD8746DB8B35BD1438"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FDA0CBEED89A40B6BB98A7CD62F7517C",
+        "9910057700501",
+        "=FeeAmount",
+        "9910057700501",
+        "GDRFA",
+        "AED",
+        "9B353C88E7D44F988B228B3B6119DE82"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

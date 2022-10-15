@@ -1,0 +1,10 @@
+{
+  "id": "E9285E3317914BDD8043BCA984D057BB",
+  "nameEn": "Unified Integration",
+  "nameAr": "Unified Integration",
+  "description": null,
+  "version": 1,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "UnifiedIntegration"
+}

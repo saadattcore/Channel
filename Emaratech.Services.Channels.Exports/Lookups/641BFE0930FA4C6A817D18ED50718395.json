@@ -1,0 +1,20 @@
+{
+  "lookupId": "641BFE0930FA4C6A817D18ED50718395",
+  "name": "eEmirateLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from emirate_lk where is_archived=0)",
+    "idName": "EMIRATE_ID",
+    "valueEnName": "EMIRATE_NAME_EN",
+    "valueArName": "EMIRATE_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

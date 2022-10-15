@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E7CB75C-3E5C-40F8-B555-7B66E24B5EAD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Emaratech.Services.Reports.GeneratorJob</RootNamespace>
+    <AssemblyName>Emaratech.Services.Reports.GeneratorJob</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EmaratechDev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EmaratechDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emaratech.Services.Api.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Api.Client.1.0.13\lib\net461\Emaratech.Services.Api.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Application, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Application.1.0.306\lib\net461\Emaratech.Services.Application.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Common.1.0.15\lib\net461\Emaratech.Services.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Common.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Common.Configuration.1.0.3\lib\net461\Emaratech.Services.Common.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Email, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Email.1.0.53\lib\net461\Emaratech.Services.Email.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Lookups, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Lookups.1.0.80\lib\net461\Emaratech.Services.Lookups.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Security.KeyVault, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Security.KeyVault.1.0.33\lib\net461\Emaratech.Services.Security.KeyVault.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Systems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Systems.1.0.80\lib\net461\Emaratech.Services.Systems.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Systems.Properties, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Systems.Properties.1.0.94\lib\net461\Emaratech.Services.Systems.Properties.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Template, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Template.1.0.30\lib\net461\Emaratech.Services.Template.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.Vision.1.0.282\lib\net461\Emaratech.Services.Vision.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Faults, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Services.WcfCommons.Faults.1.0.23\lib\net461\Emaratech.Services.WcfCommons.Faults.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Emaratech.Utilities.1.0.8\lib\net461\Emaratech.Utilities.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImpromptuInterface, Version=6.2.2.0, Culture=neutral, PublicKeyToken=0b1781c923b2975b, processorArchitecture=MSIL">
+      <HintPath>packages\ImpromptuInterface.6.2.2\lib\net40\ImpromptuInterface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.105.2.3\lib\net46\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SwaggerWcf, Version=0.1.17.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\SwaggerWcf.1.0.9\lib\net45\SwaggerWcf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Emaratech.Services.Channels.Contracts\Emaratech.Services.Channels.Contracts.csproj">
+      <Project>{39570A2F-A279-4685-9A45-768F57C520A4}</Project>
+      <Name>Emaratech.Services.Channels.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Emaratech.Services.Channels.Reports.Models\Emaratech.Services.Channels.Reports.Models.csproj">
+      <Project>{ac79216e-7d18-49b4-9396-e3b3e60c7356}</Project>
+      <Name>Emaratech.Services.Channels.Reports.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Emaratech.Services.Channels.Workflows\Emaratech.Services.Channels.Workflows.csproj">
+      <Project>{8def8e3e-6a3f-45d6-b941-330490904d45}</Project>
+      <Name>Emaratech.Services.Channels.Workflows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Emaratech.Services.Channels\Emaratech.Services.Channels.csproj">
+      <Project>{37b24aab-f099-473c-988f-083b272dadc6}</Project>
+      <Name>Emaratech.Services.Channels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

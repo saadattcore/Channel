@@ -1,0 +1,28 @@
+{
+  "lookupId": "9DF3C51B547E46FB8A1F0D2B875BDF54",
+  "name": "SponsorshipFileAction",
+  "version": 16,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "7BB86DCBEFC24C9CA5E329E8999B1650",
+      "valueEn": "Open new File",
+      "valueAr": "فتح ملف كفيل جديد",
+      "col1": "2",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D6D31CD1ADE2466598E34301454100F9",
+      "valueEn": "I have a File",
+      "valueAr": "لدي ملف كفيل",
+      "col1": "1",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

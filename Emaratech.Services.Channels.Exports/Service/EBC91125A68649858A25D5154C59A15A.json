@@ -1,0 +1,22 @@
+{  
+   "serviceId":"EBC91125A68649858A25D5154C59A15A",
+   "category":{  
+      "categoryId":"58F5CB451952496E809C997C5C574270",
+      "parentCategory":{  
+         "categoryId":"948CECE51468461B944EE09E7B609102",
+         "parentCategory":null,
+         "name":"EntryPermit",
+         "version":1,
+         "description":"Entry Permit Category",
+         "resourceKey":"Entry Permit"
+      },
+      "name":"EntryPermitNew",
+      "version":1,
+      "description":"Entry Permit New Category",
+      "resourceKey":"EntryPermitNew"
+   },
+   "name":"Long Term - Multiple Entry - Tourist",
+   "version":1,
+   "description":null,
+   "resourceKey":"Long Term - Multiple Entry - Tourist"
+}

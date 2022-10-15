@@ -1,0 +1,159 @@
+{
+  "mappingMatrixId": "783250A3AAB74BC593FDACEF3AD931CA",
+  "name": "FeeRefundMapping",
+  "version": 6,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "FeeType",
+      "sequence": 1,
+      "variableName": "FeeType",
+      "domainTypeId": "00000000000000000000000000000008",
+      "domainName": "FeeType",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "ApplicationRefund",
+      "sequence": 2,
+      "variableName": "ApplicationRefund",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "WarrantyRefund",
+      "sequence": 3,
+      "variableName": "WarrantyRefund",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "FixedFeeToDeduct",
+      "sequence": 4,
+      "variableName": "FixedFeeToDeduct",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "IsMandatoryForRefund",
+      "sequence": 5,
+      "variableName": "IsMandatoryForRefund",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "5C7C1042D7CD43F2BA4BB0B70D744A65",
+        "1",
+        "0",
+        null,
+        "1"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "67626657B2AE4EE29BB8635C1CF47208",
+        "1",
+        "1",
+        null,
+        "1"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A6EEDA7E448F48C6812AD4612F7AF72A",
+        "1",
+        "0",
+        null,
+        "0"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C4B5B4F1EB024BD8948A21508DED185A",
+        "1",
+        "0",
+        null,
+        "0"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E2AC625624CE4D429F78FF2BCE13F145",
+        "1",
+        "0",
+        null,
+        "0"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

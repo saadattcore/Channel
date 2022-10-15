@@ -1,0 +1,11 @@
+{
+  "transformationId": "D93DE295566B4173A7D2109BDCC4C6A7",
+  "sourceContractId": "B3F98F497C13422BB1FC75A970BAAF31",
+  "sourceContractVersion": 2,
+  "destinationContractId": "34B979FA5EE147EA8D38E18B0904BA08",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "DocumentsReceived",
+  "version": 2,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">            \n  <xsl:template match=\"/\">\n<ResendApplicationDocuments xmlns=\"http://vision.emaratech.ae/\">\n  <applicationNo xmlns=\"\"><xsl:value-of select=\"UnifiedApplication/ApplicationDetails/ApplicationId\"/></applicationNo>\n  <isFromVisionCore xmlns=\"\">false</isFromVisionCore>\n  <documents xmlns=\"\">\n    <xsl:for-each select=\"UnifiedApplication/DocumentDetails/DocumentDetail\">\n        <document>\n          <documentTypeId>\n          <xsl:value-of select=\"DocumentTypeId\"/>\n          </documentTypeId>         \n          <document>\n          <xsl:value-of select=\"Document\"/>\n          </document>\n        </document>\n        </xsl:for-each>\n  </documents>\n</ResendApplicationDocuments>\n  </xsl:template>\n</xsl:stylesheet>"
+}

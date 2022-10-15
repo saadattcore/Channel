@@ -1,0 +1,20 @@
+{
+  "lookupId": "DCAE521FB9D7474F97522821C09812F5",
+  "name": "eRelationship",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from relationship_lk where is_archived=0) \n",
+    "idName": "relationship_id",
+    "valueEnName": "relationship_name_en",
+    "valueArName": "relationship_name_ar",
+    "col1Name": "is_first_relative",
+    "col2Name": "is_second_relative",
+    "col3Name": "is_third_relative",
+    "col4Name": "is_fourth_relative",
+    "connectionString": "vision_intg"
+  }
+}

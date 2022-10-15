@@ -1,0 +1,55 @@
+{
+  "lookupId": "77D52C26547B403E8F3E5C4E358BC0FA",
+  "name": "SystemUserType",
+  "version": 12,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "8F4F141104884B68BD24C67359AFE354",
+      "valueEn": "Local",
+      "valueAr": "Local",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "926F688253CD4DB6B5F10102B847F9CA",
+      "valueEn": "Gcc",
+      "valueAr": "Gcc",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "A66231CF848C421E8F541C06E5FDC5D5",
+      "valueEn": "TypingCenter",
+      "valueAr": "TypingCenter",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C4B0576A69834B7C8A96993FAF0D70F5",
+      "valueEn": "Individual",
+      "valueAr": "Individual",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "DFF5789BDFBE455AA3C0E949E1E2AAA9",
+      "valueEn": "Establishment",
+      "valueAr": "Establishment",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

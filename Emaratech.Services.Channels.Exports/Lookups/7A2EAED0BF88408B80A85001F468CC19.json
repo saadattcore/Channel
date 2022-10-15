@@ -1,0 +1,82 @@
+{
+  "lookupId": "7A2EAED0BF88408B80A85001F468CC19",
+  "name": "eUserTypeLookup",
+  "version": 33,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "0E4898C5737542DE8045F3386480F147",
+      "valueEn": "Typing center",
+      "valueAr": "Typing center",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": "Typing center"
+    },
+    {
+      "id": "20252777362A43918F1C9108342342AB",
+      "valueEn": "Citizen",
+      "valueAr": "Citizen",
+      "col1": "1",
+      "col2": null,
+      "col3": null,
+      "col4": "Individual"
+    },
+    {
+      "id": "230AAC5F9259481F95A92AAC60F5D705",
+      "valueEn": "Resident",
+      "valueAr": "Resident",
+      "col1": "2",
+      "col2": null,
+      "col3": null,
+      "col4": "Individual"
+    },
+    {
+      "id": "3F23D2324C714FF6BEED4EC2503D12D3",
+      "valueEn": "SuperAdmin",
+      "valueAr": "SuperAdmin",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "64A20C7969634A0EBB740B8B83D19C1A",
+      "valueEn": "Anonymous",
+      "valueAr": "Anonymous",
+      "col1": "6",
+      "col2": null,
+      "col3": null,
+      "col4": "Individual"
+    },
+    {
+      "id": "93BECEED174543698C4E3F9A300C1878",
+      "valueEn": "Establishment",
+      "valueAr": "Establishment",
+      "col1": "3",
+      "col2": null,
+      "col3": null,
+      "col4": "Establishment"
+    },
+    {
+      "id": "9B353C88E7D44F988B228B3B6119DE82",
+      "valueEn": "GCC MOI",
+      "valueAr": "GCC MOI",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": "GCC MOI"
+    },
+    {
+      "id": "EC92A0F279A04EAD8746DB8B35BD1438",
+      "valueEn": "GCC",
+      "valueAr": "GCC",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": "GCC"
+    }
+  ],
+  "externalTableMapping": null
+}

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39570A2F-A279-4685-9A45-768F57C520A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Emaratech.Services.Channels.Contracts</RootNamespace>
+    <AssemblyName>Emaratech.Services.Channels.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EmaratechDev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EmaratechDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emaratech.Services.Api.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Api.Client.1.0.14\lib\net461\Emaratech.Services.Api.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.Vision.1.0.302\lib\net461\Emaratech.Services.Vision.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Cors, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Cors.1.0.10\lib\net461\Emaratech.Services.WcfCommons.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emaratech.Services.WcfCommons.Faults, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emaratech.Services.WcfCommons.Faults.1.0.23\lib\net461\Emaratech.Services.WcfCommons.Faults.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImpromptuInterface, Version=6.2.2.0, Culture=neutral, PublicKeyToken=0b1781c923b2975b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImpromptuInterface.6.2.2\lib\net40\ImpromptuInterface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Wcf, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Extensions.Wcf.3.2.2.0\lib\net45-full\Ninject.Extensions.Wcf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.3.2.0.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net46\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SwaggerWcf, Version=0.1.17.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SwaggerWcf.1.0.9\lib\net45\SwaggerWcf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization\IAuthorizationManager.cs" />
+    <Compile Include="Authorization\Models\Permission.cs" />
+    <Compile Include="DataAccess\IChannelDataAccessService.cs" />
+    <Compile Include="Errors\ChannelErrorCodes.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Rest\IApplicationService.cs" />
+    <Compile Include="Rest\IEstablishmentService.cs" />
+    <Compile Include="Rest\IHappinessMeterService.cs" />
+    <Compile Include="Rest\IPassportServicesApi.cs" />
+    <Compile Include="Rest\ILegalAdviceApi.cs" />
+    <Compile Include="Rest\IProfileService.cs" />
+    <Compile Include="Rest\IChannelService.cs" />
+    <Compile Include="Rest\IRenewPasswordService.cs" />
+    <Compile Include="Rest\IReportService.cs" />
+    <Compile Include="Rest\IUserService.cs" />
+    <Compile Include="Rest\IVisaInquiryService.cs" />
+    <Compile Include="Rest\Models\Application\RestApplicationActionsCriteria.cs" />
+    <Compile Include="Rest\Models\Application\RestButton.cs" />
+    <Compile Include="Rest\Models\Application\RestApplicationActions.cs" />
+    <Compile Include="Rest\Models\Application\RestSearchInfo.cs" />
+    <Compile Include="Rest\Models\Application\RestListData.cs" />
+    <Compile Include="Rest\Models\Application\RestSubmitActionRequest.cs" />
+    <Compile Include="Rest\Models\Application\RestRefundableApplication.cs" />
+    <Compile Include="Rest\Models\Application\RestRefundRequest.cs" />
+    <Compile Include="Rest\Models\Application\RestRefundResponse.cs" />
+    <Compile Include="Rest\Models\Application\RSAAuthenticationData.cs" />
+    <Compile Include="Rest\Models\Application\RSAAuthenticationRequest.cs" />
+    <Compile Include="Rest\Models\Application\RSAAuthenticationResponse.cs" />
+    <Compile Include="Rest\Models\Dashboard\Establishment\RestEstablishmentDashboard.cs" />
+    <Compile Include="Rest\Models\Dashboard\Establishment\RestEstablishmentSearchRequest.cs" />
+    <Compile Include="Rest\Models\Dashboard\Establishment\RestEstablishmentDependentsSummary.cs" />
+    <Compile Include="Rest\Models\Dashboard\Establishment\RestEstablishmentVisaInfo.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestDependentActionsList.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestIndividualDashboard.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestDependentVisaInfo.cs" />
+    <Compile Include="Rest\Models\Documents\RestDeleteDocumentRequest.cs" />
+    <Compile Include="Rest\Models\Enums\EnumExtensions.cs" />
+    <Compile Include="Rest\Models\Enums\ChannelEnums.cs" />
+    <Compile Include="Rest\Models\HappinessMeter\HappinessMeterRequest.cs" />
+    <Compile Include="Rest\Models\HappinessMeter\HappinessMeterResponse.cs" />
+    <Compile Include="Rest\Models\LegalAdvice\NationalityLookup.cs" />
+    <Compile Include="Rest\Models\LegalAdvice\ApplicantTypeLookup.cs" />
+    <Compile Include="Rest\Models\LegalAdvice\AdviceTypeLookup.cs" />
+    <Compile Include="Rest\Models\PassportServices\PassportServiceErrorModel.cs" />
+    <Compile Include="Rest\Models\QuestionCode.cs" />
+    <Compile Include="Rest\Models\QuestionTypeCode.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportsRequest.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportResponse.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportData.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportingRequest.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportingResponse.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportsAllowed.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestDependentApplicationInfo.cs" />
+    <Compile Include="Rest\Models\Application\RestApplicationStatus.cs" />
+    <Compile Include="Rest\Models\Application\RestApplicationStatusWrapper.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestDashboardSearchRequest.cs" />
+    <Compile Include="Rest\Models\Dashboard\Individual\RestDependentDashboardStatus.cs" />
+    <Compile Include="Rest\Models\Documents\RestDocumentsRequiredResponse.cs" />
+    <Compile Include="Rest\Models\Documents\RestDocumentsRequiredResponseWrapper.cs" />
+    <Compile Include="Rest\Models\RestApplicationStatusRequest.cs" />
+    <Compile Include="Rest\Models\RestBarCode.cs" />
+    <Compile Include="Rest\Models\RestEmiratesId.cs" />
+    <Compile Include="Rest\Models\RestKeyValue.cs" />
+    <Compile Include="Rest\Models\RestKeyValueList.cs" />
+    <Compile Include="Rest\Models\RestTravelInfo.cs" />
+    <Compile Include="Rest\Models\RestLookup.cs" />
+    <Compile Include="Rest\Models\RestOtpVerificationPasswordChangeRequest.cs" />
+    <Compile Include="Rest\Models\Application\RestPayApplication.cs" />
+    <Compile Include="Rest\Models\Application\RestPaymentResponse.cs" />
+    <Compile Include="Rest\Models\RestProfile.cs" />
+    <Compile Include="Rest\Models\RestProfileEmail.cs" />
+    <Compile Include="Rest\Models\RestProfileImage.cs" />
+    <Compile Include="Rest\Models\RestProfileSearch.cs" />
+    <Compile Include="Rest\Models\RestProfileSecurityAnswer.cs" />
+    <Compile Include="Rest\Models\RestProfileSecurityAnswers.cs" />
+    <Compile Include="Rest\Models\RestProfileSecurityQuestion.cs" />
+    <Compile Include="Rest\Models\RestProfileSecurityQuestions.cs" />
+    <Compile Include="Rest\Models\RestOtpVerificationRequest.cs" />
+    <Compile Include="Rest\Models\Reports\RestReportsHistory.cs" />
+    <Compile Include="Rest\Models\Documents\RestResubmitDocumentRequest.cs" />
+    <Compile Include="Rest\Models\RestSelectApplicantRequest.cs" />
+    <Compile Include="Rest\Models\RestApproveDisclaimerRequest.cs" />
+    <Compile Include="Rest\Models\RestUser.cs" />
+    <Compile Include="Rest\Models\Documents\RestDocumentInfo.cs" />
+    <Compile Include="Rest\Models\Application\RestFeeInfo.cs" />
+    <Compile Include="Rest\Models\RestName.cs" />
+    <Compile Include="Rest\Models\RestService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rest\Models\RestServiceInfoResponse.cs" />
+    <Compile Include="Rest\Models\RestServiceInfoRequest.cs" />
+    <Compile Include="Rest\Models\RestSubmitApplicationRequest.cs" />
+    <Compile Include="Rest\Models\Documents\RestSubmitDocumentRequest.cs" />
+    <Compile Include="Rest\Models\RestSubmitResponse.cs" />
+    <Compile Include="Rest\Models\Documents\RestUploadDocumentRequest.cs" />
+    <Compile Include="Rest\Models\Documents\RestUploadDocumentResponse.cs" />
+    <Compile Include="Rest\Models\RestUserDetailedProfile.cs" />
+    <Compile Include="Rest\Models\RestUsernameAndEmiratesId.cs" />
+    <Compile Include="Rest\Models\RestUserProfile.cs" />
+    <Compile Include="Rest\Models\VisaInquiry\RestVisaInquiryCriteria.cs" />
+    <Compile Include="Rest\Models\VisaInquiry\RestVisaInquiryResult.cs" />
+    <Compile Include="Rest\Models\VerificationInitRequest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

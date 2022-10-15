@@ -1,0 +1,20 @@
+{
+  "lookupId": "612C468EEBAC43F49C203B041C914D6C",
+  "name": "eFeeType",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "fee_type",
+    "idName": "cd",
+    "valueEnName": "fee_desc_e",
+    "valueArName": "fee_desc_a",
+    "col1Name": "urg_flag",
+    "col2Name": "fee_type",
+    "col3Name": "split_flag",
+    "col4Name": null,
+    "connectionString": "inimm_db"
+  }
+}

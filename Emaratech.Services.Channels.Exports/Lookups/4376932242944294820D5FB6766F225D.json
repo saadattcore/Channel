@@ -1,0 +1,28 @@
+{
+  "lookupId": "4376932242944294820D5FB6766F225D",
+  "name": "eServiceType",
+  "version": 12,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "912F02C2FF054831A8721C17D6DA60E4",
+      "valueEn": "Entry Permit",
+      "valueAr": "إذن دخول",
+      "col1": "P",
+      "col2": "7",
+      "col3": "1",
+      "col4": null
+    },
+    {
+      "id": "F474BF90B71A42F79893FDFEF2F42DE7",
+      "valueEn": "Residence",
+      "valueAr": "الإقامة",
+      "col1": "R",
+      "col2": "2",
+      "col3": "2",
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

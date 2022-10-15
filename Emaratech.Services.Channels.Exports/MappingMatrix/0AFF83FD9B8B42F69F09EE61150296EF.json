@@ -1,0 +1,24 @@
+{
+  "mappingMatrixId": "0AFF83FD9B8B42F69F09EE61150296EF",
+  "name": "MappingMatrixStrategy",
+  "version": 3,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": []
+}

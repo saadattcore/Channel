@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Emaratech.Services.Channels.ChannelServiceV2" CodeBehind="ChannelServiceV2.svc.cs" %>

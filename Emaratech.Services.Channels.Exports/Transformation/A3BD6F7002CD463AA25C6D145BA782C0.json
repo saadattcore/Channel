@@ -1,0 +1,11 @@
+{
+  "transformationId": "A3BD6F7002CD463AA25C6D145BA782C0",
+  "sourceContractId": "AB2F00EF03244BE88C7BE4BBFCD1002F",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "RejectApplication",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"reject/applicationNo\"/></BusinessKey><StatusId>210</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

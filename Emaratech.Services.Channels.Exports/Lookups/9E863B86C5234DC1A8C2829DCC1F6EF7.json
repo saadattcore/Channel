@@ -1,0 +1,20 @@
+{
+  "lookupId": "9E863B86C5234DC1A8C2829DCC1F6EF7",
+  "name": "eCountryLookup",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from COUNTRY_LK where is_archived=0)",
+    "idName": "COUNTRY_ID",
+    "valueEnName": "COUNTRY_NAME_EN",
+    "valueArName": "COUNTRY_NAME_AR",
+    "col1Name": "Country_Code",
+    "col2Name": "Country_Iso",
+    "col3Name": "Region_ID",
+    "col4Name": "Is_Entry_Allowed",
+    "connectionString": "vision_intg"
+  }
+}

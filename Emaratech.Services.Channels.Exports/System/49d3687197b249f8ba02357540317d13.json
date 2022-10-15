@@ -1,0 +1,10 @@
+{
+  "id": "49d3687197b249f8ba02357540317d13",
+  "nameEn": "Form Service",
+  "nameAr": "Forms Service",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "FormsApi"
+}

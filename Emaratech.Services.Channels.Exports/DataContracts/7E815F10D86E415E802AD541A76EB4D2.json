@@ -1,0 +1,10 @@
+{
+  "dataContractId": "7E815F10D86E415E802AD541A76EB4D2",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "NewResidence",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Contracts\\NewResidence.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

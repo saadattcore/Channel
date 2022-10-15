@@ -1,0 +1,2604 @@
+{
+  "localSetId": "7A2DA0968D21428B9141ABF8E7FA7EA1",
+  "version": 255,
+  "title": "StaticStrings",
+  "description": null,
+  "localItems": [
+    {
+      "title": "(Optional)",
+      "values": [
+        {
+          "value": "(اختياري)",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "(Optional)",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "About Us",
+      "values": [
+        {
+          "value": "من نحن",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "About Us",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Policy",
+      "values": [
+        {
+          "value": "إمكانية الوصول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Accessibility Policy",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Add document",
+      "values": [
+        {
+          "value": "إضافة مرفق",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Add document",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Address Inside UAE",
+      "values": [
+        {
+          "value": "العنوان داخل دولة الإمارات العربية المتحدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Address Inside UAE",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Search",
+      "values": [
+        {
+          "value": "بحث متقدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Advanced Search",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Applicant Name",
+      "values": [
+        {
+          "value": "اسم المكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Applicant Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Application ID",
+      "values": [
+        {
+          "value": "رقم الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Application ID",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Application Info",
+      "values": [
+        {
+          "value": "بيانات الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Application Info",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Application Management",
+      "values": [
+        {
+          "value": "إدارة الطلبات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Application Management",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Apply For New Report",
+      "values": [
+        {
+          "value": "Apply For New Report",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Apply for refund for this application",
+      "values": [
+        {
+          "value": "التقدم بطلب استرداد لهذا الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Apply for refund for this application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Arabic",
+      "values": [
+        {
+          "value": "عربي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "عربي",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Are you sure you want to delete this application?",
+      "values": [
+        {
+          "value": "هل أنت متأكد من حذف هذا الطلب؟",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Are you sure you want to delete this application?",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Bank Name",
+      "values": [
+        {
+          "value": "اسم البنك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Bank Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Beneficiary Name",
+      "values": [
+        {
+          "value": "اسم المستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Beneficiary Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Cancel",
+      "values": [
+        {
+          "value": "إلغاء",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Cancel",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Careers",
+      "values": [
+        {
+          "value": "العمل معنا",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Careers",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Category",
+      "values": [
+        {
+          "value": "الفئة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Category",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "charachters long",
+      "values": [
+        {
+          "value": "حروف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "charachters long",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "characters long",
+      "values": [
+        {
+          "value": "حرف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "characters long",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Choose a Topic",
+      "values": [
+        {
+          "value": "موضوع الرسالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Choose a Topic",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Choose Area",
+      "values": [
+        {
+          "value": "اختر المنطقة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Choose Area",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Choose Font",
+      "values": [
+        {
+          "value": "اختر حجم الخط",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Choose Font",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Choose Theme",
+      "values": [
+        {
+          "value": "اختر اللون",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Choose Theme",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Clear",
+      "values": [
+        {
+          "value": "مسح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Clear",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Confirm Password",
+      "values": [
+        {
+          "value": "تأكيد كلمة المرور",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Confirm Password",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Congratulations!",
+      "values": [
+        {
+          "value": "تهانينا!",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Congratulations!",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Congratulations! You have completed your payment",
+      "values": [
+        {
+          "value": "تهانينا! لقد أكملت عملية الدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Congratulations! You have completed your payment",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "values": [
+        {
+          "value": "اتصل بنا",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Contact Us",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Copyright",
+      "values": [
+        {
+          "value": "حقوق الملكية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Copyright",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Copyright © 2017 General Directorate of Residency and Foreigners Affairs - Dubai",
+      "values": [
+        {
+          "value": "حقوق الملكية 2017 الإدارة العامة للإقامة وشؤون الأجانب - دبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Copyright 2017 General Directorate of Residency and Foreigners Affairs - Dubai",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Create Application",
+      "values": [
+        {
+          "value": "طلب جديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Create Application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Customer Happiness Charter",
+      "values": [
+        {
+          "value": "ميثاق إسعاد المتعاملين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Customer Happiness Charter",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Customer Service Hotline",
+      "values": [
+        {
+          "value": "الخط الساخن لخدمة العملاء",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Customer Service Hotline",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Date Created",
+      "values": [
+        {
+          "value": "تاريخ إنشاء الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Date Created",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Date of birth",
+      "values": [
+        {
+          "value": "تاريخ الميلاد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Date of birth",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Date Requested",
+      "values": [
+        {
+          "value": "تاريخ الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Date Requested",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Deleting the application will remove it permanently",
+      "values": [
+        {
+          "value": "سيؤدي حذف الطلب إلى إزالته نهائيا",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Deleting the application will remove it permanently",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Description",
+      "values": [
+        {
+          "value": "التفاصيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Description",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Disclaimer",
+      "values": [
+        {
+          "value": "إخلاء المسؤولية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Disclaimer",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Do not have an account?",
+      "values": [
+        {
+          "value": "ليس لديك حساب؟",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Do not have an account?",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Documents Requirement",
+      "values": [
+        {
+          "value": "المرفقات المطلوبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Documents Requirement",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Documents Uploading",
+      "values": [
+        {
+          "value": "تحميل المرفقات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Documents Uploading",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DocumentsAletrMessage",
+      "values": [
+        {
+          "value": "يرجى ملاحظة أنه إذا كان المرفق غير واضح، فإنه قد يرفض الطلب وسيكون عليك إعادة تقديم الطلب ودفع ثمنه مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please note that if the attachment is unclear, the application may be rejected and you will have to resubmit the application and pay for the application again",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DPI",
+      "values": [
+        {
+          "value": "DPI",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "DPI",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Email Address",
+      "values": [
+        {
+          "value": "البريد الإلكتروني",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Email Address",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Email This Report",
+      "values": [
+        {
+          "value": "إرسال هذا التقرير عبر البريد الإلكتروني",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Email This Report",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Emirates ID",
+      "values": [
+        {
+          "value": "الهوية الإماراتية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Emirates ID",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "English",
+      "values": [
+        {
+          "value": "الإنجليزية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "English",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Enter Email of Report Recipient",
+      "values": [
+        {
+          "value": "أدخل البريد الإلكتروني لمستلم التقرير",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Enter Email of Report Recipient",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Enter the name as stated in the beneficiary’s passport",
+      "values": [
+        {
+          "value": "أدخل الاسم كما هو مذكور في جواز سفر المستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Enter the name as stated in the beneficiary’s passport",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Entry Date",
+      "values": [
+        {
+          "value": "تاريخ الدخول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Entry Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Entry Permit Residency",
+      "values": [
+        {
+          "value": "تصريح دخول الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Entry Permit Residency",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Error",
+      "values": [
+        {
+          "value": "خطأ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Error",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Error Occured",
+      "values": [
+        {
+          "value": "حدث خطأ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Error Occured",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "eVisa Inquiry Result",
+      "values": [
+        {
+          "value": "نتيجة الاستعلام عن تأشيرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "eVisa Inquiry Result",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Expiry Date",
+      "values": [
+        {
+          "value": "تاريخ انتهاء الصلاحية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Expiry Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "expiry date + grace period",
+      "values": [
+        {
+          "value": "تاريخ انتهاء الصلاحية + فترة السماح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "expiry date + grace period",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "FAQs",
+      "values": [
+        {
+          "value": "أسئلة وأجوبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "FAQs",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Fees",
+      "values": [
+        {
+          "value": "الرسوم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Fees & Payment",
+      "values": [
+        {
+          "value": "الرسوم والدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Fees & Payment",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "File Type",
+      "values": [
+        {
+          "value": "نوع الملف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "File Type",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Font Size",
+      "values": [
+        {
+          "value": "حجم الخط",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Font Size",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "From Date",
+      "values": [
+        {
+          "value": "من تاريخ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "From Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Full Name",
+      "values": [
+        {
+          "value": "الاسم الكامل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Full Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "General Inquiry",
+      "values": [
+        {
+          "value": "استعلام عام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "General Inquiry",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Go back to Dashboard",
+      "values": [
+        {
+          "value": "العودة إلى قائمة العرض",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Go back to Dashboard",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Go Back To Refundable Applications",
+      "values": [
+        {
+          "value": "الرجوع إلى طلبات الاسترداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Go Back To Refundable Applications",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Go to Dashboard",
+      "values": [
+        {
+          "value": "الذهاب الى قائمة العرض",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Go to Dashboard",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Go to Sign In",
+      "values": [
+        {
+          "value": "انتقل إلى تسجيل الدخول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Go to Sign In",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Have an account?",
+      "values": [
+        {
+          "value": "هل لديك حساب؟",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Have an account?",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Height",
+      "values": [
+        {
+          "value": "الطول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Height",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "How to enter your visa number",
+      "values": [
+        {
+          "value": "كيفية إدخال رقم التأشيرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "How to enter your visa number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "I accept",
+      "values": [
+        {
+          "value": "أوافق على",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "I accept",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IBAN",
+      "values": [
+        {
+          "value": "رقم الحساب المصرفي الدولي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "IBAN",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading Categories",
+      "values": [
+        {
+          "value": "تحميل الفئات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading Categories",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading documents",
+      "values": [
+        {
+          "value": "تحميل المرفقات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading documents",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading fees",
+      "values": [
+        {
+          "value": "تحميل الرسوم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading form, please wait",
+      "values": [
+        {
+          "value": "تحميل نموذج الطلب، يرجى الانتظار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading form, please wait",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading languages",
+      "values": [
+        {
+          "value": "تحميل اللغات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading languages",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading questions",
+      "values": [
+        {
+          "value": "جاري تحميل الأسئلة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading questions",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading Services",
+      "values": [
+        {
+          "value": "تحميل الخدمات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading Services",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Loading Sub Categories",
+      "values": [
+        {
+          "value": "تحميل الفئات الفرعية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Loading Sub Categories",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Login To Your Account",
+      "values": [
+        {
+          "value": "تسجيل الدخول للحساب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Login To Your Account",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Logout",
+      "values": [
+        {
+          "value": "تسجيل الخروج",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Logout",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Max Size",
+      "values": [
+        {
+          "value": "اقصى حجم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Max Size",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Name",
+      "values": [
+        {
+          "value": "الاسم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Name",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Nationality",
+      "values": [
+        {
+          "value": "الجنسية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Nationality",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Next",
+      "values": [
+        {
+          "value": "التالي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Next",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "No documents required",
+      "values": [
+        {
+          "value": "لا توجد مرفقات مطلوبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No documents required",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "No fees applicable",
+      "values": [
+        {
+          "value": "لا يوجد رسوم مطبقة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No fees applicable",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "No questions required",
+      "values": [
+        {
+          "value": "لا توجد أسئلة مطلوبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No questions required",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Not Uploaded",
+      "values": [
+        {
+          "value": "لم يتم التحميل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Not Uploaded",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Note",
+      "values": [
+        {
+          "value": "ملحوظة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Note",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Oops! Couldn’t find a user",
+      "values": [
+        {
+          "value": "للأسف, لم نتمكن من العثور على المستخدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Oops! Couldn’t find a user",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Or",
+      "values": [
+        {
+          "value": "أو",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Or",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Page",
+      "values": [
+        {
+          "value": "صفحة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Pages",
+      "values": [
+        {
+          "value": "صفحات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pages",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Password",
+      "values": [
+        {
+          "value": "كلمة المرور",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Password",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Password should be at least",
+      "values": [
+        {
+          "value": "كلمة المرور يجب أن تتكون على الأقل من",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Password should be at least",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Password should be less then",
+      "values": [
+        {
+          "value": "كلمة المرور يجب أن تكون أقل من",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Password should be less then",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Password should contain at least one upper-case letter one special character and one number",
+      "values": [
+        {
+          "value": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل, وحرف واحد خاص, ورقم واحد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Password should contain at least one upper-case letter one special character and one number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Pay Fees",
+      "values": [
+        {
+          "value": "دفع الرسوم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pay Fees",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Payment Amount",
+      "values": [
+        {
+          "value": "مبلغ الدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Payment Amount",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Payment Failed",
+      "values": [
+        {
+          "value": "فشل عملية الدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Payment Failed",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Payment Method",
+      "values": [
+        {
+          "value": "طريقة الدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Payment Method",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Payment Successful",
+      "values": [
+        {
+          "value": "تم الدفع بنجاح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Payment Successful",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Pleae wait",
+      "values": [
+        {
+          "value": "يرجى الانتظار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Pleae wait",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please answer following security questions",
+      "values": [
+        {
+          "value": "يرجى الإجابة على الأسئلة التحققية التالية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please answer following security questions",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please enter the verification code from the received SMS",
+      "values": [
+        {
+          "value": "الرجاء إدخال رمز التحقق من الرسائل القصيرة التي تلقيتها",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please enter the verification code from the received SMS",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please fill the form below to finish registration",
+      "values": [
+        {
+          "value": "يرجى ملء النموذج أدناه لإنهاء التسجيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please fill the form below to finish registration",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please make sure you are allowed to submit the type of selected application as it might be rejected and the payment will not be refunded",
+      "values": [
+        {
+          "value": "يرجى التأكد من أنه مسموح لكم تقديم نوع الطلب المحدد لأنه قد يتم رفضه ولن يتم رد المبلغ المدفوع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please make sure you are allowed to submit the type of selected application as it might be rejected and the payment will not be refunded",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please proceed with the payment below",
+      "values": [
+        {
+          "value": "يرجي إتمام الدفع كما يلي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please proceed with the payment below",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please select a service above",
+      "values": [
+        {
+          "value": "يرجى تحديد الخدمة أعلاه",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please select a service above",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please type valid Email address",
+      "values": [
+        {
+          "value": "يرجى كتابة عنوان بريد إلكتروني صالح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please type valid Email address",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please use the form below to create a new user",
+      "values": [
+        {
+          "value": "الرجاء استخدام النموذج أدناه لإنشاء مستخدم جديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please use the form below to create a new user",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please wait",
+      "values": [
+        {
+          "value": "يرجى الإنتظار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please wait",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PO Box",
+      "values": [
+        {
+          "value": "رقم صندوق البريد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PO Box Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PO Box Number",
+      "values": [
+        {
+          "value": "رقم صندوق البريد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "PO Box Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Print",
+      "values": [
+        {
+          "value": "طباعه",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Print",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Print Page",
+      "values": [
+        {
+          "value": "طباعة الصفحة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Print Page",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Privacy Policy",
+      "values": [
+        {
+          "value": "سياسة الخصوصية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Privacy Policy",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Proceed to Payment",
+      "values": [
+        {
+          "value": "الانتقال للدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Proceed to Payment",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Processing",
+      "values": [
+        {
+          "value": "معالجة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Processing",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refund Application",
+      "values": [
+        {
+          "value": "طلب استرداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refund Application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refund Result",
+      "values": [
+        {
+          "value": "نتيجة الاسترداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refund Result",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refundable",
+      "values": [
+        {
+          "value": "قابل للإسترداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refundable",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refundable Amount",
+      "values": [
+        {
+          "value": "المبلغ المسترد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refundable Amount",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refundable Applications",
+      "values": [
+        {
+          "value": "طلبات قابلة للاسترداد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Refundable Applications",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Remove",
+      "values": [
+        {
+          "value": "حذف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Remove",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Removing",
+      "values": [
+        {
+          "value": "حذف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Removing",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Report Number",
+      "values": [
+        {
+          "value": "رقم التقرير",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Report Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Request ID",
+      "values": [
+        {
+          "value": "رقم المرجع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Request ID",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "values": [
+        {
+          "value": "نتائج البحث",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Results",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Retry",
+      "values": [
+        {
+          "value": "حاول مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Retry",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Reupload",
+      "values": [
+        {
+          "value": "إعادة تحميل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Reupload",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Save",
+      "values": [
+        {
+          "value": "حفظ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Save",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Save and Proceed",
+      "values": [
+        {
+          "value": "حفظ و استكمال",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Save and Proceed",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Saving",
+      "values": [
+        {
+          "value": "حفظ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Saving",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "values": [
+        {
+          "value": "ابحث",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Search",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Search By",
+      "values": [
+        {
+          "value": "ابحث بواسطة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Search By",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Search for a service",
+      "values": [
+        {
+          "value": "البحث عن الخدمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Search for a service",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Search Result",
+      "values": [
+        {
+          "value": "نتيجة البحث",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Search Result",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Searching",
+      "values": [
+        {
+          "value": "جاري البحث",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Searching",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select",
+      "values": [
+        {
+          "value": "اختر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select Category",
+      "values": [
+        {
+          "value": "اختر الفئة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select Category",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select language",
+      "values": [
+        {
+          "value": "اختار اللغة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select language",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select Nationality",
+      "values": [
+        {
+          "value": "اختر الجنسية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select Nationality",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select Phone",
+      "values": [
+        {
+          "value": "اختر رقم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select Phone",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select Services",
+      "values": [
+        {
+          "value": "اختر الخدمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select Services",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select Sub Category",
+      "values": [
+        {
+          "value": "حدد الفئه الفرعيه",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select Sub Category",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Select type",
+      "values": [
+        {
+          "value": "اختر النوع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Select type",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Send a Message",
+      "values": [
+        {
+          "value": "أرسل رسالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Send a Message",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Service Category",
+      "values": [
+        {
+          "value": "فئة الخدمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service Category",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Service Search",
+      "values": [
+        {
+          "value": "البحث عن الخدمة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Search for a service",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Sign In",
+      "values": [
+        {
+          "value": "تسجيل الدخول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sign In",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Simple Search",
+      "values": [
+        {
+          "value": "بحث سريع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Simple Search",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Site Map",
+      "values": [
+        {
+          "value": "خريطة الموقع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Site Map",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Sitemap",
+      "values": [
+        {
+          "value": "خريطة الموقع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sitemap",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Size",
+      "values": [
+        {
+          "value": "حجم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Size",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Some fees are non-refundable and extra charges may apply",
+      "values": [
+        {
+          "value": "بعض الرسوم غير قابلة للاسترداد وقد يتم تطبيق رسوم إضافية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Some fees are non-refundable and extra charges may apply",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Sponsor and Sponsored",
+      "values": [
+        {
+          "value": "كفيل و مكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor and Sponsored",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Status",
+      "values": [
+        {
+          "value": "الحالة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Status",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Sub Category",
+      "values": [
+        {
+          "value": "الفئة الفرعية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sub Category",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Terms & Conditions",
+      "values": [
+        {
+          "value": "الشروط والأحكام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Terms & Conditions",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Terms and Conditions",
+      "values": [
+        {
+          "value": "الشروط والأحكام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Terms and Conditions",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Terms of Use",
+      "values": [
+        {
+          "value": "شروط الاستخدام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Terms of Use",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Theme",
+      "values": [
+        {
+          "value": "اللون",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Theme",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "To Date",
+      "values": [
+        {
+          "value": "إلى تاريخ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "To Date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Total",
+      "values": [
+        {
+          "value": "المجموع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Total",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Transaction ID",
+      "values": [
+        {
+          "value": "رقم العملية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Transaction ID",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Transaction Number",
+      "values": [
+        {
+          "value": "رقم المعاملة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Transaction Number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Travel Status Certificate",
+      "values": [
+        {
+          "value": "شهادة حالة السفر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Travel Status Certificate",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Travel Status Type",
+      "values": [
+        {
+          "value": "نوع حالة السفر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Travel Status Type",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Type",
+      "values": [
+        {
+          "value": "النوع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Type",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Type the service name you need",
+      "values": [
+        {
+          "value": "اكتب اسم الخدمة المطلوبة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Type the service name you need",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Unfortunately there were an error during your payment",
+      "values": [
+        {
+          "value": "للأسف, حدث خطأ أثناء عملية الدفع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Unfortunately there were an error during your payment",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Uploading",
+      "values": [
+        {
+          "value": "تحميل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Uploading",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Use DubaiID for login?",
+      "values": [
+        {
+          "value": "تسجيل الدخول بواسطة دبي آي دي؟",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Use DubaiID for login?",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Use this transaction number for future inquiry regarding your application",
+      "values": [
+        {
+          "value": "استخدم رقم المعاملة هذا للاستفسار عن طلبك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Use this transaction number for future inquiry regarding your application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "User Management",
+      "values": [
+        {
+          "value": "إدارة المستخدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User Management",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "User Manual",
+      "values": [
+        {
+          "value": "دليل الاستخدام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User Manual",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Username",
+      "values": [
+        {
+          "value": "اسم المستخدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Username",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Username is not available - please choose another one",
+      "values": [
+        {
+          "value": "اسم المستخدم غير متوفر - الرجاء اختيار اسم آخر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Username is not available - please choose another one",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Username should be at least",
+      "values": [
+        {
+          "value": "اسم المستخدم يجب أن يكون على الأقل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Username should be at least",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Username should be less then",
+      "values": [
+        {
+          "value": "اسم المستخدم يجب أن يكون أقل من",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Username should be less then",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Validity Before Entry",
+      "values": [
+        {
+          "value": "الصلاحية قبل الدخول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Validity Before Entry",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Validity date",
+      "values": [
+        {
+          "value": "تاريخ الصلاحية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Validity date",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Verification code",
+      "values": [
+        {
+          "value": "رمز التحقق",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Verification code",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "We don’t have your mobile number in our System. Please enter your mobile number to continue.",
+      "values": [
+        {
+          "value": "ليس لدينا رقم هاتفك الجوال في النظام. يرجى إدخال رقم هاتفك الجوال للاستمرار.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "We don’t have your mobile number in our System. Please enter your mobile number to continue.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "We don’t have your mobile number. Please enter your mobile number to continue",
+      "values": [
+        {
+          "value": "ليس لدينا رقم هاتفك المتحرك. يرجى إدخال الرقم للمتابعة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "We don’t have your mobile number. Please enter your mobile number to continue",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "We found following number(s) against this Emirates ID. Please select to continue",
+      "values": [
+        {
+          "value": "وجدنا الرقم التالي لهذه الهوية الإماراتية. الرجاء التحديد للمتابعة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "We found following number(s) against this Emirates ID. Please select to continue",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Width",
+      "values": [
+        {
+          "value": "العرض",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Width",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Yes, delete this application",
+      "values": [
+        {
+          "value": "نعم، احذف هذا الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Yes, delete this application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "You did not find the service you need? Use the guided search below",
+      "values": [
+        {
+          "value": "لم تتمكن من العثور على الخدمة المطلوبة؟ استخدم البحث الموجه أدناه",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You did not find the service you need? Use the guided search below",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "You just created an account!",
+      "values": [
+        {
+          "value": "لقد أنشأت الحساب!",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You just created an account!",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Your application will be processed and you will be notified of any updates through the contact information you have provided",
+      "values": [
+        {
+          "value": "ستتم معالجة طلبك وسيتم إعلامك بأي تحديثات من خلال معلومات الاتصال التي قمت بتسجيلها",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your application will be processed and you will be notified of any updates through the contact information you have provided",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Your Phone",
+      "values": [
+        {
+          "value": "رقمك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Phone",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Your refund application was successfully submitted",
+      "values": [
+        {
+          "value": "طلب الاسترداد تم تقديمه بنجاح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your refund application was successfully submitted",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "transformationId": "764972682AB8404F908859A7EB1D5B5D",
+  "sourceContractId": "F3BF9969ED18435C9D3A542C5CBAAF12",
+  "sourceContractVersion": 1,
+  "destinationContractId": "1C1998860C864A0FA5B938D574BF85DE",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "ResendIqcsApplication",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">           \n<xsl:template match=\"/\">  \n<UnifiedApplicationStatus CorrelationId=\"CorrelationId1\">\n  <ApplicationId><xsl:value-of select=\"ResendApplicationStatus/ApplicationNumber\"/></ApplicationId>  \n  <StatusId><xsl:value-of select=\"ResendApplicationStatus/IQCSApplicationStatusId\"/></StatusId>  \n  <Comments><xsl:value-of select=\"ResendApplicationStatus/Remarks\"/></Comments>\n    <FileType><xsl:value-of select=\"ResendApplicationStatus/FileType\"/></FileType>\n    <VisaNumber><xsl:value-of select=\"ResendApplicationStatus/VisaNumber\"/></VisaNumber>\n  <RequiredDocuments>\n  <xsl:for-each select=\"ResendApplicationStatus/ApplicationReasons/ApplicationReason\">\n    <RequiredDocument>\n    <DocumentTypeId><xsl:value-of select=\"DocumentTypeId\"/></DocumentTypeId>\n    <RejectionStatus><xsl:value-of select=\"ReasonTypeId\"/></RejectionStatus>\n    </RequiredDocument>\n  </xsl:for-each>\n  </RequiredDocuments>\n</UnifiedApplicationStatus>\n</xsl:template>\n</xsl:stylesheet>"
+}

@@ -1,0 +1,10 @@
+{
+  "dataContractId": "CB43B11ED1CE4214B1EF585CFFD320A5",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "RenewResidence",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Contracts\\RenewResidence.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

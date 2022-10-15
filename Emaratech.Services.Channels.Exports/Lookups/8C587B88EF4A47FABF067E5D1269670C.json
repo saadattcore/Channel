@@ -1,0 +1,37 @@
+{
+  "lookupId": "8C587B88EF4A47FABF067E5D1269670C",
+  "name": "YearsOfResidence",
+  "version": 7,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "141441352AE944F7966125F4DAD0CFB5",
+      "valueEn": "1",
+      "valueAr": "1",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B5151851600044EAA6CF45109C09EE73",
+      "valueEn": "2",
+      "valueAr": "2",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FBDC82528F894154B1FBB56627A33121",
+      "valueEn": "3",
+      "valueAr": "3",
+      "col1": null,
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

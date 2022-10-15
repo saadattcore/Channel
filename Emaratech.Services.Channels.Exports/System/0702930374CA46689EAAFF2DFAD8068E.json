@@ -1,0 +1,10 @@
+{
+  "id": "0702930374CA46689EAAFF2DFAD8068E",
+  "nameEn": "Email Service",
+  "nameAr": "Email Service",
+  "description": null,
+  "version": 1,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "EmailApi"
+}

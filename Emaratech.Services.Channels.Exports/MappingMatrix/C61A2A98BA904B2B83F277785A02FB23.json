@@ -1,0 +1,618 @@
+{
+  "mappingMatrixId": "C61A2A98BA904B2B83F277785A02FB23",
+  "name": "ServiceAccess",
+  "version": 59,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "SystemUserType",
+      "sequence": 2,
+      "variableName": "SystemUserType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "7A2EAED0BF88408B80A85001F468CC19",
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "Category",
+      "sequence": 3,
+      "variableName": "Category",
+      "domainTypeId": "00000000000000000000000000000002",
+      "domainName": "Category",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "PlatformId",
+      "sequence": 4,
+      "variableName": "PlatformId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "14537B0958C14DA998C05D24963DC331",
+        "93BECEED174543698C4E3F9A300C1878",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        "00000000000000000000000000000002"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "296C48D82D274DDBB2883A6C5D12A866",
+        "64A20C7969634A0EBB740B8B83D19C1A",
+        "9AD4B504D7404AA88170FBB84B6418F2",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2FAED0ECF3E647C59D4B6EF7F9CD6EFB",
+        "20252777362A43918F1C9108342342AB",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "2FAED0ECF3E647C59D4B6EF7F9CD6EFB",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "367D5E45BECF4F67B96E8954A3CEEA03",
+        "20252777362A43918F1C9108342342AB",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        null
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "367D5E45BECF4F67B96E8954A3CEEA03",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        null
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "50C58BE394364950A590A8DD78730B70",
+        null,
+        "F4F27C1E4B7246D29DEDF371562A5A1C",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        null,
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000002"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "20252777362A43918F1C9108342342AB",
+        "EB24F09385DF41CAB4F797926058FF43",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "EB24F09385DF41CAB4F797926058FF43",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "862FC0387B1D4055801B2E2594FE3530",
+        "20252777362A43918F1C9108342342AB",
+        "CDF6CD021B0941A18628E7A63F255830",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "862FC0387B1D4055801B2E2594FE3530",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "CDF6CD021B0941A18628E7A63F255830",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8C7139EFB9A84002B155C4E7651613ED",
+        "20252777362A43918F1C9108342342AB",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "8C7139EFB9A84002B155C4E7651613ED",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "94AE97BD791A43729D7F10D9710DAD8A",
+        "20252777362A43918F1C9108342342AB",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "94AE97BD791A43729D7F10D9710DAD8A",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "94AE97BD791A43729D7F10D9710DAD8A",
+        "93BECEED174543698C4E3F9A300C1878",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AC2994B7A6A141BF9DBF7A4B2C01ACAB",
+        "20252777362A43918F1C9108342342AB",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AC2994B7A6A141BF9DBF7A4B2C01ACAB",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "AC2994B7A6A141BF9DBF7A4B2C01ACAB",
+        "93BECEED174543698C4E3F9A300C1878",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B1BF267DA3854734B6EA8DCA7BD9EA06",
+        "20252777362A43918F1C9108342342AB",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B1BF267DA3854734B6EA8DCA7BD9EA06",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B1BF267DA3854734B6EA8DCA7BD9EA06",
+        "93BECEED174543698C4E3F9A300C1878",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B4D5063747EB42029035E533BBEB426E",
+        "20252777362A43918F1C9108342342AB",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B4D5063747EB42029035E533BBEB426E",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B4D5063747EB42029035E533BBEB426E",
+        "93BECEED174543698C4E3F9A300C1878",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C3106AFBFBAD4099B1B4DA6EA3025329",
+        "20252777362A43918F1C9108342342AB",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C3106AFBFBAD4099B1B4DA6EA3025329",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "C3106AFBFBAD4099B1B4DA6EA3025329",
+        "93BECEED174543698C4E3F9A300C1878",
+        "58F5CB451952496E809C997C5C574270",
+        "00000000000000000000000000000001"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E3DFD3CDF2C3491B86A4D43915AAE47F",
+        "20252777362A43918F1C9108342342AB",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E3DFD3CDF2C3491B86A4D43915AAE47F",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "F5DD2E421EF648869A01160053124F5D",
+        "20252777362A43918F1C9108342342AB",
+        "80C044D06B3947D792F32829C3653BEE",
+        null
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "F5DD2E421EF648869A01160053124F5D",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "80C044D06B3947D792F32829C3653BEE",
+        null
+      ],
+      "version": [
+        0,
+        0,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "20252777362A43918F1C9108342342AB",
+        "5BF70296722248D9B407346749922C66",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "5BF70296722248D9B407346749922C66",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

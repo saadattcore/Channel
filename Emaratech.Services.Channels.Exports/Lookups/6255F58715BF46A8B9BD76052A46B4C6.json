@@ -1,0 +1,28 @@
+{
+  "lookupId": "6255F58715BF46A8B9BD76052A46B4C6",
+  "name": "InsideCountry",
+  "version": 10,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "11BA89BAD4A449DC84725F98F47D1801",
+      "valueEn": "Yes",
+      "valueAr": "نعم",
+      "col1": "1",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2499BF925BF346E3A88681B1B1DD4B8B",
+      "valueEn": "No",
+      "valueAr": "لا",
+      "col1": "2",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

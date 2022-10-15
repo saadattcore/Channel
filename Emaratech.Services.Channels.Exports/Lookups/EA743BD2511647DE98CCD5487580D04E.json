@@ -1,0 +1,20 @@
+{
+  "lookupId": "EA743BD2511647DE98CCD5487580D04E",
+  "name": "eDestinationLookup",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "EAP_DESTINATIONS",
+    "idName": "ID",
+    "valueEnName": "DEST_DESC_E",
+    "valueArName": "DEST_DESC_A",
+    "col1Name": "DEST_CD",
+    "col2Name": "CNTRY_CD",
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

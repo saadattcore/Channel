@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="Emaratech.Services.Channels.DataAccess.ChannelDataAccessService" 
+    CodeBehind="ChannelDataAccessService.svc.cs"
+        Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory" %>

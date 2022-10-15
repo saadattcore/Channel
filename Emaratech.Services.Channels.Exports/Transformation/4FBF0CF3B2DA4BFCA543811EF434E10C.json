@@ -1,0 +1,11 @@
+{
+  "transformationId": "4FBF0CF3B2DA4BFCA543811EF434E10C",
+  "sourceContractId": "4CF429CD677B4A62B665B0886B969265",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "ViolationPaymentPending",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">  \n\n<RestStatus><BusinessKey><xsl:value-of select=\"violationPaymentPending/applicationNo\"/></BusinessKey><StatusId>210</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

@@ -1,0 +1,15 @@
+{
+  "serviceId": "B38DBB182DBE46FCB9047AFBB5E6D730",
+  "category": {
+    "categoryId": "684454CB65D1434EB87A54BE403FC08F",
+    "parentCategory": null,
+    "name": "LocalServices",
+    "version": 2,
+    "description": null,
+    "resourceKey": "LocalServices"
+  },
+  "name": "Local Passport New",
+  "version": 1,
+  "description": null,
+  "resourceKey": "PassportNew"
+}

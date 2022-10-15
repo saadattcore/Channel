@@ -1,0 +1,120 @@
+{
+  "mappingMatrixId": "A456C06F87E94B54BB6E100231DF888B",
+  "name": "ApplicationDefaultValues",
+  "version": 4,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "LogicalId",
+      "sequence": 1,
+      "variableName": "LogicalId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "DefaultValue",
+      "sequence": 2,
+      "variableName": "DefaultValue",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "Language1",
+        "98"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Language2",
+        "98"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Language3",
+        "98"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "MaritalStatus",
+        "6"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PreviousNationality",
+        "CurrentNationality"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Urgent",
+        "2"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "VehicleCountry",
+        "CurrentNationality"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

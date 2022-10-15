@@ -1,0 +1,10 @@
+{
+  "id": "9aa83c4074e24f469809a3f4daf1717e",
+  "nameEn": "Lookup Service",
+  "nameAr": "Lookups Service",
+  "description": null,
+  "version": 3,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "LookupsApi"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1843d4a76e504d6ca534949bc9765beb",
+  "nameEn": "Service Service",
+  "nameAr": "Services Service",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "ServiceApi"
+}

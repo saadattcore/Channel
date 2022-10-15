@@ -1,0 +1,10 @@
+{
+  "id": "0FF94CB21D9D4F28BFA3FF3FC5B3A72C",
+  "nameEn": "Logging Service",
+  "nameAr": "Loging Service",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "LoggingApi"
+}

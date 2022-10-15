@@ -1,0 +1,22 @@
+{
+  "serviceId": "8C7139EFB9A84002B155C4E7651613ED",
+  "category": {
+    "categoryId": "4401980EF5AF42FEB1EE407A6F1BBAB3",
+    "parentCategory": {
+      "categoryId": "D2FCCA0D10B34596AD3C51A23CA32448",
+      "parentCategory": null,
+      "name": "Residence",
+      "version": 1,
+      "description": "Residence Category",
+      "resourceKey": "Residence"
+    },
+    "name": "ResidenceTransferToNewPassport",
+    "version": 1,
+    "description": "Residence Transfer To New Passport Category",
+    "resourceKey": "ResidenceTransferToNewPassport"
+  },
+  "name": "Change Passport Due to New Passport",
+  "version": 1,
+  "description": null,
+  "resourceKey": "ChangePassportDuetoNewPassport"
+}

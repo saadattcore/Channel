@@ -1,0 +1,1342 @@
+{
+  "lookupId": "C0DED1BC96B84C2D99625EC878F53B88",
+  "name": "BankNames",
+  "version": 5,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "011E53DFE93340EE99849C21D4273F95",
+      "valueEn": "United Arab Bank",
+      "valueAr": "United Arab Bank",
+      "col1": "United Arab Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "019719DC56CE4DE4836EA60CF91C77B0",
+      "valueEn": "Al Bader Exchange",
+      "valueAr": "Al Bader Exchange",
+      "col1": "Al Bader Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "0307E58B57604786897D13095738B2AC",
+      "valueEn": "Arab Bank",
+      "valueAr": "Arab Bank",
+      "col1": "Arab Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "03D01FFA362D4CDBBE69B48FC384D39A",
+      "valueEn": "Lloyds TSB",
+      "valueAr": "Lloyds TSB",
+      "col1": "Lloyds TSB",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "03F39A36E75B464D9B010F9184D55F81",
+      "valueEn": "Orient Exchange Co.- LLC",
+      "valueAr": "Orient Exchange Co.- LLC",
+      "col1": "Orient Exchange Co.- LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "04B5766D25B44740B67F93923FB56ED7",
+      "valueEn": "Gulf Express Exchange",
+      "valueAr": "Gulf Express Exchange",
+      "col1": "Gulf Express Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "05791FBE4A8743F6A38DEB53635A0376",
+      "valueEn": "Korean Exchange Bank",
+      "valueAr": "Korean Exchange Bank",
+      "col1": "Korean Exchange Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "09B37899A20842EBB526A3BA592EA6DE",
+      "valueEn": "CENTRAL BANK OF KUWAIT K-NET",
+      "valueAr": "CENTRAL BANK OF KUWAIT K-NET",
+      "col1": "CENTRAL BANK OF KUWAIT K-NET",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "09F4D10B17B748A1B051568031D2837B",
+      "valueEn": "Emirates India International Exchange",
+      "valueAr": "Emirates India International Exchange",
+      "col1": "Emirates India International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "0AB3B96EE83E4585B104B0656D9D3B3B",
+      "valueEn": "OMDA Exchange",
+      "valueAr": "OMDA Exchange",
+      "col1": "OMDA Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "0B5576AB3A6E429D88F1566D5E0BA72F",
+      "valueEn": "Hadi Express Exchange",
+      "valueAr": "Hadi Express Exchange",
+      "col1": "Hadi Express Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "0B5CE847315147A2B3D68C19BD8A8165",
+      "valueEn": "BMA Benefit (002)",
+      "valueAr": "BMA Benefit (002)",
+      "col1": "BMA Benefit (002)",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "105EFF1375FB4F8E9FAFA1B182A7D7DD",
+      "valueEn": "Alneel Exchange",
+      "valueAr": "Alneel Exchange",
+      "col1": "Alneel Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "109D8487CB3047E68D9E88E886F91995",
+      "valueEn": "Alukkas Exchange",
+      "valueAr": "Alukkas Exchange",
+      "col1": "Alukkas Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "129EE2BCB0F74AB78CB7BAAB84E2A1EC",
+      "valueEn": "Janata Bank",
+      "valueAr": "Janata Bank",
+      "col1": "Janata Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "136C3DEBE35242B08ABA9E2C7461BE16",
+      "valueEn": "Deutsche Bank",
+      "valueAr": "Deutsche Bank",
+      "col1": "Deutsche Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "13F08B4AD91645EAB44365AA173D1D9E",
+      "valueEn": "CENTRAL BANK TUNISIA",
+      "valueAr": "CENTRAL BANK TUNISIA",
+      "col1": "CENTRAL BANK TUNISIA",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "164E0A656788427D9B1784D26A11897B",
+      "valueEn": "Barclays Bank",
+      "valueAr": "Barclays Bank",
+      "col1": "Barclays Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "18FE74B8DAAF44E094E2DCD706A8A747",
+      "valueEn": "Arab African International Bank",
+      "valueAr": "Arab African International Bank",
+      "col1": "Arab African International Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "1D47EDB0D87D4ACE953C090D0B1BAE1B",
+      "valueEn": "Al Ahalia Money Exchange Bureau",
+      "valueAr": "Al Ahalia Money Exchange Bureau",
+      "col1": "Al Ahalia Money Exchange Bureau",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "1FA828939B1F41408A35F62FB905D39B",
+      "valueEn": "Commercial Bank of Dubai",
+      "valueAr": "Commercial Bank of Dubai",
+      "col1": "Commercial Bank of Dubai",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "1FD194E91C3C4020A3EFA82602564538",
+      "valueEn": "Redha Al Ansari Exchange Est.",
+      "valueAr": "Redha Al Ansari Exchange Est.",
+      "col1": "Redha Al Ansari Exchange Est.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "21F30D17624E408AB1B3209C96FBC28E",
+      "valueEn": "Economic Exchange Centre",
+      "valueAr": "Economic Exchange Centre",
+      "col1": "Economic Exchange Centre",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "22C40EFEFB6D4232966ED876345E5976",
+      "valueEn": "Al Dahab Exchange",
+      "valueAr": "Al Dahab Exchange",
+      "col1": "Al Dahab Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "232B5FABA9F640BDAD42013ABB513359",
+      "valueEn": "Al Masraf",
+      "valueAr": "Al Masraf",
+      "col1": "Al Masraf",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "23C28F8F888444F2B0A281A408FABEB8",
+      "valueEn": "Al Hilal Bank",
+      "valueAr": "Al Hilal Bank",
+      "col1": "Al Hilal Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "240BEF367EA148B1930A9B19F12E31BD",
+      "valueEn": "Emirates Investment Bank",
+      "valueAr": "Emirates Investment Bank",
+      "col1": "Emirates Investment Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "24E7CB8F7E014232860994BC30059238",
+      "valueEn": "Delma Exchange",
+      "valueAr": "Delma Exchange",
+      "col1": "Delma Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "254F470D9F314633B196C25F8EEA3080",
+      "valueEn": "Dubai Exchange Centre - LLC",
+      "valueAr": "Dubai Exchange Centre - LLC",
+      "col1": "Dubai Exchange Centre - LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "26D4A042A55842999CC10B3FE8A89B97",
+      "valueEn": "CENTRAL BANK ALGERIES",
+      "valueAr": "CENTRAL BANK ALGERIES",
+      "col1": "CENTRAL BANK ALGERIES",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2D1CAA4F46FE47E680D4B33BA621E156",
+      "valueEn": "Al Zarooni Exchange",
+      "valueAr": "Al Zarooni Exchange",
+      "col1": "Al Zarooni Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2E755A561F7642FEA03732DFA38D988F",
+      "valueEn": "REAL ESTATE BANK",
+      "valueAr": "REAL ESTATE BANK",
+      "col1": "REAL ESTATE BANK",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2E8BBE712B334B3B8BD91BEFECC1E600",
+      "valueEn": "The Royal Bank Of Scotland N.V.",
+      "valueAr": "The Royal Bank Of Scotland N.V.",
+      "col1": "The Royal Bank Of Scotland N.V.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "31295B0C9F0B44DEB79694F716C379DB",
+      "valueEn": "National Exchange Co.",
+      "valueAr": "National Exchange Co.",
+      "col1": "National Exchange Co.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "333184DC04FF45288F1DAB27C1E2B06F",
+      "valueEn": "BANQUE MISR",
+      "valueAr": "BANQUE MISR",
+      "col1": "BANQUE MISR",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "36799F3B6A144DE6B14DF0216D9E921C",
+      "valueEn": "UAE Federal Government - Ministry of Finance",
+      "valueAr": "UAE Federal Government - Ministry of Finance",
+      "col1": "UAE Federal Government - Ministry of Finance",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "372A161F30AE4F40A67805E4AC617E58",
+      "valueEn": "Al Fardan Exchange",
+      "valueAr": "Al Fardan Exchange",
+      "col1": "Al Fardan Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "38AF077BC68F4CDB93F49AAC309D2411",
+      "valueEn": "Habib Bank Limited",
+      "valueAr": "Habib Bank Limited",
+      "col1": "Habib Bank Limited",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "3C98F30F58FC4AB0B6B2A1A3137D00A8",
+      "valueEn": "Dubai Islamic Bank",
+      "valueAr": "Dubai Islamic Bank",
+      "col1": "Dubai Islamic Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "3D2186E1541F470F85964ACA9DBC61F7",
+      "valueEn": "Wall Street Exchange Centre LLC",
+      "valueAr": "Wall Street Exchange Centre LLC",
+      "col1": "Wall Street Exchange Centre LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "42A6030C38EE43A98D2AFF7F132D2440",
+      "valueEn": "MAWARID FINANCE",
+      "valueAr": "MAWARID FINANCE",
+      "col1": "MAWARID FINANCE",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "44125342049E4CE6A5345FB5866E6489",
+      "valueEn": "Deniba International Exchange",
+      "valueAr": "Deniba International Exchange",
+      "col1": "Deniba International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "4465FB35B0EF41908305AE4D4E591017",
+      "valueEn": "Al Nebal International Exchange",
+      "valueAr": "Al Nebal International Exchange",
+      "col1": "Al Nebal International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "4744F307056B4EBFBED16C8617129493",
+      "valueEn": "Blom Bank France",
+      "valueAr": "Blom Bank France",
+      "col1": "Blom Bank France",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "47E976FC5DAC4DFFA0AB1A5E6A69606C",
+      "valueEn": "Abu Dhabi Commercial Bank",
+      "valueAr": "Abu Dhabi Commercial Bank",
+      "col1": "Abu Dhabi Commercial Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "481639DB9B064F98993431DCB1775042",
+      "valueEn": "Lulu Exchange",
+      "valueAr": "Lulu Exchange",
+      "col1": "Lulu Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "4981E5BF29B849A3A38A1E86A5F2377A",
+      "valueEn": "Lari Exchange",
+      "valueAr": "Lari Exchange",
+      "col1": "Lari Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "4A004286C5F5468D8395D54C30908C97",
+      "valueEn": "Federal Exchange",
+      "valueAr": "Federal Exchange",
+      "col1": "Federal Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "4FC071A82EA744319CC0C7D10C00E3C5",
+      "valueEn": "CENTRAL BANK MAGHRIB",
+      "valueAr": "CENTRAL BANK MAGHRIB",
+      "col1": "CENTRAL BANK MAGHRIB",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "50C70C250CAD4B129112F25DE7A60154",
+      "valueEn": "National Bank of Abu Dhabi",
+      "valueAr": "National Bank of Abu Dhabi",
+      "col1": "National Bank of Abu Dhabi",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "56D52A316DD54E829BF7F094B3560407",
+      "valueEn": "Rafidain Bank",
+      "valueAr": "Rafidain Bank",
+      "col1": "Rafidain Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "56E53E4A9D36468C9686ECDD4E84D062",
+      "valueEn": "Gen Auth of Islamic Affairs and Endowments",
+      "valueAr": "Gen Auth of Islamic Affairs and Endowments",
+      "col1": "Gen Auth of Islamic Affairs and Endowments",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "58161DE728C241279BD2092BC90715FD",
+      "valueEn": "Al Ghurair International Exchange",
+      "valueAr": "Al Ghurair International Exchange",
+      "col1": "Al Ghurair International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "584918691ECF4C84BEE44D47196AD176",
+      "valueEn": "Al Falah Exchange Co",
+      "valueAr": "Al Falah Exchange Co",
+      "col1": "Al Falah Exchange Co",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "595CC10023F9476AA50465198D098AA3",
+      "valueEn": "SAMA",
+      "valueAr": "SAMA",
+      "col1": "SAMA",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5B541027636C4322B7201207C4E1F4D7",
+      "valueEn": "Al Razouki International Exchange Co. LLC ",
+      "valueAr": "Al Razouki International Exchange Co. LLC ",
+      "col1": "Al Razouki International Exchange Co. LLC ",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5CC32A83D7D344E18D32745B7E3ABE12",
+      "valueEn": "Al Ghurair Exchange",
+      "valueAr": "Al Ghurair Exchange",
+      "col1": "Al Ghurair Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5D79639F974A4BE9A234AF76D2E325EC",
+      "valueEn": "National Bank Of Umm Al Qaiwain",
+      "valueAr": "National Bank Of Umm Al Qaiwain",
+      "col1": "National Bank Of Umm Al Qaiwain",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5EDBD021F3434F569B98709EDAC58206",
+      "valueEn": "First Gulf Exchange Centre",
+      "valueAr": "First Gulf Exchange Centre",
+      "col1": "First Gulf Exchange Centre",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5F76EBF28405417BBEBB5C54F6888EA1",
+      "valueEn": "Al Ahli Bank Of Kuwait K.S.C.",
+      "valueAr": "Al Ahli Bank Of Kuwait K.S.C.",
+      "col1": "Al Ahli Bank Of Kuwait K.S.C.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5F9CAD53850D42A4AFC5418A68369734",
+      "valueEn": "GCC Exchange",
+      "valueAr": "GCC Exchange",
+      "col1": "GCC Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "621C5C83DC00410A992C36BA75659F41",
+      "valueEn": "IBRD",
+      "valueAr": "IBRD",
+      "col1": "IBRD",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "640BA15DAE874550A32184406845AA12",
+      "valueEn": "Bank Melli Iran",
+      "valueAr": "Bank Melli Iran",
+      "col1": "Bank Melli Iran",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "654E47233BD6413681875456F4A527F1",
+      "valueEn": "Al Rostamani International Exchange",
+      "valueAr": "Al Rostamani International Exchange",
+      "col1": "Al Rostamani International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "69E3339895AD4A2499B2C2D98598AF32",
+      "valueEn": "Asia Exchange Centre",
+      "valueAr": "Asia Exchange Centre",
+      "col1": "Asia Exchange Centre",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "6A65BCB7B54445BFB32A64AFB6DEA58B",
+      "valueEn": "Multinet Trust Exchange - LLC",
+      "valueAr": "Multinet Trust Exchange - LLC",
+      "col1": "Multinet Trust Exchange - LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "6AAFB6BC26C34788B35C6F95459F0EB0",
+      "valueEn": "Leela Megh Exchange LLC",
+      "valueAr": "Leela Megh Exchange LLC",
+      "col1": "Leela Megh Exchange LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "7197DBB71F2545D0B2EA24EA70F64E8E",
+      "valueEn": "National Bureau of Statistics",
+      "valueAr": "National Bureau of Statistics",
+      "col1": "National Bureau of Statistics",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "73F5108940644824B5CEFAC570C8DC3C",
+      "valueEn": "UAE Payment Gateway System",
+      "valueAr": "UAE Payment Gateway System",
+      "col1": "UAE Payment Gateway System",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "74AECD63F0D24CFF8BFC96524862DE06",
+      "valueEn": "Central Bank Of Turkmenistan",
+      "valueAr": "Central Bank Of Turkmenistan",
+      "col1": "Central Bank Of Turkmenistan",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "7992B76FF0B641CDB300501B91FD7221",
+      "valueEn": "Central Bank of UAE",
+      "valueAr": "Central Bank of UAE",
+      "col1": "Central Bank of UAE",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "803CC3001BB34F36A0442763A14C2B8D",
+      "valueEn": "Bank Saderat Iran",
+      "valueAr": "Bank Saderat Iran",
+      "col1": "Bank Saderat Iran",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "844474F05796459492B5E862A850FC2D",
+      "valueEn": "Mashreqbank",
+      "valueAr": "Mashreqbank",
+      "col1": "Mashreqbank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "84DFB58F83D54F27BE6A9B78F89E9600",
+      "valueEn": "CB Staff and Vendor Payments",
+      "valueAr": "CB Staff and Vendor Payments",
+      "col1": "CB Staff and Vendor Payments",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "856B7BBFA71F4F36AFDD1A310E470D52",
+      "valueEn": "Investbank PSC",
+      "valueAr": "Investbank PSC",
+      "col1": "Investbank PSC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "8931CCF4815E4F4BAFC0FDEFF73389A1",
+      "valueEn": "Sajwani Exchange",
+      "valueAr": "Sajwani Exchange",
+      "col1": "Sajwani Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "8E2EA81CD880479DB4256983EB2FB09F",
+      "valueEn": "National Media Council",
+      "valueAr": "National Media Council",
+      "col1": "National Media Council",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "8EA811B788844C2CBE5838EDD26AD917",
+      "valueEn": "Ajman Bank",
+      "valueAr": "Ajman Bank",
+      "col1": "Ajman Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "8FF82FFC8B54415A9691AC072CC52EC7",
+      "valueEn": "Smart Exchange",
+      "valueAr": "Smart Exchange",
+      "col1": "Smart Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9039D2A900114D21B6E87B4BF49DCFE2",
+      "valueEn": "CENTRAL BANK QATAR",
+      "valueAr": "CENTRAL BANK QATAR",
+      "col1": "CENTRAL BANK QATAR",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "90E6117A1D284461902A17182EEBB51F",
+      "valueEn": "Send Exchange",
+      "valueAr": "Send Exchange",
+      "col1": "Send Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "915A3C63845347118D3C27AC23ED61A6",
+      "valueEn": "EmiratesNBD Bank PJSC",
+      "valueAr": "EmiratesNBD Bank PJSC",
+      "col1": "EmiratesNBD Bank PJSC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "92E96F0592C4488DB5E231E4B5602BD2",
+      "valueEn": "Finance House",
+      "valueAr": "Finance House",
+      "col1": "Finance House",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9503DEC8A3954A5FB733141937CAF6C2",
+      "valueEn": "Islamic Finance House",
+      "valueAr": "Islamic Finance House",
+      "col1": "Islamic Finance House",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "96FD63AC93E7443F9ECF4BF70D2FCE93",
+      "valueEn": "National Bank Of Kuwait",
+      "valueAr": "National Bank Of Kuwait",
+      "col1": "National Bank Of Kuwait",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9733A8F9F293467BB3635A5472811645",
+      "valueEn": "Standard Chartered Bank",
+      "valueAr": "Standard Chartered Bank",
+      "col1": "Standard Chartered Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "97959C9991F74DD8BEE08D22E798354F",
+      "valueEn": "Bank of Baroda",
+      "valueAr": "Bank of Baroda",
+      "col1": "Bank of Baroda",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9A59320BD4854EA288C51B0EFAC61E24",
+      "valueEn": "Saad Exchange",
+      "valueAr": "Saad Exchange",
+      "col1": "Saad Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9B2012B0449A44938695275CFB7989B5",
+      "valueEn": "United Bank Ltd.",
+      "valueAr": "United Bank Ltd.",
+      "col1": "United Bank Ltd.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "9DCE8C978C564BE88E8646F7A7A010D9",
+      "valueEn": "CENTRAL BANK OMAN OMANNET(002)",
+      "valueAr": "CENTRAL BANK OMAN OMANNET(002)",
+      "col1": "CENTRAL BANK OMAN OMANNET(002)",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "A5812EF87AFC40B0B8917D234E9B7E32",
+      "valueEn": "Dubai Bank",
+      "valueAr": "Dubai Bank",
+      "col1": "Dubai Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "A88E88C246B440A9BEE1D52E207EFEA9",
+      "valueEn": "Universal Exchange Centre",
+      "valueAr": "Universal Exchange Centre",
+      "col1": "Universal Exchange Centre",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "AAAA837741434C06B7389FE890911775",
+      "valueEn": "The National HR Development & Employment Authority",
+      "valueAr": "The National HR Development & Employment Authority",
+      "col1": "The National HR Development & Employment Authority",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "AD9AC6FAE0454B06BC895D80A9F580A4",
+      "valueEn": "FEDERAL CUSTOMS",
+      "valueAr": "FEDERAL CUSTOMS",
+      "col1": "FEDERAL CUSTOMS",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "ADED201A947B4284B3026EFD1F4237BD",
+      "valueEn": "CENTRAL BANK OF IRAN",
+      "valueAr": "CENTRAL BANK OF IRAN",
+      "col1": "CENTRAL BANK OF IRAN",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "AE198E6791034523896D439743A51B01",
+      "valueEn": "Al Dhafra Exchange",
+      "valueAr": "Al Dhafra Exchange",
+      "col1": "Al Dhafra Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "AF0DB127F30B4DF0B2A8AF39C6D32A09",
+      "valueEn": "Sharaf Exchange LLC",
+      "valueAr": "Sharaf Exchange LLC",
+      "col1": "Sharaf Exchange LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B26B6B7AF360468D8B6A595C8581C91D",
+      "valueEn": "General Pension and Social Security Authority (GPSSA) ",
+      "valueAr": "General Pension and Social Security Authority (GPSSA) ",
+      "col1": "General Pension and Social Security Authority (GPSSA) ",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B3A1054F48C74E08BB3007F1C73ACCBA",
+      "valueEn": "Belhasa Global Exchange",
+      "valueAr": "Belhasa Global Exchange",
+      "col1": "Belhasa Global Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B3D7AE701C9A48BB96F594C7E969BA2F",
+      "valueEn": "El Nilein Bank",
+      "valueAr": "El Nilein Bank",
+      "col1": "El Nilein Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B68D071F1A6A493B878C50A2AEDC59E7",
+      "valueEn": "Al Ansari Exchange",
+      "valueAr": "Al Ansari Exchange",
+      "col1": "Al Ansari Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B827493E753449B58B74C7B94EE2688F",
+      "valueEn": "National Bank Of Fujairah",
+      "valueAr": "National Bank Of Fujairah",
+      "col1": "National Bank Of Fujairah",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B8A27A830EB54C3E9274A5B22839F4EC",
+      "valueEn": "Al Gergawi Exchange LLC",
+      "valueAr": "Al Gergawi Exchange LLC",
+      "col1": "Al Gergawi Exchange LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B8AD01D082984107B85D6BCC9A945005",
+      "valueEn": "Commercial Bank International PSC",
+      "valueAr": "Commercial Bank International PSC",
+      "col1": "Commercial Bank International PSC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B8EFB01D0FC94BE4BDFBBBEC5F055CED",
+      "valueEn": "The Bank of Tokyo-Mitsubishi UFJ, Ltd",
+      "valueAr": "The Bank of Tokyo-Mitsubishi UFJ, Ltd",
+      "col1": "The Bank of Tokyo-Mitsubishi UFJ, Ltd",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "B9B61969C4D048F1B275BEBB885700F3",
+      "valueEn": "City Exchange - LLC",
+      "valueAr": "City Exchange - LLC",
+      "col1": "City Exchange - LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "BC98C027ECE34E428C57ACD7ADFABCB7",
+      "valueEn": "Habib Exchange Co. LLC",
+      "valueAr": "Habib Exchange Co. LLC",
+      "col1": "Habib Exchange Co. LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "BF7F4621F7E24E6A8075CD5206DFF872",
+      "valueEn": "HSBC Bank Middle East",
+      "valueAr": "HSBC Bank Middle East",
+      "col1": "HSBC Bank Middle East",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "BFB07DD857544DDEAB65B3AFD41D53AE",
+      "valueEn": "DUNIA FINANCE",
+      "valueAr": "DUNIA FINANCE",
+      "col1": "DUNIA FINANCE",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C07403A0ED2D4EE4BCA709F3E236E4A1",
+      "valueEn": "Doha Bank",
+      "valueAr": "Doha Bank",
+      "col1": "Doha Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C09986DD73DA472C8E2886D9E40DF250",
+      "valueEn": "UAE Dispute Resolution System",
+      "valueAr": "UAE Dispute Resolution System",
+      "col1": "UAE Dispute Resolution System",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C2728A9712804EE5B5EDACA510C45C02",
+      "valueEn": "National Tourism and Heritage Authority",
+      "valueAr": "National Tourism and Heritage Authority",
+      "col1": "National Tourism and Heritage Authority",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C425A834D461424A944F01AE4A933898",
+      "valueEn": "Al Khaliji France S.A.",
+      "valueAr": "Al Khaliji France S.A.",
+      "col1": "Al Khaliji France S.A.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C4E26ABBA43E42B49DAE33BFA6212AD1",
+      "valueEn": "UAE Exchange Center LLC",
+      "valueAr": "UAE Exchange Center LLC",
+      "col1": "UAE Exchange Center LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C6217142A3554A0C8A964016268D5EAA",
+      "valueEn": "First Gulf Bank",
+      "valueAr": "First Gulf Bank",
+      "col1": "First Gulf Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "C99E0A8CF1E1483EA6BEAA59FFC53311",
+      "valueEn": "Islamic Finance Company",
+      "valueAr": "Islamic Finance Company",
+      "col1": "Islamic Finance Company",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "CD611FE02D884E9D99D38C2E160CDC60",
+      "valueEn": "Credit Agricole Corporate and Investment Bank",
+      "valueAr": "Credit Agricole Corporate and Investment Bank",
+      "col1": "Credit Agricole Corporate and Investment Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "CFC0C522E33348DE971339396B520A06",
+      "valueEn": "Arab Link Money Transfer",
+      "valueAr": "Arab Link Money Transfer",
+      "col1": "Arab Link Money Transfer",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D1002CC8CB394ED0B83FA08D4E260B46",
+      "valueEn": "Ministry of Foreign Trade",
+      "valueAr": "Ministry of Foreign Trade",
+      "col1": "Ministry of Foreign Trade",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D127D95FD13C4B3387A6C6D8DF4E9340",
+      "valueEn": "SAMBA Financial Group",
+      "valueAr": "SAMBA Financial Group",
+      "col1": "SAMBA Financial Group",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D3A6281A43B44014B76CD448ECA33D87",
+      "valueEn": "Abu Dhabi Islamic Bank",
+      "valueAr": "Abu Dhabi Islamic Bank",
+      "col1": "Abu Dhabi Islamic Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D6D77107D287488D8E7EB8254842BCB0",
+      "valueEn": "Federal Customs Authority",
+      "valueAr": "Federal Customs Authority",
+      "col1": "Federal Customs Authority",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D9D95B8928184C89B6319D0A9AA72E66",
+      "valueEn": "Emirates Authority for Standardization and Meterology",
+      "valueAr": "Emirates Authority for Standardization and Meterology",
+      "col1": "Emirates Authority for Standardization and Meterology",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "DA29697D6DB64F30A4887CCFF40447D1",
+      "valueEn": "Al Jaber Exchange",
+      "valueAr": "Al Jaber Exchange",
+      "col1": "Al Jaber Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "DC697B987B9B44EBB67DF0A51A34D12D",
+      "valueEn": "DUBAI GOVT",
+      "valueAr": "DUBAI GOVT",
+      "col1": "DUBAI GOVT",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "DCD76E39679B49029D06BC1632FE69A5",
+      "valueEn": "Emirates Islamic Bank PJSC",
+      "valueAr": "Emirates Islamic Bank PJSC",
+      "col1": "Emirates Islamic Bank PJSC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "DEA94C5B179D4207BA31DC2EA6336A15",
+      "valueEn": "Union National Bank",
+      "valueAr": "Union National Bank",
+      "col1": "Union National Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "E4D2E22BC7EC4E4D9F52CAAC3CA76D81",
+      "valueEn": "Malik Exchange",
+      "valueAr": "Malik Exchange",
+      "col1": "Malik Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "E5CD4299420B477B9AA649994DC3C868",
+      "valueEn": "Industrial and Commercial Bank of China",
+      "valueAr": "Industrial and Commercial Bank of China",
+      "col1": "Industrial and Commercial Bank of China",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "E63926B468A64528A299E95F1D0FC80B",
+      "valueEn": "National Bank Of Bahrain",
+      "valueAr": "National Bank Of Bahrain",
+      "col1": "National Bank Of Bahrain",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "E6D6331D1865440AAB5C2C8D22C28962",
+      "valueEn": "MAF Finance",
+      "valueAr": "MAF Finance",
+      "col1": "MAF Finance",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "E974D5A322D544BB896F2DCB26EC9BAA",
+      "valueEn": "Federal Authority for Government Human Resources",
+      "valueAr": "Federal Authority for Government Human Resources",
+      "col1": "Federal Authority for Government Human Resources",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "EB36C2242BED452BA258E55E608F6619",
+      "valueEn": "CENTRAL BANK OF KUWAIT",
+      "valueAr": "CENTRAL BANK OF KUWAIT",
+      "col1": "CENTRAL BANK OF KUWAIT",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "EC52B5BC37B44747B4180B8B9C44C645",
+      "valueEn": "Sharjah International Exchange",
+      "valueAr": "Sharjah International Exchange",
+      "col1": "Sharjah International Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "ED4E738F05774280942876C598EE36BB",
+      "valueEn": "EMIRATES INDUSTRIAL BANK",
+      "valueAr": "EMIRATES INDUSTRIAL BANK",
+      "col1": "EMIRATES INDUSTRIAL BANK",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "EE0199D670AD449AAD5A2AB14F4057C9",
+      "valueEn": "Noor Islamic Bank",
+      "valueAr": "Noor Islamic Bank",
+      "col1": "Noor Islamic Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F0BC68DC9BD547CFBDD4B1C4E02657A0",
+      "valueEn": "National Bank of Oman",
+      "valueAr": "National Bank of Oman",
+      "col1": "National Bank of Oman",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F15B172577BF42D0BD32E58363EFE878",
+      "valueEn": "BNP Paribas",
+      "valueAr": "BNP Paribas",
+      "col1": "BNP Paribas",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F33EC906358647D38DE147D6BE742AD5",
+      "valueEn": "National Bank of Ras Al-Khaimah",
+      "valueAr": "National Bank of Ras Al-Khaimah",
+      "col1": "National Bank of Ras Al-Khaimah",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F3C8A00A81AF4BADAE0362BC0BD04C5C",
+      "valueEn": "Sharjah Islamic Bank",
+      "valueAr": "Sharjah Islamic Bank",
+      "col1": "Sharjah Islamic Bank",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F6DB7D453EE34ECB8C7A8EE6512B05D7",
+      "valueEn": "Bank of Sharjah",
+      "valueAr": "Bank of Sharjah",
+      "col1": "Bank of Sharjah",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F725E8F843A648AF8F3B5A5423F39FCB",
+      "valueEn": "Habib Bank AG Zurich",
+      "valueAr": "Habib Bank AG Zurich",
+      "col1": "Habib Bank AG Zurich",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F7373044750149BBA2D37388A8753EA2",
+      "valueEn": "Al Fuad Exchange",
+      "valueAr": "Al Fuad Exchange",
+      "col1": "Al Fuad Exchange",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "F789EE8673C84B9E93C1068C04774C6A",
+      "valueEn": "Citibank NA",
+      "valueAr": "Citibank NA",
+      "col1": "Citibank NA",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FB0344BA10FB44A5A42487763152E407",
+      "valueEn": "SUNDRY CREDITS CB PAYMENTS",
+      "valueAr": "SUNDRY CREDITS CB PAYMENTS",
+      "col1": "SUNDRY CREDITS CB PAYMENTS",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FC9B19C46100461E97EC76D9EAB4B4A1",
+      "valueEn": "Al Zari & Al Fardan Exchange LLC",
+      "valueAr": "Al Zari & Al Fardan Exchange LLC",
+      "col1": "Al Zari & Al Fardan Exchange LLC",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FD6D136B4152433BA57C86A3D84F7FB0",
+      "valueEn": "Arabian Exchange Co.",
+      "valueAr": "Arabian Exchange Co.",
+      "col1": "Arabian Exchange Co.",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FD9E375A2C0940B09244A123770CB98E",
+      "valueEn": "Institute of Training and Judicial Studies",
+      "valueAr": "Institute of Training and Judicial Studies",
+      "col1": "Institute of Training and Judicial Studies",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

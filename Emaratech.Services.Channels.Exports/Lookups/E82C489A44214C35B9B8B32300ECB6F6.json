@@ -1,0 +1,20 @@
+{
+  "lookupId": "E82C489A44214C35B9B8B32300ECB6F6",
+  "name": "eJobsLookup",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from profession_lk where is_archived=0)",
+    "idName": "profession_id",
+    "valueEnName": "profession_name_en",
+    "valueArName": "profession_name_ar",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lookupId": "49EC908FADF14D2C9CFFB42CFCAA7746",
+  "name": "eMemberLookup",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "appgrp_vw",
+    "idName": "cd",
+    "valueEnName": "desc_e",
+    "valueArName": "desc_a",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

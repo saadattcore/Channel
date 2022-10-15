@@ -1,0 +1,84 @@
+{
+  "mappingMatrixId": "1C2A05CD719E4D50A9DB6E144349CF8E",
+  "name": "DataContractsConfig",
+  "version": 11,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "DataContract",
+      "sequence": 2,
+      "variableName": "DataContract",
+      "domainTypeId": "00000000000000000000000000000010",
+      "domainName": "DataContract",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "367D5E45BECF4F67B96E8954A3CEEA03",
+        "1E2F71CFBF144039A1D5352580078340"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "5466B240AC264D8BA4CDB9415B00CD1F"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "F5DD2E421EF648869A01160053124F5D",
+        "838AE036612044F0839F190DB49A59B5"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "09F147BADE8F4290BA6A065CAA67F3D4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

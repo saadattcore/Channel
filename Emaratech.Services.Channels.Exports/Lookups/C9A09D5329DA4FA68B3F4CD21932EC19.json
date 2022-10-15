@@ -1,0 +1,20 @@
+{
+  "lookupId": "C9A09D5329DA4FA68B3F4CD21932EC19",
+  "name": "eAreaLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from area_lk where is_archived=0)",
+    "idName": "area_id",
+    "valueEnName": "area_en",
+    "valueArName": "area_ar",
+    "col1Name": "city_id",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

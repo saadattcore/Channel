@@ -1,0 +1,20 @@
+{
+  "lookupId": "C23BF48F722D4C5AB02991C271841A65",
+  "name": "eDepartment",
+  "version": 11,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select TO_NUMBER(emirate_id||'01') emirate_id,emirate_name_ar,emirate_name_en FROM emirate_lk WHERE emirate_id=2 and is_archived=0)",
+    "idName": "emirate_id",
+    "valueEnName": "emirate_name_en",
+    "valueArName": "emirate_name_ar",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

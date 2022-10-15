@@ -1,0 +1,11 @@
+{
+  "transformationId": "4B992681C8EE42239B066BADCG7G8DE4",
+  "sourceContractId": "B3F98F497C13422BB1FC75A970BAAF31",
+  "sourceContractVersion": 2,
+  "destinationContractId": "1BF78D61F5FE4AEE9B534BF175AC803B",
+  "destinationContractVersion": 5,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "UpdateApplicationAirwayBill",
+  "version": 3,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n    <xsl:template match=\"/\">\n        <UpdateAirWayBillNo xmlns=\"http://vision.emaratech.ae/\">\n            <CorrelationId xmlns=\"\"><xsl:text>correlationId1</xsl:text></CorrelationId>\n            <ApplicationNumber xmlns=\"\">\n                <xsl:value-of select=\"UnifiedApplication/ApplicationDetails/ApplicationId\"/>\n            </ApplicationNumber>\n            <AirWayBillNo xmlns=\"\">\n                <xsl:value-of select=\"UnifiedApplication/ApplicationDetails/AirwayBillId\"/>\n            </AirWayBillNo>\n            <Timestamp xmlns=\"\">\n               <xsl:value-of select=\"UnifiedApplication/ApplicationDetails/StatusDate\"/>\n            </Timestamp>\n        </UpdateAirWayBillNo>\n    </xsl:template>\n</xsl:stylesheet>"
+}

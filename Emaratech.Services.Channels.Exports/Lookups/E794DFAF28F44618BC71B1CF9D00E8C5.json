@@ -1,0 +1,20 @@
+{
+  "lookupId": "E794DFAF28F44618BC71B1CF9D00E8C5",
+  "name": "eCityLookup",
+  "version": 10,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from city_lk where is_archived=0)",
+    "idName": "CITY_ID",
+    "valueEnName": "CITY_NAME_EN",
+    "valueArName": "CITY_NAME_AR",
+    "col1Name": "EMIRATE_ID",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "mappingMatrixId": "3B294048AD58431488A28D92C057AE83",
+  "name": "Queue Base Contracts",
+  "version": 8,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "AppType",
+      "sequence": 1,
+      "variableName": "AppType",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "UnifiedDataContract",
+      "sequence": 2,
+      "variableName": "UnifiedDataContract",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "VisionDataContract",
+      "sequence": 3,
+      "variableName": "VisionDataContract",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "ServiceId",
+      "sequence": 4,
+      "variableName": "ServiceId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "StatusId",
+      "sequence": 5,
+      "variableName": "StatusId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 6,
+      "colName": "IsInsideUAE",
+      "sequence": 6,
+      "variableName": "IsInsideUAE",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 7,
+      "colName": "QueueName",
+      "sequence": 7,
+      "variableName": "QueueName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 8,
+      "colName": "TargetRoute",
+      "sequence": 8,
+      "variableName": "TargetRoute",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "1BF78D61F5FE4AEE9B534BF175AC803B",
+        null,
+        "350",
+        null,
+        "EAP.IQCS.UPDATEAWB",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "34B979FA5EE147EA8D38E18B0904BA08",
+        null,
+        "160",
+        null,
+        "EAP.IQCS.DOCUMENTRECEIVED",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "34B979FA5EE147EA8D38E18B0904BA08",
+        null,
+        "500",
+        null,
+        "EAP.VISION.DOCUMENTRECEIVED",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "3C53491CC01845AB840DB9824317BD0D",
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "50",
+        "1",
+        "EAP.IQCS.CANCELRESIDENCEINSIDEUAE",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "4C9101EBC441444B8470122EE0787942",
+        "8C7139EFB9A84002B155C4E7651613ED",
+        "50",
+        null,
+        "EAP.IQCS.CHANGEPASSPORTDUETONEWPASSPORT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "53FBC9920F954AB4822043E18E6E8E61",
+        "F5DD2E421EF648869A01160053124F5D",
+        "50",
+        null,
+        "EAP.IQCS.CANCELAFTERENTRY",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "55376AA81F494B85A681F7094F1B13D1",
+        null,
+        "=StatusId in ['140','510','530']",
+        null,
+        "EAP.IQCS.APPLICATIONSTATUSUPDATE",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "73A9EB01C47A4AFDAE4712D22B198511",
+        "2FAED0ECF3E647C59D4B6EF7F9CD6EFB",
+        "50",
+        null,
+        "EAP.IQCS.CHANGEPASSPORTDUETOLOSTPASSPORT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "7E815F10D86E415E802AD541A76EB4D2",
+        "862FC0387B1D4055801B2E2594FE3530",
+        "50",
+        null,
+        "EAP.IQCS.NEWRESIDENCE",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "B08DF04140B84E16B0B7FDF2098F9F65",
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "50",
+        "0",
+        "EAP.IQCS.CANCELRESIDENCEOUTSIDEUAE",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "CB43B11ED1CE4214B1EF585CFFD320A5",
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "50",
+        null,
+        "EAP.IQCS.RENEWRESIDENCE",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "EC7527D282AE441B8D2E829CFFF53C7B",
+        "50C58BE394364950A590A8DD78730B70",
+        "50",
+        null,
+        "EAP.IQCS.EXTENSION",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "FA527274E37542358F2BC8796BFDF174",
+        "94AE97BD791A43729D7F10D9710DAD8A",
+        "50",
+        null,
+        "EAP.IQCS.NEWPERMIT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "FA527274E37542358F2BC8796BFDF174",
+        "AC2994B7A6A141BF9DBF7A4B2C01ACAB",
+        "50",
+        null,
+        "EAP.IQCS.NEWPERMIT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "FA527274E37542358F2BC8796BFDF174",
+        "B1BF267DA3854734B6EA8DCA7BD9EA06",
+        "50",
+        null,
+        "EAP.IQCS.NEWPERMIT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "FA527274E37542358F2BC8796BFDF174",
+        "B4D5063747EB42029035E533BBEB426E",
+        "50",
+        null,
+        "EAP.IQCS.NEWPERMIT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "B3F98F497C13422BB1FC75A970BAAF31",
+        "FA527274E37542358F2BC8796BFDF174",
+        "C3106AFBFBAD4099B1B4DA6EA3025329",
+        "50",
+        null,
+        "EAP.IQCS.NEWPERMIT",
+        "2"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

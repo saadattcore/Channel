@@ -1,0 +1,20 @@
+{
+  "lookupId": "9E63D8AC40B44880BB6B2BCE3ADF1F45",
+  "name": "eLegalityStatus",
+  "version": 9,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from legality_status_lk) \n",
+    "idName": "Legality_STatus_ID",
+    "valueEnName": "Status_Name_EN",
+    "valueArName": "Status_Name_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

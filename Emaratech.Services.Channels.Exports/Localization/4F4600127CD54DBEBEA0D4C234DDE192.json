@@ -1,0 +1,21 @@
+{
+  "localSetId": "4F4600127CD54DBEBEA0D4C234DDE192",
+  "version": 6,
+  "title": "Mobile",
+  "description": null,
+  "localItems": [
+    {
+      "title": "Code1",
+      "values": [
+        {
+          "value": "هذا اختبار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This is a test",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

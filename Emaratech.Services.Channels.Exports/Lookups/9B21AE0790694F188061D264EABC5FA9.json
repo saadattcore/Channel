@@ -1,0 +1,20 @@
+{
+  "lookupId": "9B21AE0790694F188061D264EABC5FA9",
+  "name": "eMaritalStatusLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from social_status_lk where is_archived=0) \n",
+    "idName": "SOCIAL_STATUS_ID",
+    "valueEnName": "STATUS_NAME_EN",
+    "valueArName": "STATUS_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

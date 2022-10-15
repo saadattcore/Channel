@@ -1,0 +1,20 @@
+{
+  "lookupId": "F278CB4C7C81429496D75807E7E7DD11",
+  "name": "eVisaType",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from VISA_TYPE_LK where is_archived=0) ",
+    "idName": "VISA_TYPE_ID",
+    "valueEnName": "VISA_TYPE_EN",
+    "valueArName": "VISA_TYPE_AR",
+    "col1Name": "VALIDITY_DAYS_BEFORE_ENTRY",
+    "col2Name": "VALIDITY_DAYS_AFTER_ENTRY",
+    "col3Name": "STAY_DAYS",
+    "col4Name": "STAY_GRACE_DAYS",
+    "connectionString": "vision_intg"
+  }
+}

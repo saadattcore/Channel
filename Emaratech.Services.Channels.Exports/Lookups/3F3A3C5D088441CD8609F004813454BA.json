@@ -1,0 +1,20 @@
+{
+  "lookupId": "3F3A3C5D088441CD8609F004813454BA",
+  "name": "testMemberLookup",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "appgrp_vw",
+    "idName": "cd",
+    "valueEnName": "desc_e",
+    "valueArName": "desc_a",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "5BEBE2EA77054C3C97D04F3BB2B7E3FD",
+  "nameEn": "SMS Service",
+  "nameAr": "_",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "SMSApi"
+}

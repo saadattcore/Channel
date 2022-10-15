@@ -1,0 +1,339 @@
+{
+  "mappingMatrixId": "08C3416E11544C1C819364A8913B99FE",
+  "name": "UnifiedWorkflows",
+  "version": 59,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "Workflow",
+      "sequence": 2,
+      "variableName": "Workflow",
+      "domainTypeId": "00000000000000000000000000000003",
+      "domainName": "Workflow",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "Category",
+      "sequence": 3,
+      "variableName": "Category",
+      "domainTypeId": "00000000000000000000000000000002",
+      "domainName": "Category",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "PlatformId",
+      "sequence": 4,
+      "variableName": "PlatformId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "UserType",
+      "sequence": 5,
+      "variableName": "UserType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "7A2EAED0BF88408B80A85001F468CC19",
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "14537B0958C14DA998C05D24963DC331",
+        "1A860D6B9BD5497AB1A374CF3147A1DE",
+        "5B166CC8029540B09B022C6E0D8D535E",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "296C48D82D274DDBB2883A6C5D12A866",
+        "010C301D0DE04ABCA32986ED95558469",
+        "9AD4B504D7404AA88170FBB84B6418F2",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "2FA3ACBA2A6F449EA5F7CBEF927F86D1",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        "00000000000000000000000000000002",
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "365FC64DC8D8433D88B4D4FE445BD1C6",
+        "AB427DF2D80A489DAA1662753BD9D54B",
+        "684454CB65D1434EB87A54BE403FC08F",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "367D5E45BECF4F67B96E8954A3CEEA03",
+        "2A61C624282C42038E414DC67D747748",
+        "9C4A0EB62415408EA7928F5547937AC2",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "45DD6661DC9F450C94A3ECB0A0326159",
+        "58F5CB451952496E809C997C5C574270",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "50C58BE394364950A590A8DD78730B70",
+        "9CAF3D481C6740D9B1CF53125B845B5E",
+        "F4F27C1E4B7246D29DEDF371562A5A1C",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "597C2AA33F4E4AC4AE78D0FE23762F59",
+        "58F5CB451952496E809C997C5C574270",
+        null,
+        "93BECEED174543698C4E3F9A300C1878"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "5456E12510CD4A6BBE990947D1C405F6",
+        "EB24F09385DF41CAB4F797926058FF43",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "7AD644F8F9A8437AAD093D67727666A8",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        "00000000000000000000000000000001",
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "862FC0387B1D4055801B2E2594FE3530",
+        "3D0520B37F824D2B9E22829516E30CA6",
+        "CDF6CD021B0941A18628E7A63F255830",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B38DBB182DBE46FCB9047AFBB5E6D730",
+        "E117BC5D461146949175FF4CC779E297",
+        "684454CB65D1434EB87A54BE403FC08F",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "E3DFD3CDF2C3491B86A4D43915AAE47F",
+        "B98A76E692E3480FA85BB915C2661EC2",
+        "9C4A0EB62415408EA7928F5547937AC2",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "F5DD2E421EF648869A01160053124F5D",
+        "B21A992683F2459BA04EC2278100260D",
+        "80C044D06B3947D792F32829C3653BEE",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "71604897456F418080D869A949AE410A",
+        "5BF70296722248D9B407346749922C66",
+        null,
+        "=UserType not in ['93BECEED174543698C4E3F9A300C1878']"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

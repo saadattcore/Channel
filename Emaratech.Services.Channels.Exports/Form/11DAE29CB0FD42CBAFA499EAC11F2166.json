@@ -1,0 +1,628 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Full name",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "NameEn",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "593A757FD4BA45E9A482B4D74E394842",
+          "name": "FullName",
+          "description": null,
+          "version": 1
+        },
+        {
+          "displayName": "Editable Sponsor email",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "Email",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000016",
+                "validationName": "email",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "64D9819187BA4B5091C025BD59CCF95A",
+          "name": "SponsorEmail",
+          "description": null,
+          "version": 6
+        },
+        {
+          "displayName": "Editable Mobile number",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000026",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "MobileNo",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000001",
+                "validationName": "required",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^\\d{3}\\-\\d{7}$/",
+                "resourceKey": "AlertLocalPhoneNumber",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "4D384D8554A44D738687FF420E87850B",
+          "name": "MobileNo",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Passport pickup",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000035",
+            "lookupId": "A389F1073E534A24AF6E4534581A3B5B",
+            "entity": "ApplicationDetails",
+            "resourceKey": "PassportPickup",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": null,
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "E4689C247C804116BF89942BF0F71A92",
+          "name": "ResidencyPickup",
+          "description": null,
+          "version": 1
+        }
+      ],
+      "key": "04EFACF604F14165A41DEA0AF2375879",
+      "name": "Passport  (Re)new-Requester Infos",
+      "description": null,
+      "version": 3
+    },
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Passport Renew Emirate",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "Emirate",
+            "required": true,
+            "placeholder": "SelectEmirate",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": "UChannel/passport/lookup/emirates",
+            "lookupIdProperty": "ID",
+            "lookupValueEnProperty": "NameInEn",
+            "lookupValueArProperty": "NameInAr",
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "DE2D02BD74AF4C67BDFA6978C6B171DB",
+          "name": "EmirateId",
+          "description": null,
+          "version": 4
+        },
+        {
+          "displayName": "Passport Renew City",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000020",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "City",
+            "required": true,
+            "placeholder": "PreSelectCity",
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": "EmirateId",
+            "parentEntity": "ApplicantDetails",
+            "parentProperty": "ID",
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": true,
+            "css": "col-sm-6",
+            "lookupAPIUrl": "UChannel/passport/lookup/cities?eid=:parentValue",
+            "lookupIdProperty": "ID",
+            "lookupValueEnProperty": "NameInEn",
+            "lookupValueArProperty": "NameInAr",
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "8B3EC01936C14ACC94A1B258162BD3DC",
+          "name": "CityId",
+          "description": null,
+          "version": 5
+        },
+        {
+          "displayName": "Editable Address Street",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "AddressLine1",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9]+[\\u0600-\\u065F\\u066A-\\u06EF\\u06FA-\\u06FFa-zA-Z0-9-_ ]*$/",
+                "resourceKey": "AlertAddressOutsideUAE",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "5229F99317B94859A9C4EDAB6DA9F81F",
+          "name": "Street",
+          "description": null,
+          "version": 9
+        },
+        {
+          "displayName": "Editable Nearest Landmark",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "NearestLandmark",
+            "required": false,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "A456E46FF14B41219D58A3FE0FFAD06F",
+          "name": "NearestLandmark",
+          "description": null,
+          "version": 2
+        },
+        {
+          "displayName": "Editable Address POBox",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "ApplicantDetails",
+            "resourceKey": "P.O.BoxNo",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000011",
+                "validationName": "custom",
+                "data1": "function validate(getValue, getFormControlValueSafe){var resPickup = getFormControlValueSafe(['ApplicationDetails', 'ResidencyPickup']); return !resPickup || resPickup === 'C7D97783C4F146F281D4AF91B5A61DED' ? !getValue() : false }",
+                "data2": null,
+                "resourceKey": "RequiredField",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000003",
+                "validationName": "max-length",
+                "data1": "<CLOB>",
+                "data2": "8",
+                "resourceKey": "MaxLength",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000005",
+                "validationName": "numeric",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertPOBox",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "BDDAFABB41644F1FA09FDA13EAD5A6D8",
+          "name": "POBox",
+          "description": null,
+          "version": 5
+        }
+      ],
+      "key": "658A2C16D4504D17BFCCD5B65DDDB958",
+      "name": "Passport (Re)new-Courier Infos",
+      "description": null,
+      "version": 1
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Passport Renew Requester Info",
+      "version": 2,
+      "platformIds": [
+        "00000000000000000000000000000001",
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "RequesterDetails",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "593A757FD4BA45E9A482B4D74E394842",
+                "layout": null
+              },
+              {
+                "field": "64D9819187BA4B5091C025BD59CCF95A",
+                "layout": null
+              },
+              {
+                "field": "4D384D8554A44D738687FF420E87850B",
+                "layout": null
+              },
+              {
+                "field": "E4689C247C804116BF89942BF0F71A92",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        },
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "CourierPickupAddress",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "DE2D02BD74AF4C67BDFA6978C6B171DB",
+                "layout": null
+              },
+              {
+                "field": "8B3EC01936C14ACC94A1B258162BD3DC",
+                "layout": null
+              },
+              {
+                "field": "5229F99317B94859A9C4EDAB6DA9F81F",
+                "layout": null
+              },
+              {
+                "field": "A456E46FF14B41219D58A3FE0FFAD06F",
+                "layout": null
+              },
+              {
+                "field": "BDDAFABB41644F1FA09FDA13EAD5A6D8",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": [
+              {
+                "typeId": "00000000000000000000000000000004",
+                "rule": null,
+                "customTag": null,
+                "customMsg": null,
+                "customJs": "{\"fn\":\"function(getComponent, getValue){getValue() === 'C7D97783C4F146F281D4AF91B5A61DED' ? getComponent().expand() : getComponent().collapse()}\",\"entity\":\"ApplicationDetails\",\"name\":\"ResidencyPickup\"}"
+              }
+            ]
+          }
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "11DAE29CB0FD42CBAFA499EAC11F2166",
+  "name": "Passport Renew Requester Info",
+  "description": null,
+  "version": 11
+}

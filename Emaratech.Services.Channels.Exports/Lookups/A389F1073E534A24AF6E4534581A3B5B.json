@@ -1,0 +1,28 @@
+{
+  "lookupId": "A389F1073E534A24AF6E4534581A3B5B",
+  "name": "ResidencyPickup",
+  "version": 12,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "C7D97783C4F146F281D4AF91B5A61DED",
+      "valueEn": "Zajel Delivery",
+      "valueAr": "خدمة توصيل زاجل",
+      "col1": "0",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "FAD96F14B47C4A529DD6B40EAD46A0DF",
+      "valueEn": "Self Collection",
+      "valueAr": "استلام ذاتي",
+      "col1": "1",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

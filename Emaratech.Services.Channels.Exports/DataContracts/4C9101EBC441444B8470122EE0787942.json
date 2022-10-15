@@ -1,0 +1,10 @@
+{
+  "dataContractId": "4C9101EBC441444B8470122EE0787942",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "ChangePassportDueToNewPassport",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Contracts\\ChangePassportDueToNewPassport.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

@@ -1,0 +1,22 @@
+{
+  "serviceId": "862FC0387B1D4055801B2E2594FE3530",
+  "category": {
+    "categoryId": "CDF6CD021B0941A18628E7A63F255830",
+    "parentCategory": {
+      "categoryId": "D2FCCA0D10B34596AD3C51A23CA32448",
+      "parentCategory": null,
+      "name": "Residence",
+      "version": 1,
+      "description": "Residence Category",
+      "resourceKey": "Residence"
+    },
+    "name": "ResidenceNew",
+    "version": 1,
+    "description": "Residence New Category",
+    "resourceKey": "ResidenceNew"
+  },
+  "name": "Wife And Children - Resident Sponsor Working In Private Sector or Free Zone",
+  "version": 2,
+  "description": null,
+  "resourceKey": "Wife And Children - Resident Sponsor Working In Private Sector or Free Zone-New"
+}

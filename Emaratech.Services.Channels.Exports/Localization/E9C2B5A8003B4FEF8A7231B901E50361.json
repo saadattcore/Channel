@@ -1,0 +1,1325 @@
+{
+  "localSetId": "E9C2B5A8003B4FEF8A7231B901E50361",
+  "version": 198,
+  "title": "ErrorCodes",
+  "description": null,
+  "localItems": [
+    {
+      "title": "ApiException",
+      "values": [
+        {
+          "value": "الخدمة غير متوفرة. الرجاء معاودة المحاولة في وقت لاحق.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service is not available. Please try again later.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ApplicationAlreadyExists",
+      "values": [
+        {
+          "value": "يوجد طلب قيد الإنجاز لنفس المكفول   ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "There is under processing application for the same applicant.  ",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Code1",
+      "values": [
+        {
+          "value": "هذا هو رمز الاختبار",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This is a test code",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "DeletePassportInvalid",
+      "values": [
+        {
+          "value": "لا يمكن حذف طلب جواز السفر المتبقي الوحيد.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Cannot delete the only remaining passport request.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EmailNotAvailable",
+      "values": [
+        {
+          "value": "البريد الإلكتروني أو اسم الدخول مسجل مسبقا. يرجى تسجيل الدخول أو المحاولة من جديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "The email address or username is already registered. Please login or try a new one.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EMPTY_BANK_COUNTRY",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EMPTY_BANK_NAME",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EMPTY_BENE_NAME",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "EMPTY_IBAN_NO",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_AMOUNT_FORMAT",
+      "values": []
+    },
+    {
+      "title": "ERR_BENE_AMOUNT_NEGATIVE",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_AMOUNT_SHOULD_BE_EQUAL",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_AMOUNT_SHOULD_BE_LESS_OR_EQUAL",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_BACKWARD_COMPATIBILITY_1",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_CODE_FORMAT",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_DOESNOT_EXIST",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BENE_PAYMENT_DOESNOT_EXIST",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_BNK_MISMATCH",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ERR_REFUND_MIGS_FAILURE",
+      "values": [
+        {
+          "value": "خطأ في طلب الاسترداد, لتفاصيل أكثر يرجى الإتصال  بالإدارة العامة للإقامة وشؤن الأجانب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ErrorMessage",
+      "values": [
+        {
+          "value": "حدث خطأ تقني أثناء محاولة تنفيذ الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "An error occurred while processing your request",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "eVisaInquiryResultNotfound",
+      "values": [
+        {
+          "value": "لم يتم العثور على نتائج. يرجى المحاولة من جديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User Mismatch. Please try again",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ExpectationFailed",
+      "values": [
+        {
+          "value": "لم تتخطى البيانات عمليات التحقق ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Data did not pass all business validations",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "gateWayTimeout",
+      "values": [
+        {
+          "value": ". نفذ وقت البوابة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Gateway Timeout",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthTestResultFail",
+      "values": [
+        {
+          "value": "يرجى زيارة مركز المحيصنة لإنجاز معاملة الالغاء لهذا الملف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please visit Almohasna branch to cancel the selected applicant",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "HealthTestResultNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على نتيجة الكشف الصحي.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Health test result is not found.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IncorrectAnswer",
+      "values": [
+        {
+          "value": "إجابة خاطئة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Incorrect Answer",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualAccountExists",
+      "values": [
+        {
+          "value": "يوجد حساب باسم المستخدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User has an account",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualLocalUserPassportNotFromUae",
+      "values": [
+        {
+          "value": "جواز سفرك ليس من دولة الإمارات العربية المتحدة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your passport is not from UAE",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualNoMobileFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على هاتف متحرك للحساب, يرجى المحاولة من جديد أو قم بزيارة أقرب فرع للإدارة العامة لللإقامة وشؤون الأجانب لتحديث معلوماتك أو الاتصال بالرقم 8005111",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "No mobile numbers associate with user account, Please try again or visit the nearest GDRFA Dubai location to update your information or call 8005111",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserDepartmentNotSupported",
+      "values": [
+        {
+          "value": "Only registered to Dubai department can register",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Only registered to Dubai department can register",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserMobileNotFound",
+      "values": [
+        {
+          "value": "ليس لدينا رقم هاتفك الجوال في النظام. الرجاء إدخال رقم الجوال الخاص بك للمتابعة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "We don't have your mobile number in our system. Please enter your mobile number to continue",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور علي ملف بهذه البيانات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Couldn't find Profile with given details.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserNotSupported",
+      "values": [
+        {
+          "value": "الحالة القانونية للمستخدم غير معتمدة.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User Legality Status not supported.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserPartner",
+      "values": [
+        {
+          "value": "نوع إقامتك هو إقامة شريك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your residence type is partner",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserResInfoNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على معلومات الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Residence information is not found",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IndividualUserVisaExpired",
+      "values": [
+        {
+          "value": "انتهت صلاحية تأشيرتك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your visa has expired",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InternalServerError",
+      "values": [
+        {
+          "value": "الخدمة غير متوفرة. الرجاء معاودة المحاولة في وقت لاحق",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service is not available. Please try again later.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Invalid credentials.",
+      "values": [
+        {
+          "value": "بيانات المستخدم غير صحيحة. الرجاء المحاولة مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Invalid credentials",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "invalid_grant",
+      "values": [
+        {
+          "value": "بيانات المستخدم غير صحيحة. الرجاء المحاولة مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Invalid credentials",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "INVALID_LENGTH_BENE_NAME",
+      "values": [
+        {
+          "value": "يرجى إدخال بيانات صحيحة للمستفيد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Enter a correct Beneficiary Details",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidApplicationData",
+      "values": [
+        {
+          "value": "لم يتم التعرف علي شكل بيانات التطبيق.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Application data format is not recognized",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidArgumentsForPasswordReset",
+      "values": [
+        {
+          "value": "معطيات غير صحيحة لإعادة تعيين كلمة السر.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Could not reset the password for this Emirates ID/Username",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidDaughterMaritalStatus",
+      "values": [
+        {
+          "value": "لا يمكن كفالة ابنة متزوجة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "A married daughter cannot be sponsored",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidDocumentConfiguration",
+      "values": [
+        {
+          "value": "مصفوفة المستند لم يتم ضبطها بالنظام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "DocumentMatrix not configured in system",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidFeeConfiguration",
+      "values": [
+        {
+          "value": "مصفوفة الرسوم لم يتم ضبطها بالنظام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "FeeMatrix not configured in system",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidFormConfiguration",
+      "values": [
+        {
+          "value": "مصفوفة شكل النموذج لم يتم ضبطها بالنظام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "FormMatrix not configured in system",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidNumberOfWifes",
+      "values": [
+        {
+          "value": "يمكن للمقيم أن يكفل زوجة واحدة في كل مرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "A resident can only sponsor one wife at a time",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidNumberOfYears",
+      "values": [
+        {
+          "value": "عدد السنوات المختارة أكبر من عدد السنوات المتاحة للكفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Number of years selected are greater than sponsor number of years",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidServiceConfiguration",
+      "values": [
+        {
+          "value": "مصفوفة الخدمات لم يتم ضبطها بالنظام",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "ServiceMatrix not configured in system",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidSponsoredGender",
+      "values": [
+        {
+          "value": "نوع الجنس للكفيل غير صحيح.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "The gender of the sponsored is invalid",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "InvalidSponsorFileNumber",
+      "values": [
+        {
+          "value": "رقم ملف الكفيل غير صحيح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "The sponsor file number is invalid",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "IssueWithRefundRequest",
+      "values": [
+        {
+          "value": "حدث خطأ أثناء الطلب. يرجى الإتصال بالإدارة العامة للإقامة وشؤن الأجانب - دبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "There was an issue with your request. Please contact GDRFA-D for support.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "LegalAdviceNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على المشورة القانونية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Legal advice not found",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MyIdServiceMobileNotAvailable",
+      "values": [
+        {
+          "value": "لا يوجد رقم هاتف متحرك لحساب دبي آي دي.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "There is no mobile number associated with you DubaiID account.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MyIdServiceNotAvailable",
+      "values": [
+        {
+          "value": "الخدمة غير متوفرة لأصحاب ملفات لا تتبع إمارة دبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Service is not available for users who does not belong to Dubai Department",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "MyIdServiceUserNotAvailable",
+      "values": [
+        {
+          "value": "إدخال خاطئ , يرجى المحاولة مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Wrong Credentials, please try again",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoActionAllowedAccompaniedExist",
+      "values": [
+        {
+          "value": "لا يسمح لك بتنفيذ هذا الإجراء. مقدم الطلب هذا مرافق كفيل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You are not allowed to perform this action. This applicant is sponsoring accompany",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoActionAllowedDefault",
+      "values": [
+        {
+          "value": "لا يسمح لك بتنفيذ هذا الإجراء.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You are not allowed to perform this action",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoActionInvestorSponsor",
+      "values": [
+        {
+          "value": "لا يمكن للمستثمر أو الشريك تنفيذ هذه العملية",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Investors or parters are not allowed to perform this action",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoActionNotDubaiVisa",
+      "values": [
+        {
+          "value": "لا يسمح لك بتنفيذ هذا الإجراء، لأن تأشيرة مقدم الطلب لا تنتمي إلى دبي.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You are not allowed to perform this action, as applicant's visa does not belong to Dubai.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoCancelDependentsExist",
+      "values": [
+        {
+          "value": "لا يسمح لك بإجراء الإلغاء. مقدم الطلب هذا كفيل لمتقدمين اخرين.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You are not allowed to perform cancellation. This applicant is sponsoring other applicant(s)",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoCancelLessThan180DaysOutside",
+      "values": [
+        {
+          "value": "يجب أن يكون مقدم الطلب داخل البلد للقيام بهذا الإجراء.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Applicant should be inside the country to perform this action",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NoRenewLessThan180Days",
+      "values": [
+        {
+          "value": "لا يسمح لك بتنفيذ هذا الإجراء إلا خلال أخر 6 أشهر من صلاحية الإقامة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You are allowed to do this action only within last 6 months of Residence validity",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "NotAllowedPersonOutSideCountry",
+      "values": [
+        {
+          "value": "يجب أن يكون مقدم الطلب داخل البلد للقيام بهذا الإجراء.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Applicant should be inside the country to perform this action",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Nothing found",
+      "values": [
+        {
+          "value": "لا يوجد نتائج...",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Nothing found...",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "OverstayViolationFound",
+      "values": [
+        {
+          "value": "يوجد مخالفة بحق هذا الشخص. سيتم إضافة غرامة على الطلب",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "You have Overstay Violation. Fines will be added to this application",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportRequestAlreadyExists",
+      "values": [
+        {
+          "value": "الطلب موجود بالفعل لرقم التعريف الامارتي والرقم الموحد ذلك.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "A request already exists for this emirates ID and unified number.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PassportRequestNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على طلب جواز السفر.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Passport request not found",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PasswordStrengthFailed",
+      "values": [
+        {
+          "value": "كلمة المرور يجب أن تتكون من 8 أحرف على الأقل، تتضمن على الأقل حرف ورقم من (9-0) وأحد الأحرف الخاصة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Password should not be less than 8 characters and contains at least one letter, one digit & one special character.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PermitNumberNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على الملف الشخصي لهذة التأشيرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Profile not found for this permit number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PersonOutsideCountry",
+      "values": [
+        {
+          "value": "يجب أن يكون مقدم الطلب لرقم التصريح هذا داخل البلد.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Applicant with this permit number  should be inside the country.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PlatformNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور علي البرنامج.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This platform not found",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Please select a service above",
+      "values": [
+        {
+          "value": "يرجى إختيار خدمة من الأعلى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please select a service above",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "PleaseTryAgain",
+      "values": [
+        {
+          "value": "الرجاء المحاولة من جديد",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please Try Again",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundContent",
+      "values": [
+        {
+          "value": "بإمكان المستخدم التقدم بطلب استرجاع الرسوم بعد خروجه من الدولة وبهذه الحالة سيكون بإمكانه استرجاع رسوم الضمان فقط في حال لم يكن لديه مخالفه على سجله كالبقاء في الدولة اكثر من الفترة المسموحه.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "The user can ask for a refund after he exits the country, and in this case he will be eligible for warranty refund only, and the user must not have an overstay violation.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundContentTwo",
+      "values": [
+        {
+          "value": "في حال تم رفض طلب التأشيرة أو تم تحديث حالة الطلب بحيث يطلب من المستخدم إرفاق مستندات إضافية، يحق للمستخدم التقدم بطلب استرجاع رسوم الطلب التي يحق له استرجاعها، بحيث تكون رسوم المعالجه وغيرها غير قابلة للإسترجاع.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "If the user application got Rejected or was returned as more Documents Required to be uploaded by the user, then he can ask for a refund for his application, and he will be entitled to receive only refundable fees; processing fee and other fees will not be refunded.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Refunded",
+      "values": [
+        {
+          "value": "سيتم ارسال طلبك الى البنك خلال 48 ساعة. الرجاء متابعة الطلب مع البنك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your request will be forwarded to your Bank within 48 Hours. Please follow up with your bank.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundFailed",
+      "values": [
+        {
+          "value": "لقد تم رفض طلبك لاسترداد الرسوم. الرجاء التواصل مع الإدارة العامة للإقامة وشوؤن الأجانب - دبي لمزيد من المعلومات",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Request for Refund Failed, Please contact GDRFA for more information.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundRequestSuccessful",
+      "values": [
+        {
+          "value": "سيتم ارسال طلبك الى البنك خلال 48 ساعة. الرجاء متابعة الطلب مع البنك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your request will be forwarded to your Bank within 48 Hours. Please follow up with your bank.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "RefundSuccessful",
+      "values": [
+        {
+          "value": "طلب الاسترداد تم قبوله من البنك الخاص بك. سيتم إيداع الأموال الى حسابك خلال 48 ساعه",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your Refund request was accepted by your bank. Money will be credited to your account within 48 hours",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidenceCancelFailPersonOutsideCountry",
+      "values": [
+        {
+          "value": "يرجى زيارة احد فروع  الإداره العامه للإقامه و شؤون الأجانب لانجاز إجراءات الالغاء حيث ان الشخص خارج الدولة اقل من 6 اشهر",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please visit any GDRFA-D branch to request the cancellation because the person outside the country less than 6 month",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidenceNumberNotFound",
+      "values": [
+        {
+          "value": "لم يتم العثور على الملف الشخصي للسماح بذلك الرقم.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Profile not found for permit this number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidencyExpiringSoon",
+      "values": [
+        {
+          "value": "تاريخ انتهاء صلاحية إقامتك غير صالح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your residence expiry date is not valid",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidencyNotValid",
+      "values": [
+        {
+          "value": "فشل تلك الخطوة بسب حالة أقامة الكفيل بالنسبة لرقم الكفيل.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Workflow step failed because sponsor residence status for sponsor number",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidentCancelFailed",
+      "values": [
+        {
+          "value": "يرجى زيارة احد مراكز الخدمة لإنجاز معاملة الالغاء لهذا الملف",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please visit any GDRFA-D branch to cancel the selected applicant",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ResidentCancelFailedRelatedSponsored",
+      "values": [
+        {
+          "value": "يرجى زيارة احد مراكز الخدمة لانجاز إجراءات الالغاء حيث ان الملف لديه مكفولين",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Please visit any GDRFA-D branch because the selected applicant has related sponsored",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Selected file is too big. Please select a file under",
+      "values": [
+        {
+          "value": "حجم الملف المرفق كبير. من فضلك إخترملف بحجم أقل من",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Selected file is too big. Please select a file under",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Selected file type is not supported. Please select on of the",
+      "values": [
+        {
+          "value": "نوع الملف المرفق غير مدعوم. من فضلك إختر أحد هذه الأنواع",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Selected file type is not supported. Please select one of these types",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ServiceNotResolved",
+      "values": [
+        {
+          "value": "لا يمكن أن تعدد الخدمات لنفس نوع التأشيرة ونوع تطبيق التأشيرة",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "There can not be multiples services with the same visa type and visa app type",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorFileNotActive",
+      "values": [
+        {
+          "value": "لا يمكن اتمام الخدمة. يرجى التأكد من أن ملف الكفيل مفعل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor File is not authorized for this service. Please make sure your file is active.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "SponsorResidenceExpiry3Months",
+      "values": [
+        {
+          "value": "أقامة الراعي سوف تنتهي خلال ثلاثة أشهر لذلك لا يمكن الاستمرار. يرجى تجديد إقامة الراعي ثم المحاولة مرة أخرى.",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Sponsor residency expiring in 3 months that's why cannot continue. Please renew sponsor residency then try again.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Thank you for your feedback",
+      "values": [
+        {
+          "value": "شكرا علي رأيك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Thank you for your feedback",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "This Service allows you to inquire about your file Status, Issuance, Expiry and Validity.",
+      "values": [
+        {
+          "value": "هذه الخدمة تسمح لك بالاستعلام عن حالة و إصدار و انتهاء وصلاحية ملفك",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This Service allows you to inquire about your file Status, Issuance, Expiry and Validity.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "This service is available only for travelers who entered UAE via Dubai entry points.",
+      "values": [
+        {
+          "value": "هذه الخدمة متاحة فقط للمسافرين الذين دخلو الإمارات عن طريق منافذ دبي",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This service is available only for travelers who entered UAE via Dubai entry points.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "This service will bring information about the files created through all channels inside Dubai and outside Dubai.",
+      "values": [
+        {
+          "value": "هذه الخدمة سوف تبحث عن بيانات الملفات التي تم انشائها خلال كل القنوات الالكترونية في دبي وخارجها",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "This service will bring information about the files created through all channels inside Dubai and outside Dubai.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Unauthorized",
+      "values": [
+        {
+          "value": "لقد إنتهت صلاحية الدخول الخاصة بك, الرجاء إعادة تسجيل الدخول مرة أخرى",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Your session has been expired. Please login again.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Upgrade your browser now.",
+      "values": [
+        {
+          "value": "حدث متصفحك الأن",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Upgrade your browser now.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "Use MyID Number, E-Mail or Username",
+      "values": [
+        {
+          "value": "استخدام دبي آي دي, بريد إلكتروني أو اسم المستخدم",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Use DubaiID Number, E-Mail or Username",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "UserAlreadyRegisteredOnThisProfile",
+      "values": [
+        {
+          "value": "المستخدم مسجل بالفعل",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "User is Already Registered",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "ViolationPaymentHistoryFound",
+      "values": [
+        {
+          "value": "تم العثور على كشف دفع الغرامات للمكفول",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Violation payment history found for this dependent.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "We have detected that you’re using an old version of your browser. For a better experience, we recommend you to use the latest version.",
+      "values": [
+        {
+          "value": "لقد اكتشفنا أنك تستخدم إصدار قديم من المتصفح",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "We have detected that you’re using an old version of your browser. For a better experience, we recommend you to use the latest version.",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    },
+    {
+      "title": "WrongCode",
+      "values": [
+        {
+          "value": "رمز خاطئ",
+          "languageId": "0DB3A588ACD547CCBFC38AA7E0E19E36"
+        },
+        {
+          "value": "Wrong Code",
+          "languageId": "4D9E89CF710448E9A0E81B4FBFC112B3"
+        }
+      ]
+    }
+  ]
+}

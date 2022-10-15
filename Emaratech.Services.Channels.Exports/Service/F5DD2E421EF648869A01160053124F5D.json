@@ -1,0 +1,22 @@
+{
+  "serviceId": "F5DD2E421EF648869A01160053124F5D",
+  "category": {
+    "categoryId": "80C044D06B3947D792F32829C3653BEE",
+    "parentCategory": {
+      "categoryId": "948CECE51468461B944EE09E7B609102",
+      "parentCategory": null,
+      "name": "EntryPermit",
+      "version": 1,
+      "description": "Entry Permit Category",
+      "resourceKey": "Entry Permit"
+    },
+    "name": "EntryPermitCancel",
+    "version": 1,
+    "description": "Entry Permit Cancel Category",
+    "resourceKey": "EntryPermitCancel"
+  },
+  "name": "Visa Cancel",
+  "version": 1,
+  "description": null,
+  "resourceKey": "EntryPermitCancelPrivate"
+}

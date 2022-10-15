@@ -1,0 +1,20 @@
+{
+  "lookupId": "2790F67B274D485ABF27F1A85E618E1D",
+  "name": "eSexLookup",
+  "version": 12,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from gender_lk where gender_id in (1,2) and is_archived = 0)",
+    "idName": "GENDER_ID",
+    "valueEnName": "GENDER_NAME_EN",
+    "valueArName": "GENDER_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

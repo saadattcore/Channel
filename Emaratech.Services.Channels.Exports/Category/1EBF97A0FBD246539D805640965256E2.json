@@ -1,0 +1,15 @@
+{
+  "categoryId": "1EBF97A0FBD246539D805640965256E2",
+  "parentCategory": {
+    "categoryId": "D2FCCA0D10B34596AD3C51A23CA32448",
+    "parentCategory": null,
+    "name": "Residence",
+    "version": 1,
+    "description": "Residence Category",
+    "resourceKey": "Residence"
+  },
+  "name": "ResidenceModify",
+  "version": 1,
+  "description": "Residence Modify Category",
+  "resourceKey": "ResidenceModify"
+}

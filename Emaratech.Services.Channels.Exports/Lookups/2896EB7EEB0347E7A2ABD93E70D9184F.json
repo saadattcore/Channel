@@ -1,0 +1,20 @@
+{
+  "lookupId": "2896EB7EEB0347E7A2ABD93E70D9184F",
+  "name": "eAppRejecionReasonSubCategory",
+  "version": 7,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from application_reason_type_lk where is_archived=0)",
+    "idName": "APP_REASON_TYPE_ID",
+    "valueEnName": "REASON_EN",
+    "valueArName": "REASON_AR",
+    "col1Name": "APP_REASON_CAT_TYPE_ID",
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

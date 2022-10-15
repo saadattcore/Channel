@@ -1,0 +1,1332 @@
+{
+  "mappingMatrixId": "007DBF0B6FFB4DACA1B350903FC3356A",
+  "name": "UnifiedDocuments",
+  "version": 8,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "DocumentType",
+      "sequence": 1,
+      "variableName": "DocumentType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "C3B7E93A116A46CAA3D5131B17988F61",
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "Service",
+      "sequence": 2,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": "47933E9733A346019BD335B7214AAB11",
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "302",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "311",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "316",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "316",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "316",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "316",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "25C9364C47E840CEB81FF82AF6A00099"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "53E9AC7E88FF4B9BB0BFDBADDC4910D6"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "416",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "6D1B8B0BFF254128BAF5AA2674667E01"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "417",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "A1CF7DC84B134F0783D342EB5C228AEB"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "41",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "25C9364C47E840CEB81FF82AF6A00099"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "53E9AC7E88FF4B9BB0BFDBADDC4910D6"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "6D1B8B0BFF254128BAF5AA2674667E01"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "A1CF7DC84B134F0783D342EB5C228AEB"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "42",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "25C9364C47E840CEB81FF82AF6A00099"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "53E9AC7E88FF4B9BB0BFDBADDC4910D6"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "6D1B8B0BFF254128BAF5AA2674667E01"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "A1CF7DC84B134F0783D342EB5C228AEB"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "43",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "25C9364C47E840CEB81FF82AF6A00099"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "53E9AC7E88FF4B9BB0BFDBADDC4910D6"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "6D1B8B0BFF254128BAF5AA2674667E01"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "A1CF7DC84B134F0783D342EB5C228AEB"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "44",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "N",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "25C9364C47E840CEB81FF82AF6A00099"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "53E9AC7E88FF4B9BB0BFDBADDC4910D6"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "6D1B8B0BFF254128BAF5AA2674667E01"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "767D1137744E42A0892BA5D1EB5BF596"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "8F1D1586F1714B3C8E51AFE22E4CB1E4"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "A1CF7DC84B134F0783D342EB5C228AEB"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "AE7C6D6AF3DA4120AA0152542EF7BB71"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "5",
+        "B716D3D328C74696B4C358B69D7D87F0"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [
+        {
+          "key": "MALLOW",
+          "value": "1",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        },
+        {
+          "key": "MAN_FLAG",
+          "value": "Y",
+          "type": null,
+          "description": null,
+          "arrDetails": []
+        }
+      ],
+      "isExcluded": false
+    }
+  ]
+}

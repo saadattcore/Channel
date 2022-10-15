@@ -1,0 +1,106 @@
+{
+  "mappingMatrixId": "85D854A2D8E941B99E476D64922E9C86",
+  "name": "Strategy",
+  "version": 13,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "SponsorTypeId",
+      "sequence": 2,
+      "variableName": "SponsorTypeId",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "49EC908FADF14D2C9CFFB42CFCAA7746",
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "Strategy",
+      "sequence": 3,
+      "variableName": "Strategy",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "MappingMatrixItemsId",
+      "sequence": 4,
+      "variableName": "MappingMatrixItemsId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "2",
+        "20",
+        "Strategies.EntryPermitStrategy",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "3",
+        "2",
+        "Strategies.ResidenceStrategy",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        null,
+        null,
+        "Strategies.UnifiedStrategy",
+        "63322F2DB9134EAAB26C69F9FC05CE9F"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

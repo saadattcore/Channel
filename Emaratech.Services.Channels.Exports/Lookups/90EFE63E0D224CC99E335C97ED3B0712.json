@@ -1,0 +1,20 @@
+{
+  "lookupId": "90EFE63E0D224CC99E335C97ED3B0712",
+  "name": "eFlightsLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "EAP_FLIGHTS",
+    "idName": "ID",
+    "valueEnName": "FLIGHT_DESC_E",
+    "valueArName": "FLIGHT_DESC_A",
+    "col1Name": "FLIGHT_CD",
+    "col2Name": "FLIGHT_LONG",
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

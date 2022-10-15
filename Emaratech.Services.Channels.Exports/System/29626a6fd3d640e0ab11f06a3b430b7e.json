@@ -1,0 +1,10 @@
+{
+  "id": "29626a6fd3d640e0ab11f06a3b430b7e",
+  "nameEn": "Mapping Matrix Service",
+  "nameAr": "Mapping Matrix Service",
+  "description": null,
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "MappingMatrixApi"
+}

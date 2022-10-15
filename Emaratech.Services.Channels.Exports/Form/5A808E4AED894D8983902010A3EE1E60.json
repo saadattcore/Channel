@@ -1,0 +1,158 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": false,
+      "fieldConfiguration": {
+        "fieldTypeId": "00000000000000000000000000000022",
+        "lookupId": null,
+        "entity": "SponsorDetails",
+        "resourceKey": "SponsorshipFilePageHeading",
+        "required": false,
+        "placeholder": null,
+        "extensions": [],
+        "events": [],
+        "transformations": [],
+        "validations": [],
+        "parentName": null,
+        "parentEntity": null,
+        "parentProperty": null,
+        "multiSelect": false,
+        "withPopup": false,
+        "withCode": false,
+        "mobile": false,
+        "css": "col-sm-6",
+        "lookupAPIUrl": null,
+        "lookupIdProperty": null,
+        "lookupValueEnProperty": null,
+        "lookupValueArProperty": null,
+        "isComposite": false,
+        "readOnly": false,
+        "conditionalEdit": false,
+        "filter": null,
+        "translation": false,
+        "translationName": null,
+        "translationEntity": null,
+        "type": null
+      },
+      "fields": null,
+      "key": "4FE81D02D9EE4E6ABB359CF90B3CCB45",
+      "name": "SponsorshipFilePageHeading",
+      "description": null,
+      "version": 1
+    },
+    {
+      "displayName": "Editable Visa type",
+      "isFieldSet": false,
+      "fieldConfiguration": {
+        "fieldTypeId": "00000000000000000000000000000035",
+        "lookupId": "9DF3C51B547E46FB8A1F0D2B875BDF54",
+        "entity": "SponsorDetails",
+        "resourceKey": "PleaseSelectOpenSponsorshipFileAction",
+        "required": true,
+        "placeholder": null,
+        "extensions": [],
+        "events": [],
+        "transformations": [],
+        "validations": [],
+        "parentName": null,
+        "parentEntity": null,
+        "parentProperty": null,
+        "multiSelect": false,
+        "withPopup": true,
+        "withCode": false,
+        "mobile": true,
+        "css": "col-sm-6",
+        "lookupAPIUrl": null,
+        "lookupIdProperty": null,
+        "lookupValueEnProperty": null,
+        "lookupValueArProperty": null,
+        "isComposite": false,
+        "readOnly": true,
+        "conditionalEdit": true,
+        "filter": null,
+        "translation": false,
+        "translationName": null,
+        "translationEntity": null,
+        "type": null
+      },
+      "fields": null,
+      "key": "F0DEF8417CDA41F5BDAC2BF2640DE577",
+      "name": "IsSponsorFileOpen",
+      "description": null,
+      "version": 1
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "Mobil-Preform-OpenSponsorshipFile",
+      "version": 1,
+      "platformIds": [],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": "OpenSponsorshipFormLayout",
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "4FE81D02D9EE4E6ABB359CF90B3CCB45",
+          "layout": null
+        },
+        {
+          "field": "F0DEF8417CDA41F5BDAC2BF2640DE577",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    },
+    {
+      "name": "OpenSponsorshipFormLayout",
+      "version": 2,
+      "platformIds": [
+        "00000000000000000000000000000001",
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": false,
+      "heading": null,
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": null,
+          "layout": {
+            "Name": null,
+            "PlatformIds": null,
+            "LayoutTypeId": "00000000000000000000000000000001",
+            "Url": null,
+            "PlaceHolderId": null,
+            "Collapsible": true,
+            "Heading": "SponsorshipFilePageHeading",
+            "Rows": [],
+            "CustomItems": [],
+            "VerticalItems": [
+              {
+                "field": "F0DEF8417CDA41F5BDAC2BF2640DE577",
+                "layout": null
+              }
+            ],
+            "Tabs": [],
+            "Extensions": []
+          }
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "5A808E4AED894D8983902010A3EE1E60",
+  "name": "Open Sponsorship Form",
+  "description": "Open Sponsorship Form",
+  "version": 3
+}

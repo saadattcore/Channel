@@ -1,0 +1,231 @@
+{
+  "id": "0E56E4FE722847BCBD4F2569E2C87E14",
+  "nameEn": "Unified Channel",
+  "nameAr": "UnifiedChannel",
+  "description": null,
+  "version": 18,
+  "groupId": "42732CAD473D43BAAF67AFE462E4D33A",
+  "properties": [
+    {
+      "propName": "ApplicationDefaultValuesMatrix",
+      "propValue": "A456C06F87E94B54BB6E100231DF888B",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "Configuration.Fee",
+      "propValue": "31047117C799484993FB92EBFE03B16A",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "Configuration.FeeBeneficiary",
+      "propValue": "394580B908DC4100A63EE6092482B452",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Configuration.ServiceAccess",
+      "propValue": "C61A2A98BA904B2B83F277785A02FB23",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "DocumentMatrix",
+      "propValue": "A0D10531BFF342DAA759CC59DB8FB210",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "FeeMatrix",
+      "propValue": "31047117C799484993FB92EBFE03B16A",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "FormMatrix",
+      "propValue": "8040DE5D111A4CB1A30298918E08C474",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "KeyVault.Token",
+      "propValue": "Key1",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Lookups.DocumentSetId",
+      "propValue": "B6CD762E7BF64504BFB85584CC3D8E39",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Lookups.eSponsorTypeId",
+      "propValue": "7A2EAED0BF88408B80A85001F468CC19",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Lookups.InsideCountry",
+      "propValue": "6255F58715BF46A8B9BD76052A46B4C6",
+      "propType": "00000000000000000000000000000002"
+    },
+    {
+      "propName": "Lookups.ResidencyPickup",
+      "propValue": "A389F1073E534A24AF6E4534581A3B5B",
+      "propType": "00000000000000000000000000000003"
+    },
+    {
+      "propName": "Lookups.YearsOfResidence",
+      "propValue": "8C587B88EF4A47FABF067E5D1269670C",
+      "propType": "00000000000000000000000000000003"
+    },
+    {
+      "propName": "MappingMatrix.ApplicationFieldsId",
+      "propValue": "7EC692758BD04D0DAEB2CFEAD4DD87ED",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MappingMatrix.DataContractId",
+      "propValue": "1C2A05CD719E4D50A9DB6E144349CF8E",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MappingMatrix.DataContractVersion",
+      "propValue": "1",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MaxNumberOfApplicationToPrint",
+      "propValue": "50",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "MaxUploadSize",
+      "propValue": "102400",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.AllowCC",
+      "propValue": "Y",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EncryptionFilePath",
+      "propValue": "C:\\EAP-PAYMENT\\EPG\\MR100095_key.xml",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EPG_INSTANCE",
+      "propValue": "EPG_INSTANCE",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EPG_MERCHANT",
+      "propValue": "MR100095",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.EPG_VERSION",
+      "propValue": "1.0",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileFailureUrl",
+      "propValue": "http://eap-dev:8989/payments/failed/:application:/:reference:",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileSuccessUrl",
+      "propValue": "Payments.SuccessUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.MobileUrl",
+      "propValue": "http://172.16.0.9:8989/mobile/payment.html",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.OriginId",
+      "propValue": "FAWRI",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Payments.RedirectUrl",
+      "propValue": "Payments.RedirectUrl",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "ServiceMatrix",
+      "propValue": "691E78841D954D3E985081553E342089",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "SMS.ApplicationId",
+      "propValue": "efawri",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.CellPhonePattern",
+      "propValue": "^(\\+{0,1}97[\\s]{0,1}[\\-]{0,1}[\\s]{0,1}1|0)5[0-9][\\s]{0,1}[\\-]{0,1}[\\s]{0,1}[1-9]{1}[0-9]{6}$",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.DucontURL",
+      "propValue": "https://mdirham.ducont.ae/WEBSERVICE_DatelFAW/Service.asmx",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.KeyPatten",
+      "propValue": "##",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.SenderId",
+      "propValue": "6389SMS",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.SmsPassword",
+      "propValue": "Ef@wri12$",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "SMS.SmsUserId",
+      "propValue": "efawri",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "UnifiedIntegrationApplicationMatrix",
+      "propValue": "63322F2DB9134EAAB26C69F9FC05CE9F",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "VisaStatus",
+      "propValue": "8D64160BD0A44CF7A5BF46F01C29AC67",
+      "propType": "00000000000000000000000000000002"
+    },
+    {
+      "propName": "VisaType",
+      "propValue": "4376932242944294820D5FB6766F225D",
+      "propType": "00000000000000000000000000000002"
+    },
+    {
+      "propName": "Workflow.StepsAssemblyPath",
+      "propValue": "C:\\EAP-WORKFLOWS",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "WorkflowMatrix",
+      "propValue": "08C3416E11544C1C819364A8913B99FE",
+      "propType": "00000000000000000000000000000004"
+    },
+    {
+      "propName": "Zajel.BranchId",
+      "propValue": "VMOB",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Zajel.ClientId",
+      "propValue": "24040",
+      "propType": "00000000000000000000000000000001"
+    },
+    {
+      "propName": "Zajel.UserId",
+      "propValue": "1E203D98-B72D-47D8-8D05-5A1B00A58BE8",
+      "propType": "00000000000000000000000000000001"
+    }
+  ],
+  "HealthEndpoint": null
+}

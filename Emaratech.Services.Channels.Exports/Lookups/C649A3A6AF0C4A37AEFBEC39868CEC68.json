@@ -1,0 +1,20 @@
+{
+  "lookupId": "C649A3A6AF0C4A37AEFBEC39868CEC68",
+  "name": "eVisaTypesLookup",
+  "version": 9,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from visa_type_lk where is_archived=0) \n",
+    "idName": "VISA_TYPE_ID",
+    "valueEnName": "VISA_TYPE_EN",
+    "valueArName": "VISA_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

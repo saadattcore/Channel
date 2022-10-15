@@ -1,0 +1,84 @@
+{
+  "mappingMatrixId": "6DC66A12AA214427A4C00CE4AD966C0B",
+  "name": "Anonymous Services",
+  "version": 9,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "AllowAnonymousAccess",
+      "sequence": 2,
+      "variableName": "AllowAnonymousAccess",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "296C48D82D274DDBB2883A6C5D12A866",
+        "1"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "365FC64DC8D8433D88B4D4FE445BD1C6",
+        "1"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "50C58BE394364950A590A8DD78730B70",
+        "1"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B38DBB182DBE46FCB9047AFBB5E6D730",
+        "1"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

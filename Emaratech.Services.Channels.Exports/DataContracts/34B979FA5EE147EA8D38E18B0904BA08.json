@@ -1,0 +1,10 @@
+{
+  "dataContractId": "34B979FA5EE147EA8D38E18B0904BA08",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "DocumentsReceived",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Resubmission\\DocumentsReceived.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

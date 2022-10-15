@@ -1,0 +1,84 @@
+{
+  "mappingMatrixId": "12D9E4755A7C496297ED94BBBBA35272",
+  "name": "ServiceConfig",
+  "version": 9,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service",
+      "sequence": 1,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "VisionService",
+      "sequence": 2,
+      "variableName": "VisionService",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "618A92C0363D4790BEE27FD1CEC0778B",
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "6D1B8B0BFF254128BAF5AA2674667E01",
+        "EP000510"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "92ED8E2EC5B7430E8D36D9C53B23D2CB",
+        "EP000298"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "A1CF7DC84B134F0783D342EB5C228AEB",
+        "EP000931"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "B5B16D66815A4B83A530729B5FB568DC",
+        "RA000372"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

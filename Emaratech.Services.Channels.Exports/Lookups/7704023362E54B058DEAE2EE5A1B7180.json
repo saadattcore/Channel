@@ -1,0 +1,20 @@
+{
+  "lookupId": "7704023362E54B058DEAE2EE5A1B7180",
+  "name": "CloseTypeLookup",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "CLOSE_TYPE_LK",
+    "idName": "CLOSE_TYPE_ID",
+    "valueEnName": "CLOSE_TYPE_EN",
+    "valueArName": "CLOSE_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

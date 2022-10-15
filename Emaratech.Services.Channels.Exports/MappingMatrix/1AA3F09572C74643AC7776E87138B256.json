@@ -1,0 +1,481 @@
+{
+  "mappingMatrixId": "1AA3F09572C74643AC7776E87138B256",
+  "name": "Residence",
+  "version": 5,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "PropertyName",
+      "sequence": 1,
+      "variableName": "PropertyName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "ColumnName",
+      "sequence": 2,
+      "variableName": "ColumnName",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "ColumnType",
+      "sequence": 3,
+      "variableName": "ColumnType",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "appType",
+        "APP_TP",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "dept",
+        "DEPT",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "grpId",
+        "GRP_ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "id",
+        "RES_APP_ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "logDate",
+        "LOG_DATE",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "nameArabic",
+        "NAME_A",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "nameEnglish",
+        "NAME_E",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "newSpnsrFilNo",
+        "NEW_SPNSR_FIL_NO",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "passportNo",
+        "PASSPORT_NO",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "passportUpdated",
+        "PP_UPDATE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "passportUpdated",
+        "PRO_EMAIL",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "personNo",
+        "PERSON_NO",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "postflag",
+        "POSTFLAG",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "postid",
+        "POSTID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "processing",
+        "URGENT",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "proMobileNumber",
+        "PRO_MOBILE_NO",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "proNameArabic",
+        "PRO_NAME_AR",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "proNameEnglish",
+        "PRO_NAME_EN",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "proWorkPhoneNumber",
+        "PRO_WORK_PHONE",
+        "String"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "recordType",
+        "RECORD_TYPE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "reqtDate",
+        "REQT_DATE",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "resFileType",
+        "FILE_TYPE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "resFilNo",
+        "FILE_NO",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "resSubType",
+        "RES_SUB_TYPE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "resType",
+        "RES_TYPE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "spnId",
+        "SPN_ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "spnsrRltn",
+        "SPNSR_RLTN",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "spnsrType",
+        "SPNSR_TYPE",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "statusDate",
+        "STATUS_DATE",
+        "Date"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "status",
+        "STATUS",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "userId",
+        "USER_ID",
+        "Long"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

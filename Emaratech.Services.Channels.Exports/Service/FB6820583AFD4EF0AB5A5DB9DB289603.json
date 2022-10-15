@@ -1,0 +1,22 @@
+{
+  "serviceId": "FB6820583AFD4EF0AB5A5DB9DB289603",
+  "category": {
+    "categoryId": "5BF70296722248D9B407346749922C66",
+    "parentCategory": {
+      "categoryId": "D2FCCA0D10B34596AD3C51A23CA32448",
+      "parentCategory": null,
+      "name": "Residence",
+      "version": 1,
+      "description": "Residence Category",
+      "resourceKey": "Residence"
+    },
+    "name": "ResidenceCancel",
+    "version": 1,
+    "description": "Residence Cancel Category",
+    "resourceKey": "ResidenceCancel"
+  },
+  "name": "Residence Cancel",
+  "version": 1,
+  "description": null,
+  "resourceKey": "ResidenceCancelInsideUAE"
+}

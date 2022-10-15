@@ -1,0 +1,127 @@
+{
+  "mappingMatrixId": "F1402D9FC84B4C5CAA8C772F7E40F901",
+  "name": "TEST_MATRIX",
+  "version": 88,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=2222",
+  "outputType": 3,
+  "matrixTypes": [
+    4,
+    6,
+    5
+  ],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Service_name",
+      "sequence": 1,
+      "variableName": "1",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 2,
+      "colName": "Lookup_name",
+      "sequence": 2,
+      "variableName": "2",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "E82C489A44214C35B9B8B32300ECB6F6",
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "dataContract_name",
+      "sequence": 3,
+      "variableName": "3",
+      "domainTypeId": "00000000000000000000000000000010",
+      "domainName": "DataContract",
+      "domainValue": "47933E9733A346019BD335B7214AAB11",
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 4,
+      "colName": "form_name",
+      "sequence": 4,
+      "variableName": "4",
+      "domainTypeId": "00000000000000000000000000000004",
+      "domainName": "Form",
+      "domainValue": "47933E9733A346019BD335B7214AAB11",
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 5,
+      "colName": "workflow_name",
+      "sequence": 5,
+      "variableName": "5",
+      "domainTypeId": "00000000000000000000000000000003",
+      "domainName": "Workflow",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 6,
+      "colName": "category_name",
+      "sequence": 6,
+      "variableName": "6",
+      "domainTypeId": "00000000000000000000000000000002",
+      "domainName": "Category",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 7,
+      "colName": "text_name",
+      "sequence": 7,
+      "variableName": "7",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 8,
+      "colName": "fee_name",
+      "sequence": 8,
+      "variableName": "8",
+      "domainTypeId": "00000000000000000000000000000008",
+      "domainName": "FeeType",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 9,
+      "colName": "doc_name",
+      "sequence": 9,
+      "variableName": "9",
+      "domainTypeId": "00000000000000000000000000000009",
+      "domainName": "DocumentType",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": true
+    },
+    {
+      "colNumber": 10,
+      "colName": "sys_name",
+      "sequence": 10,
+      "variableName": "10",
+      "domainTypeId": "00000000000000000000000000000005",
+      "domainName": "System",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": []
+}

@@ -1,0 +1,20 @@
+{
+  "lookupId": "C3B7E93A116A46CAA3D5131B17988F61",
+  "name": "eDocTypeLookup",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select d.cd,d.desc_a,d.desc_e,dl.img_size,dl.img_type from doc_type d inner join doc_type_dtls dl on d.cd = dl.cd)",
+    "idName": "cd",
+    "valueEnName": "desc_e",
+    "valueArName": "desc_a",
+    "col1Name": "img_size",
+    "col2Name": "img_type",
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

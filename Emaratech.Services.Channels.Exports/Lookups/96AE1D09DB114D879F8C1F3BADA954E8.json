@@ -1,0 +1,20 @@
+{
+  "lookupId": "96AE1D09DB114D879F8C1F3BADA954E8",
+  "name": "eReligionLookup",
+  "version": 8,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 1,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from religion_lk where is_archived=0) \n",
+    "idName": "RELIGION_ID",
+    "valueEnName": "RELIGION_NAME_EN",
+    "valueArName": "RELIGION_NAME_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

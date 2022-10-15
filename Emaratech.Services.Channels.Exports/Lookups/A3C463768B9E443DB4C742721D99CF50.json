@@ -1,0 +1,20 @@
+{
+  "lookupId": "A3C463768B9E443DB4C742721D99CF50",
+  "name": "eTravelType",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from TRAVEL_TYPE_LK where is_archived=0) \n",
+    "idName": "TRAVEL_TYPE_ID",
+    "valueEnName": "TRAVEL_TYPE_EN",
+    "valueArName": "TRAVEL_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

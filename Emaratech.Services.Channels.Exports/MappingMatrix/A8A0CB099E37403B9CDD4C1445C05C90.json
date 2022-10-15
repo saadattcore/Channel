@@ -1,0 +1,414 @@
+{
+  "mappingMatrixId": "A8A0CB099E37403B9CDD4C1445C05C90",
+  "name": "MobileDashboardActions",
+  "version": 8,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "DashboardStatus",
+      "sequence": 1,
+      "variableName": "DashboardStatus",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "ServiceType",
+      "sequence": 2,
+      "variableName": "ServiceType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "VisaType",
+      "sequence": 3,
+      "variableName": "VisaType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "Service",
+      "sequence": 4,
+      "variableName": "Service",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "Action",
+      "sequence": 5,
+      "variableName": "Action",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 6,
+      "colName": "InsideOutside",
+      "sequence": 6,
+      "variableName": "InsideOutside",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 7,
+      "colName": "Platform",
+      "sequence": 7,
+      "variableName": "Platform",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 8,
+      "colName": "ApplicationModule",
+      "sequence": 8,
+      "variableName": "ApplicationModule",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "Active",
+        "R",
+        "3",
+        "2FAED0ECF3E647C59D4B6EF7F9CD6EFB",
+        "Transfer",
+        "1",
+        null,
+        "Workflows"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Active",
+        "R",
+        "3",
+        "4401980EF5AF42FEB1EE407A6F1BBAB3",
+        "Transfer",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Active",
+        "R",
+        "3",
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "Renew",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Active",
+        "R",
+        "3",
+        "8C7139EFB9A84002B155C4E7651613ED",
+        "Transfer",
+        "1",
+        null,
+        "Workflows"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Active",
+        "R",
+        "3",
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "Cancel",
+        null,
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Expired",
+        "P",
+        "3",
+        "862FC0387B1D4055801B2E2594FE3530",
+        "New",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Expired",
+        "P",
+        "3",
+        "F5DD2E421EF648869A01160053124F5D",
+        "Cancel",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Expired",
+        "R",
+        "3",
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "Renew",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "Expired",
+        "R",
+        "3",
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "Cancel",
+        null,
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ExpiringSoon",
+        "P",
+        "3",
+        "862FC0387B1D4055801B2E2594FE3530",
+        "New",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ExpiringSoon",
+        "P",
+        "3",
+        "F5DD2E421EF648869A01160053124F5D",
+        "Cancel",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ExpiringSoon",
+        "R",
+        "3",
+        "745F4FA7B13B49F392BAB81C980DB7E8",
+        "Renew",
+        "1",
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "ExpiringSoon",
+        "R",
+        "3",
+        "FB6820583AFD4EF0AB5A5DB9DB289603",
+        "Cancel",
+        null,
+        null,
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

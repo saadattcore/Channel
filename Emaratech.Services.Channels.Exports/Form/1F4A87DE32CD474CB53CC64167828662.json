@@ -1,0 +1,128 @@
+{
+  "fields": [
+    {
+      "displayName": null,
+      "isFieldSet": true,
+      "fieldConfiguration": null,
+      "fields": [
+        {
+          "displayName": "Editable Sponsor email",
+          "isFieldSet": false,
+          "fieldConfiguration": {
+            "fieldTypeId": "00000000000000000000000000000031",
+            "lookupId": null,
+            "entity": "SponsorDetails",
+            "resourceKey": "Email",
+            "required": true,
+            "placeholder": null,
+            "extensions": [],
+            "events": [],
+            "transformations": [],
+            "validations": [
+              {
+                "validationTypeId": "00000000000000000000000000000016",
+                "validationName": "email",
+                "data1": null,
+                "data2": null,
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              },
+              {
+                "validationTypeId": "00000000000000000000000000000004",
+                "validationName": "regex",
+                "data1": null,
+                "data2": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                "resourceKey": "AlertEmail",
+                "errorMessage": null,
+                "async": false,
+                "stop": true
+              }
+            ],
+            "parentName": null,
+            "parentEntity": null,
+            "parentProperty": null,
+            "multiSelect": false,
+            "withPopup": false,
+            "withCode": false,
+            "mobile": false,
+            "css": "col-sm-6",
+            "lookupAPIUrl": null,
+            "lookupIdProperty": null,
+            "lookupValueEnProperty": null,
+            "lookupValueArProperty": null,
+            "isComposite": false,
+            "readOnly": false,
+            "conditionalEdit": false,
+            "filter": null,
+            "translation": false,
+            "translationName": null,
+            "translationEntity": null,
+            "type": null
+          },
+          "fields": null,
+          "key": "64D9819187BA4B5091C025BD59CCF95A",
+          "name": "SponsorEmail",
+          "description": null,
+          "version": 6
+        }
+      ],
+      "key": "8C7CEC037EF844258EA8EE507F293AE0",
+      "name": "Sponsor email only",
+      "description": "Fieldset with sponsor email field only",
+      "version": 1
+    }
+  ],
+  "extensions": [],
+  "layouts": [
+    {
+      "name": "SAS report layout",
+      "version": 1,
+      "platformIds": [
+        "00000000000000000000000000000002"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": true,
+      "heading": "SponsorDetails",
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    },
+    {
+      "name": "SAS report layout - web",
+      "version": 1,
+      "platformIds": [
+        "00000000000000000000000000000001"
+      ],
+      "layoutTypeId": "00000000000000000000000000000001",
+      "url": null,
+      "placeHolderId": null,
+      "collapsible": true,
+      "heading": "SponsorDetails",
+      "rows": [],
+      "customItems": [],
+      "verticalItems": [
+        {
+          "field": "64D9819187BA4B5091C025BD59CCF95A",
+          "layout": null
+        }
+      ],
+      "tabs": [],
+      "extensions": []
+    }
+  ],
+  "key": "1F4A87DE32CD474CB53CC64167828662",
+  "name": "SAS Report Form",
+  "description": null,
+  "version": 5
+}

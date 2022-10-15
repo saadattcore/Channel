@@ -1,0 +1,11 @@
+{
+  "transformationId": "9D955398DAFF408CA9B46B2F0E9F8C48",
+  "sourceContractId": "4D21ED3FF30742DDBDCBC0EC720A9A8B",
+  "sourceContractVersion": 1,
+  "destinationContractId": "72F5AB5DE15E4B3196AF7CFD015185CD",
+  "destinationContractVersion": 1,
+  "typeId": "2F6A6D5464374B0486D6AE8ED423C18F",
+  "name": "VISION.EAP.APPLICATIONSTATUS",
+  "version": 1,
+  "xslt": "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n            \n<xsl:template match=\"/\">\t\n\n<RestStatus><BusinessKey><xsl:value-of select=\"VisionCoreApplicationStatus/ApplicationNumber\"/></BusinessKey><Comments><xsl:value-of select=\"VisionCoreApplicationStatus/Remarks\"/></Comments><RequiredDocuments>\n<xsl:for-each select=\"VisionCoreApplicationStatus/ApplicationReasons/ApplicationReason\">\n<RestRequiredDocuments><DocumentTypeId><xsl:value-of select=\"DocumentTypeId\"/></DocumentTypeId><RejectionStatus><xsl:value-of select=\"ReasonTypeId\"/></RejectionStatus></RestRequiredDocuments>\n</xsl:for-each>\n</RequiredDocuments><StatusId>110</StatusId></RestStatus>\n\n  </xsl:template>\n</xsl:stylesheet>"
+}

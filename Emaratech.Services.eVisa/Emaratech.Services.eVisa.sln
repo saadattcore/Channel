@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emaratech.Services.eVisa", "Emaratech.Services.eVisa\Emaratech.Services.eVisa.csproj", "{EBDFB671-D13A-454B-8344-11C18C32E353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CiklumDev|Any CPU = CiklumDev|Any CPU
+		CiklumDev|x86 = CiklumDev|x86
+		CiklumEnv|Any CPU = CiklumEnv|Any CPU
+		CiklumEnv|x86 = CiklumEnv|x86
+		CiklumStage|Any CPU = CiklumStage|Any CPU
+		CiklumStage|x86 = CiklumStage|x86
+		Debug_ednrd_prod|Any CPU = Debug_ednrd_prod|Any CPU
+		Debug_ednrd_prod|x86 = Debug_ednrd_prod|x86
+		Debug_ednrd_qmg|Any CPU = Debug_ednrd_qmg|Any CPU
+		Debug_ednrd_qmg|x86 = Debug_ednrd_qmg|x86
+		Debug_ednrd_staging|Any CPU = Debug_ednrd_staging|Any CPU
+		Debug_ednrd_staging|x86 = Debug_ednrd_staging|x86
+		Debug_fis_qmg|Any CPU = Debug_fis_qmg|Any CPU
+		Debug_fis_qmg|x86 = Debug_fis_qmg|x86
+		Debug_seaport_qmg|Any CPU = Debug_seaport_qmg|Any CPU
+		Debug_seaport_qmg|x86 = Debug_seaport_qmg|x86
+		debug_unified_dev|Any CPU = debug_unified_dev|Any CPU
+		debug_unified_dev|x86 = debug_unified_dev|x86
+		Debug_unified_qmg|Any CPU = Debug_unified_qmg|Any CPU
+		Debug_unified_qmg|x86 = Debug_unified_qmg|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		EmaratechDev|Any CPU = EmaratechDev|Any CPU
+		EmaratechDev|x86 = EmaratechDev|x86
+		EmaratechDevServer|Any CPU = EmaratechDevServer|Any CPU
+		EmaratechDevServer|x86 = EmaratechDevServer|x86
+		Release_ednrd_prod|Any CPU = Release_ednrd_prod|Any CPU
+		Release_ednrd_prod|x86 = Release_ednrd_prod|x86
+		Release_ednrd_qmg|Any CPU = Release_ednrd_qmg|Any CPU
+		Release_ednrd_qmg|x86 = Release_ednrd_qmg|x86
+		Release_ednrd_staging|Any CPU = Release_ednrd_staging|Any CPU
+		Release_ednrd_staging|x86 = Release_ednrd_staging|x86
+		Release_unified_prod|Any CPU = Release_unified_prod|Any CPU
+		Release_unified_prod|x86 = Release_unified_prod|x86
+		Release_unified_staging|Any CPU = Release_unified_staging|Any CPU
+		Release_unified_staging|x86 = Release_unified_staging|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		SingleImage|Any CPU = SingleImage|Any CPU
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumDev|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumDev|Any CPU.Build.0 = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumDev|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumEnv|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumEnv|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumStage|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumStage|Any CPU.Build.0 = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.CiklumStage|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_prod|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_qmg|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_qmg|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_staging|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_ednrd_staging|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_fis_qmg|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_fis_qmg|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_seaport_qmg|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_seaport_qmg|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.debug_unified_dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.debug_unified_dev|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_unified_qmg|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug_unified_qmg|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.EmaratechDev|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.EmaratechDev|Any CPU.Build.0 = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.EmaratechDev|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.EmaratechDevServer|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.EmaratechDevServer|x86.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_prod|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_prod|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_qmg|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_qmg|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_staging|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_ednrd_staging|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_unified_prod|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_unified_prod|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_unified_staging|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release_unified_staging|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.Release|x86.ActiveCfg = Release|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDFB671-D13A-454B-8344-11C18C32E353}.SingleImage|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

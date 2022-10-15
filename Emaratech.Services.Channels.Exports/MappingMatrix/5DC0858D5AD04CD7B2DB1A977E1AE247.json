@@ -1,0 +1,108 @@
+{
+  "mappingMatrixId": "5DC0858D5AD04CD7B2DB1A977E1AE247",
+  "name": "PaymentMerchants",
+  "version": 4,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "UserType",
+      "sequence": 1,
+      "variableName": "UserType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": "7A2EAED0BF88408B80A85001F468CC19",
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "MerchantId",
+      "sequence": 2,
+      "variableName": "MerchantId",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "0E4898C5737542DE8045F3386480F147",
+        "MR100575"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "20252777362A43918F1C9108342342AB",
+        "MR100523"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "230AAC5F9259481F95A92AAC60F5D705",
+        "MR100523"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "93BECEED174543698C4E3F9A300C1878",
+        "MR100524"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "9B353C88E7D44F988B228B3B6119DE82",
+        "MR100577"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "EC92A0F279A04EAD8746DB8B35BD1438",
+        "MR100576"
+      ],
+      "version": [
+        0,
+        0
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

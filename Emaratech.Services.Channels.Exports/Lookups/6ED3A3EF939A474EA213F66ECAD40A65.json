@@ -1,0 +1,57 @@
+{
+  "lookupId": "6ED3A3EF939A474EA213F66ECAD40A65",
+  "name": "ePassTypeLookup",
+  "version": 20,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "3",
+      "valueEn": "PRIVATE",
+      "valueAr": "خاص",
+      "col1": "PR",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "5",
+      "valueEn": "ASSIGNMENT",
+      "valueAr": "لمهمة",
+      "col1": "A",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "7",
+      "valueEn": "TRAVEL DOC",
+      "valueAr": "وثيقة سفر",
+      "col1": "T",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "2",
+      "valueEn": "DIPLOMATIC",
+      "valueAr": "دبلوماسي",
+      "col1": "D",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from passport_type_lk where is_archived=0) \n",
+    "idName": "PASSPORT_TYPE_ID",
+    "valueEnName": "PASSPORT_TYPE_EN",
+    "valueArName": "PASSPORT_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

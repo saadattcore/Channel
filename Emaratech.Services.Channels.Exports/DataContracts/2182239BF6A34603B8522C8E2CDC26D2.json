@@ -1,0 +1,10 @@
+{
+  "dataContractId": "2182239BF6A34603B8522C8E2CDC26D2",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "PassportVerificationPending",
+  "contract": "bnVsbGI=",
+  "version": 5,
+  "validations": [],
+  "param1": "Resubmission\\PassportVerificationPending.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

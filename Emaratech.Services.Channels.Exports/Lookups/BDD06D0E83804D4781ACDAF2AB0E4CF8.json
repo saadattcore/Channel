@@ -1,0 +1,37 @@
+{
+  "lookupId": "BDD06D0E83804D4781ACDAF2AB0E4CF8",
+  "name": "ServiceTargetRoutes",
+  "version": 7,
+  "storageStrategyTypeId": 0,
+  "idGeneratorTypeId": 0,
+  "details": [
+    {
+      "id": "4989D0F79AED4322971B02E086E299EC",
+      "valueEn": "MQ",
+      "valueAr": "MQ",
+      "col1": "2",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "566B2AAB5C494995AF91BFA9EE889FE1",
+      "valueEn": "None",
+      "valueAr": "None",
+      "col1": "0",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    },
+    {
+      "id": "D761B622DDD249F8B3872443E5F6AF15",
+      "valueEn": "ETL",
+      "valueAr": "ETL",
+      "col1": "1",
+      "col2": null,
+      "col3": null,
+      "col4": null
+    }
+  ],
+  "externalTableMapping": null
+}

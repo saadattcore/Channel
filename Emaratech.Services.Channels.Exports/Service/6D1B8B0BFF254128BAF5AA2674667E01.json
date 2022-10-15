@@ -1,0 +1,22 @@
+{
+  "serviceId": "6D1B8B0BFF254128BAF5AA2674667E01",
+  "category": {
+    "categoryId": "58F5CB451952496E809C997C5C574270",
+    "parentCategory": {
+      "categoryId": "948CECE51468461B944EE09E7B609102",
+      "parentCategory": null,
+      "name": "EntryPermit",
+      "version": 1,
+      "description": "Entry Permit Category",
+      "resourceKey": "Entry Permit"
+    },
+    "name": "EntryPermitNew",
+    "version": 1,
+    "description": "Entry Permit New Category",
+    "resourceKey": "EntryPermitNew"
+  },
+  "name": "Education",
+  "version": 2,
+  "description": null,
+  "resourceKey": "Service"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D9296BE59386473698F24767CFA6F103",
+  "nameEn": "Scheduler Service",
+  "nameAr": "Scheduler Service",
+  "description": null,
+  "version": 1,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "SchedulerApi"
+}

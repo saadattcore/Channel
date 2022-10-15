@@ -1,0 +1,771 @@
+{
+  "mappingMatrixId": "AB6FFC1F36AE4DB9A754E2C2F0B44CA3",
+  "name": "MobileApplicationActions",
+  "version": 4,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "ApplicationStatus",
+      "sequence": 1,
+      "variableName": "ApplicationStatus",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "UserType",
+      "sequence": 2,
+      "variableName": "UserType",
+      "domainTypeId": "00000000000000000000000000000006",
+      "domainName": "Lookup",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "Action",
+      "sequence": 3,
+      "variableName": "Action",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 4,
+      "colName": "ServiceId",
+      "sequence": 4,
+      "variableName": "ServiceId",
+      "domainTypeId": "00000000000000000000000000000001",
+      "domainName": "Service",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    },
+    {
+      "colNumber": 5,
+      "colName": "ApplicationModule",
+      "sequence": 5,
+      "variableName": "ApplicationModule",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": true,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "100",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "100",
+        null,
+        "PrintVisa",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "100",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "10",
+        null,
+        "Continue",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "10",
+        null,
+        "Delete",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "10",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "110",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "110",
+        null,
+        "ResubmitDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "110",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "120",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "170",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "20",
+        null,
+        "Continue",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "20",
+        null,
+        "Delete",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "20",
+        null,
+        "EditDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "20",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "230",
+        null,
+        "ResubmitDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "230",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "250",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "290",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "290",
+        null,
+        "ResubmitDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "290",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "300",
+        null,
+        "ResubmitDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "300",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "30",
+        null,
+        "Continue",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "30",
+        null,
+        "Delete",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "30",
+        null,
+        "EditDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "30",
+        null,
+        "Pay",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "30",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "340",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "350",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "360",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "360",
+        null,
+        "ResubmitDocuments",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "360",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "40",
+        null,
+        "Repay",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "50",
+        null,
+        "Post",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "50",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "530",
+        null,
+        "NewRefund",
+        null,
+        "Refund"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "60",
+        null,
+        "CompletePayment",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    },
+    {
+      "values": [
+        "60",
+        null,
+        "View",
+        null,
+        "Default"
+      ],
+      "version": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": true
+    }
+  ]
+}

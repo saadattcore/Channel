@@ -1,0 +1,1343 @@
+{
+  "workflowId": "B21A992683F2459BA04EC2278100260D",
+  "name": "Entry Permit Cancel Workflow",
+  "version": 49,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "4C7A0DF396C349F2B32469642D440B24",
+      "name": "Set dependents view",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetDependentsView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "ListTravelledDependents",
+          "value": "Dependents",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "ParentCategoryId",
+          "value": "parentCategoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserId",
+          "value": "userId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "F9E9E61CD97240D39C8D88F6EC680712",
+      "name": "Wait for dependents",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForDependents, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "379AB26CF2BE4F32855F9AF1A5202670",
+      "name": "Build Entry Permit application",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 3,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.BuildEntryPermitApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EntryPermitPPSID",
+          "value": "entryPermitPPSID",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PPSID",
+          "value": "ppsid",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "UserId",
+          "value": "userId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 4,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D95C6C56B48B47F989B7C9BFD2DF7C91",
+      "name": "Resolve fees",
+      "description": null,
+      "version": 12,
+      "typeId": 0,
+      "sequence": 5,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveFees, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentCode",
+          "value": "establishmentCode",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "JobId",
+          "value": "jobId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorSponsorType",
+          "value": "sponsorSponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "WorkflowFee",
+          "value": "workflowFee",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "37B54E29B4B64D6586C77AAAF05FE00E",
+      "name": "Reuse form data",
+      "description": null,
+      "version": 11,
+      "typeId": 0,
+      "sequence": 6,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ReuseFormData, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Data",
+          "value": "data",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "MobileNo",
+          "value": "mobileNumber",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorEmail",
+          "value": "email",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "5DE61C5CC1474AD1B109F5AFC5CE1D28",
+      "name": "Set form and pay view",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 7,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetFormAndPayView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E4B0A0C750E34DAF941127D325EF336F",
+      "name": "Wait for application",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 8,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D63C0B1477234A8299D7966B90598ACF",
+      "name": "Get form data",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 9,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.GetFormData, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplicationWithFormData",
+          "value": "unifiedApplication",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "1D3A398F042842DB98F83B0C75ECBA41",
+      "name": "Get Entry Permit travel status",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 10,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.GetEntryPermitTravelStatus, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EntryPermitPPSID",
+          "value": "entryPermitPPSID",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 3,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D95C6C56B48B47F989B7C9BFD2DF7C91",
+      "name": "Resolve fees",
+      "description": null,
+      "version": 12,
+      "typeId": 0,
+      "sequence": 11,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveFees, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentCode",
+          "value": "establishmentCode",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "JobId",
+          "value": "jobId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorSponsorType",
+          "value": "sponsorSponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "WorkflowFee",
+          "value": "workflowFee",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "045A306425A44EF2BAF9BCF6DE8C3D3D",
+      "name": "Resolve visa type/app type",
+      "description": null,
+      "version": 5,
+      "typeId": 0,
+      "sequence": 12,
+      "node": null,
+      "parameters": [
+        {
+          "key": "AppSubType",
+          "value": "appSubType",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "AppType",
+          "value": "appType",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveVisaTypeAppType, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorSponsorType",
+          "value": "sponsorSponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "VisaType",
+          "value": "visaType",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "88A626CA34DD4D80BC513FFBD6D211AA",
+      "name": "Set application default values",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 13,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetApplicationDefaultValues, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplicationDefaulted",
+          "value": "unifiedApplication",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "937A456A0BAB46DFB444993805BF441D",
+      "name": "Validate application",
+      "description": null,
+      "version": 9,
+      "typeId": 0,
+      "sequence": 14,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationDataToSave",
+          "value": "unifiedApplication",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "AppSubType",
+          "value": "appSubType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "AppType",
+          "value": "appType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "BirthDate",
+          "value": "birthDate",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ValidateApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "CurrentNationality",
+          "value": "currentNationality",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PassportExpiryDate",
+          "value": "passportExpiryDate",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Relationship",
+          "value": "relationship",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "VisaType",
+          "value": "visaType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "YearsOfResidence",
+          "value": "yearsOfResidence",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "AF2F78A8E176428F92C08AF2D3BB0484",
+      "name": "Validate health test",
+      "description": null,
+      "version": 4,
+      "typeId": 0,
+      "sequence": 15,
+      "node": null,
+      "parameters": [
+        {
+          "key": "BirthDate",
+          "value": "birthDate",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ValidateHealthTestInfo, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "VisaType",
+          "value": "visaType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E6025F49645046A2B5CBC0E2F5759931",
+      "name": "Validate Permit Inside Country",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 16,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ValidatePermitInsideCountry, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E043790501814F1383BDD41FEA67C5FE",
+      "name": "Validate sponsor info",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 17,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ValidateSponsorInfo, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "78353A30ACB24FFFB43F15868022B08B",
+      "name": "Validate violation info",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 18,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ValidateViolationInfo, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "NotificationMessage",
+          "value": "notificationMessage",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "F4B3DA7F7CC842CFAF867F3694FC59ED",
+      "name": "Check Existing Residence Application",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 19,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.CheckExistingResidenceApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "PermitNo",
+          "value": "permitNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ResidenceNo",
+          "value": "residenceNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "22397FBBB97B40B1BC2514AB0CA9FE53",
+      "name": "Save application",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 20,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SaveApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "39D8460AC0A2413DAFC15A91597FD6B8",
+      "name": "Make payment",
+      "description": null,
+      "version": 13,
+      "typeId": 0,
+      "sequence": 21,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "AuthenticatedSystemId",
+          "value": "authenticatedSystemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.Pay, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "PaymentUrl",
+          "value": "paymentUrl",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "1D170C4C18DD4B9FA5931F2EEE483181",
+      "name": "Wait for payment status",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 22,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForPaymentStatus, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Request",
+          "value": "request",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "575B18F339BF45A89C1BAD9953D49208",
+      "name": "Mark Payment Status",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 23,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "AppStatus",
+          "value": "appStatus",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "AuthenticatedSystemId",
+          "value": "authenticatedSystemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "BatchId",
+          "value": "batchId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.MarkPaymentStatus, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Error",
+          "value": "error",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PaymentCompleteUrl",
+          "value": "paymentCompleteUrl",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "PPSID",
+          "value": "ppsid",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Request",
+          "value": "request",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "FE9D8DB8175D452F908AE8203812779F",
+      "name": "Submit zajel application",
+      "description": null,
+      "version": 4,
+      "typeId": 0,
+      "sequence": 24,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SubmitZajelApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "MobileNumber",
+          "value": "mobileNumber",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UniqueId",
+          "value": "uniqueId",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": [
+        {
+          "key": "ApplicationType",
+          "value": "Standard",
+          "typeId": 0
+        },
+        {
+          "key": "DeliveryMode",
+          "value": "St",
+          "typeId": 0
+        },
+        {
+          "key": "OdrStatus",
+          "value": "N",
+          "typeId": 0
+        },
+        {
+          "key": "ProductType",
+          "value": "EntryPermitSingle",
+          "typeId": 0
+        }
+      ]
+    }
+  ]
+}

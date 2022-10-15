@@ -1,0 +1,10 @@
+{
+  "dataContractId": "2DEFBD6635DC444487DF711D35722BD4",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "SponsorFileInactive",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "Resubmission\\SponsorFileInactive.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

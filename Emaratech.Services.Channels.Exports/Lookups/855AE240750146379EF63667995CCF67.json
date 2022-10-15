@@ -1,0 +1,20 @@
+{
+  "lookupId": "855AE240750146379EF63667995CCF67",
+  "name": "eResidenceStatusTypeLk",
+  "version": 6,
+  "storageStrategyTypeId": 1,
+  "idGeneratorTypeId": 0,
+  "details": [],
+  "externalTableMapping": {
+    "schema": null,
+    "tableName": "(select * from residence_status_type_lk where is_archived=0) ",
+    "idName": "RES_STATUS_TYPE_ID",
+    "valueEnName": "STATUS_TYPE_EN",
+    "valueArName": "STATUS_TYPE_AR",
+    "col1Name": null,
+    "col2Name": null,
+    "col3Name": null,
+    "col4Name": null,
+    "connectionString": "vision_intg"
+  }
+}

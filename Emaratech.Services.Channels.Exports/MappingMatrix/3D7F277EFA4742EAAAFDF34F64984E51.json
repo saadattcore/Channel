@@ -1,0 +1,75 @@
+{
+  "mappingMatrixId": "3D7F277EFA4742EAAAFDF34F64984E51",
+  "name": "eDNRD Permissions",
+  "version": 10,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "UserType",
+      "sequence": 1,
+      "variableName": "UserType",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 3,
+      "colName": "Permission",
+      "sequence": 1,
+      "variableName": "Permission",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "Role",
+      "sequence": 1,
+      "variableName": "Role",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "=UserType in ['R', 'P', 'I', 'M', 'O', 'S']",
+        "240CA1756C8043D1B3EC9E0E31A836EE",
+        null
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        null,
+        "Permission 3",
+        "=Role in ['role1','role2']"
+      ],
+      "version": [
+        null,
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}

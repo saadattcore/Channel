@@ -1,0 +1,10 @@
+{
+  "id": "875F3BD04EBC472EA71A2410789DF9CD",
+  "nameEn": "Data Contract Service",
+  "nameAr": "_",
+  "description": "System created for preseed data of DataContracts",
+  "version": 2,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "DataContractsApi"
+}

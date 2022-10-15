@@ -1,0 +1,266 @@
+{
+  "workflowId": "268AC96DAC4044F5BD59A2F051AA14A7",
+  "name": "eDNRD Entry Permit Cancel Private Workflow",
+  "version": 14,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "F17D46BF05384728A8399CE34A9B6A9A",
+      "name": "Resolve pre form",
+      "description": null,
+      "version": 5,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolvePreForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Type",
+          "value": "type",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D95C6C56B48B47F989B7C9BFD2DF7C91",
+      "name": "Resolve fees",
+      "description": null,
+      "version": 12,
+      "typeId": 0,
+      "sequence": 3,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Amount",
+          "value": "amount",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveFees, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "EstablishmentCode",
+          "value": "establishmentCode",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "EstablishmentType",
+          "value": "establishmentType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Fees",
+          "value": "fees",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "JobId",
+          "value": "jobId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorNo",
+          "value": "sponsorNo",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorSponsorType",
+          "value": "sponsorSponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SponsorType",
+          "value": "sponsorType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ViolationAmount",
+          "value": "violationAmount",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "WorkflowFee",
+          "value": "workflowFee",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "22397FBBB97B40B1BC2514AB0CA9FE53",
+      "name": "Save application",
+      "description": null,
+      "version": 3,
+      "typeId": 0,
+      "sequence": 4,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SaveApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "UnifiedApplication",
+          "value": "unifiedApplication",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    }
+  ]
+}

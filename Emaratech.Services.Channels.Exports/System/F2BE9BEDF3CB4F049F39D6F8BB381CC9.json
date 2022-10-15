@@ -1,0 +1,10 @@
+{
+  "id": "F2BE9BEDF3CB4F049F39D6F8BB381CC9",
+  "nameEn": "User Management Service",
+  "nameAr": "User Management Service",
+  "description": null,
+  "version": 1,
+  "groupId": "AE764C4C52C246C6948D2B16040F5F05",
+  "properties": [],
+  "HealthEndpoint": "UserApi"
+}

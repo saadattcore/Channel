@@ -1,0 +1,314 @@
+{
+  "workflowId": "010C301D0DE04ABCA32986ED95558469",
+  "name": "Legal Advice New Workflow",
+  "version": 49,
+  "rootNodeId": null,
+  "steps": [
+    {
+      "stepId": "192FD5FEE66742EFA6368FE356A81815",
+      "name": "Resolve form",
+      "description": null,
+      "version": 6,
+      "typeId": 0,
+      "sequence": 1,
+      "node": null,
+      "parameters": [
+        {
+          "key": "CategoryId",
+          "value": "categoryId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ResolveForm, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "FormId",
+          "value": "formId",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Platform",
+          "value": "platform",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ServiceId",
+          "value": "serviceId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "SystemId",
+          "value": "systemId",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UserType",
+          "value": "userType",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "760C8906014A422CB56B7B23A5EF5334",
+      "name": "Filter preferred languages",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 2,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.FilterPreferredLanguages, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "FormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "UpdatedFormConfiguration",
+          "value": "formConfiguration",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "3FCB6A6CD14B470F9D86B7CAFD86129E",
+      "name": "Reuse legal advice data",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 3,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.ReuseLegalAdviceFormData, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "Data",
+          "value": "data",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "Documents",
+          "value": "documents",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "LegalAdvice",
+          "value": "legalAdvice",
+          "typeId": 2,
+          "required": false
+        },
+        {
+          "key": "LegalAdviceNumber",
+          "value": "legalAdviceNumber",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "47CAA19A983E447D9F326BEA22F328FE",
+      "name": "Set form view",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 4,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetFormView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E4B0A0C750E34DAF941127D325EF336F",
+      "name": "Wait for application",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 5,
+      "node": null,
+      "parameters": [
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForApplication, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "729A8838AA814041A77552068AB67A9C",
+      "name": "Set any document view",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 6,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetAnyDocumentView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "D2235BEFB4AA456693CF859DC7BD3AE2",
+      "name": "Wait for documents",
+      "description": null,
+      "version": 2,
+      "typeId": 0,
+      "sequence": 7,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.WaitForDocuments, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "DocumentIds",
+          "value": "documentIds",
+          "typeId": 1,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "306C288EEBC64745BA8DD21D6809E4C8",
+      "name": "Save legal advice",
+      "description": null,
+      "version": 5,
+      "typeId": 0,
+      "sequence": 8,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Action",
+          "value": "action",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationData",
+          "value": "applicationData",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "ApplicationId",
+          "value": "applicationId",
+          "typeId": 3,
+          "required": false
+        },
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SaveLegalAdvice, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "DocumentIds",
+          "value": "documentIds",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "LegalAdvice",
+          "value": "legalAdvice",
+          "typeId": 1,
+          "required": false
+        },
+        {
+          "key": "LegalRequestId",
+          "value": "legalRequestId",
+          "typeId": 3,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    },
+    {
+      "stepId": "E3F21A052D8B4013B1635543FD668E94",
+      "name": "Set end workflow view",
+      "description": null,
+      "version": 1,
+      "typeId": 0,
+      "sequence": 9,
+      "node": null,
+      "parameters": [
+        {
+          "key": "Class",
+          "value": "Emaratech.Services.Channels.Workflows.Steps.SetEndWorkflowView, Emaratech.Services.Channels.Workflows",
+          "typeId": 0,
+          "required": false
+        },
+        {
+          "key": "View",
+          "value": "view",
+          "typeId": 2,
+          "required": false
+        }
+      ],
+      "workflowParameters": []
+    }
+  ]
+}

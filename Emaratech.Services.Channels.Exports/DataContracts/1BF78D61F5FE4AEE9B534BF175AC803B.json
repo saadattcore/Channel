@@ -1,0 +1,10 @@
+{
+  "dataContractId": "1BF78D61F5FE4AEE9B534BF175AC803B",
+  "contractTypeId": "E7ECE7A76A084E2F91919E4F323C3EBC",
+  "name": "UpdateApplicationAirwayBill",
+  "contract": "bnVsbA==",
+  "version": 5,
+  "validations": [],
+  "param1": "UpdateAWB\\UpdateAWB.xsd",
+  "param2": "FA527274E37542358F2BC8796BFDF174"
+}

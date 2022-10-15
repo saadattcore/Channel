@@ -1,0 +1,96 @@
+{
+  "mappingMatrixId": "E877D570631C43E2934B3A4BAC3108F7",
+  "name": "MimeTypes",
+  "version": 20,
+  "expressionLanguage": "PYTHON",
+  "expressionPrefix": "=",
+  "outputType": 1,
+  "matrixTypes": [],
+  "dimensions": [
+    {
+      "colNumber": 1,
+      "colName": "Text",
+      "sequence": 1,
+      "variableName": "Text",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    },
+    {
+      "colNumber": 2,
+      "colName": "MimeType",
+      "sequence": 2,
+      "variableName": "MimeType",
+      "domainTypeId": "00000000000000000000000000000007",
+      "domainName": "FreeText",
+      "domainValue": null,
+      "isRequired": false,
+      "isOutput": false
+    }
+  ],
+  "parameters": [],
+  "items": [
+    {
+      "values": [
+        "DOC",
+        "application/msword"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "JPEG",
+        "image/jpeg, image/jpg"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "JPG",
+        "image/jpeg, image/jpg"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PDF",
+        "application/pdf"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    },
+    {
+      "values": [
+        "PJPEG",
+        "image/jpeg, image/jpg"
+      ],
+      "version": [
+        null,
+        null
+      ],
+      "details": [],
+      "isExcluded": false
+    }
+  ]
+}
